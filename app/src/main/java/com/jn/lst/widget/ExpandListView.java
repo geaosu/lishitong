@@ -8,8 +8,6 @@ import android.widget.ListView;
 
 /**
  * des:
- * author: geaosu
- * time: 2017-09-28
  */
 public class ExpandListView extends ListView {
 

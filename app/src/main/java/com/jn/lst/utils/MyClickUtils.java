@@ -4,8 +4,6 @@ import java.util.Calendar;
 
 /**
  * @Description:
- * @Author: geaosu
- * @CreateDate: 8/13/22 4:24 PM
  */
 public class MyClickUtils {
     public static final int MIN_CLICK_DELAY_TIME = 1000;

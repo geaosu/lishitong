@@ -5,8 +5,6 @@ import com.jn.lst.base.Constants;
 
 /**
  * @Description:
- * @Author: geaosu
- * @CreateDate: 8/25/22 9:56 AM
  */
 public class TokenManager {
     /**
