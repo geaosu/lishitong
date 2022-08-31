@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/my_dialog_tv_bg_white_002"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="社会组织类型参考如下"
+            android:textColor="#145FAA"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="社会团体:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:text="宗教、科技、文化、艺术、慈善事业等。\n"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="民办非企业单位:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|top"
+            android:text=" 教育事业：民办学校、培训补习中心等。\n卫生事业：民办医院、康复、保健、卫生、疗养院等。\n文化事业：民办艺术团体、文化馆、图书院、博物馆、美术院、纪念馆、收藏馆、艺术研究院等。
+            \n科技事业：民办科学研究院、科技服务中心等。\n体育场馆：民办体育俱乐部、体育场馆等。\n劳动事业：民办职业培训中心、职业介绍所等。\n民政事业：民办福利院、敬老院、老年公寓，民办社区服务中心等。
+            \n社会中介服务业：民办咨询服务中心、人才交流中心等。\n法律服务业：法律咨询服务类。\n其他民办非企业单位：除以上分类以外的民办非企业单位。"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="3.文化娱乐场所:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="影剧院、录像厅(室)、游艺厅(室)、舞厅、音乐厅、网吧"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="4.体育与游乐场所:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="体育场(馆)、游泳场(馆)、公园"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="5.文化交流场所:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="展览馆、博物馆、美术馆、图书馆"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="6.购物场所:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="商场(店)、 超市、书店、农场市场"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="7.就诊与交通场所:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="候诊室、 车站、机场"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="8.宗教场所:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="寺院、宫观、清真寺、教堂"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />-->
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+include ':mydialog_libs'
+include ':PullToRefreshX_libs'
+include ':loading_dialog_lib'
+include ':app'
+rootProject.name = "lishitong"

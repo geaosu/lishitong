@@ -1,0 +1,8934 @@
+{
+  "enterprise_type": [
+    {
+      "id": "79f94186fd6c4b30aa44a0bc97799f86",
+      "label": "取得快递（物流）业务经营许可证企业",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "3e35210472c64552a4ee18fa2089d7c5",
+      "label": "备案分支机构",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "065d770b71ed465fbd97693ccc4e4686",
+      "label": "其他",
+      "value": "99",
+      "sort": 3
+    }
+  ],
+  "house_structure": [
+    {
+      "id": "dbec8d9569f44c418d2d272992655c02",
+      "label": "混合结构",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "6d719fda3a0d4e8cba9c2cf3ed2e50cc",
+      "label": "木结构",
+      "value": "1",
+      "sort": 2
+    },
+    {
+      "id": "7cd88855072d454387df55cc2a8a4fd0",
+      "label": "其它",
+      "value": "2",
+      "sort": 3
+    }
+  ],
+  "oa_notify_read": [
+    {
+      "id": "110",
+      "label": "未读",
+      "value": "0",
+      "sort": 10
+    },
+    {
+      "id": "111",
+      "label": "已读",
+      "value": "1",
+      "sort": 20
+    }
+  ],
+  "education_type": [
+    {
+      "id": "ce185a8186e4401ba2b823caa82bf31c",
+      "label": "研究生教育",
+      "value": "10",
+      "sort": 1
+    },
+    {
+      "id": "c0f4afb1cc74459f80d2e693bc230501",
+      "label": "博士研究生毕业",
+      "value": "11",
+      "sort": 2
+    },
+    {
+      "id": "ea94aab6074c4894863912f8e741f4d8",
+      "label": "博士研究生结业",
+      "value": "12",
+      "sort": 3
+    },
+    {
+      "id": "44e4b35986924b78abe261377c1aa842",
+      "label": "博士研究生肄业",
+      "value": "13",
+      "sort": 4
+    },
+    {
+      "id": "796bbcd37f2f423b9af8b40232bf81f8",
+      "label": "硕士研究生毕业",
+      "value": "14",
+      "sort": 5
+    },
+    {
+      "id": "6883aadb5f5944cd8c5214ab20fee5a9",
+      "label": "硕士研究生结业",
+      "value": "15",
+      "sort": 6
+    },
+    {
+      "id": "04cf2e626063420fa05c6ef987526080",
+      "label": "硕士研究生肄业",
+      "value": "16",
+      "sort": 7
+    },
+    {
+      "id": "13e4a5ffd90d4ebdae9a4d96e26c7e7f",
+      "label": "研究生班毕业",
+      "value": "17",
+      "sort": 8
+    },
+    {
+      "id": "fd95b522944e424386a513c1edb26ce3",
+      "label": "研究生结业",
+      "value": "18",
+      "sort": 9
+    },
+    {
+      "id": "ace7a7c5f44943b7aab2b10f247b3cf5",
+      "label": "研究生班肄业",
+      "value": "19",
+      "sort": 10
+    },
+    {
+      "id": "e91ced243884421b9904b3d7fbd0fbf1",
+      "label": "大学本科",
+      "value": "20",
+      "sort": 11
+    },
+    {
+      "id": "0b88f54591a84aaab925d5eba5bc9aec",
+      "label": "大学本科毕业",
+      "value": "21",
+      "sort": 12
+    },
+    {
+      "id": "3ee9eab5f48948ddaef74ccec28e513a",
+      "label": "大学本科结业",
+      "value": "22",
+      "sort": 13
+    },
+    {
+      "id": "a235a6e131fd4a6784c5cbd6c79ff19d",
+      "label": "大学生本科肄业",
+      "value": "23",
+      "sort": 14
+    },
+    {
+      "id": "b28b83018de24a21946fdc613c4aabc7",
+      "label": "大学普通班毕业",
+      "value": "28",
+      "sort": 15
+    },
+    {
+      "id": "a66beced03754e498a5f983e7522a7d3",
+      "label": "专科教育",
+      "value": "35",
+      "sort": 16
+    },
+    {
+      "id": "2a34a5cedc334bd394d95b9a074aef4d",
+      "label": "大学专科毕业",
+      "value": "31",
+      "sort": 17
+    },
+    {
+      "id": "4009d92377134b7d9892f8c003607aff",
+      "label": "大学专科结业",
+      "value": "32",
+      "sort": 18
+    },
+    {
+      "id": "8a5893a90755414c9d395fd4f870b9a4",
+      "label": "大学专科肄业",
+      "value": "34",
+      "sort": 18
+    },
+    {
+      "id": "56b7fd8e2a6347acbd37fc20e3af1522",
+      "label": "大学专科肄业",
+      "value": "33",
+      "sort": 19
+    },
+    {
+      "id": "b733d5e795c74a31bb395898a0f623ac",
+      "label": "中等职业教育",
+      "value": "40",
+      "sort": 20
+    },
+    {
+      "id": "97ac59bad20e40038b2954de3f216a16",
+      "label": "中等专科毕业",
+      "value": "41",
+      "sort": 21
+    },
+    {
+      "id": "52e506c150114ab99f0ae45112cb4d9d",
+      "label": "中等专科结业",
+      "value": "42",
+      "sort": 22
+    },
+    {
+      "id": "938e79cd00d64259a2297a891f426878",
+      "label": "中等专科肄业",
+      "value": "43",
+      "sort": 23
+    },
+    {
+      "id": "7ae9e8298dd1486590ef6e3fe4c7438b",
+      "label": "职业商中毕业",
+      "value": "44",
+      "sort": 24
+    },
+    {
+      "id": "7cc3e6e756ff489f8b7409e0e69f87e7",
+      "label": "职业高中毕业",
+      "value": "45",
+      "sort": 25
+    },
+    {
+      "id": "d6b3014d267c401880ef9b01ec6815ec",
+      "label": "职业高中结业",
+      "value": "50",
+      "sort": 26
+    },
+    {
+      "id": "76cfc9f5ae5b4c5bb66c71b657d2481d",
+      "label": "职业高中肄业",
+      "value": "46",
+      "sort": 27
+    },
+    {
+      "id": "efed517ce15443f7a0bb7b4e2aea5348",
+      "label": "技工学校毕业",
+      "value": "47",
+      "sort": 28
+    },
+    {
+      "id": "a589058a064c40ef87bb519dbf7a9f21",
+      "label": "技工学校结业",
+      "value": "48",
+      "sort": 29
+    },
+    {
+      "id": "de593421da6643ef827a4247c4cc9ded",
+      "label": "技工学校肄业",
+      "value": "49",
+      "sort": 30
+    },
+    {
+      "id": "4c7dd1833e9449c6ac20d8d2853b8974",
+      "label": "普通高级中学教育",
+      "value": "60",
+      "sort": 31
+    },
+    {
+      "id": "c7b8b385536b4fcab8d4b81f03e79107",
+      "label": "普通高中毕业",
+      "value": "61",
+      "sort": 32
+    },
+    {
+      "id": "bd23bf9e666e49a7bcbfdb48c975a750",
+      "label": "普通高中结业",
+      "value": "62",
+      "sort": 33
+    },
+    {
+      "id": "4d60def71bd440eab3a26bb40153eae9",
+      "label": "普通高中肄业",
+      "value": "63",
+      "sort": 34
+    },
+    {
+      "id": "7feed140d23f4636811c0003c29e3223",
+      "label": "初级中学教育",
+      "value": "70",
+      "sort": 35
+    },
+    {
+      "id": "58e4eb12d20243a3a771195218ab94b3",
+      "label": "初中毕业",
+      "value": "71",
+      "sort": 36
+    },
+    {
+      "id": "ee2b110a0361487ba91f0c7e0d85abfb",
+      "label": "初中肄业",
+      "value": "73",
+      "sort": 37
+    },
+    {
+      "id": "1a38da5b110643709a7a30d296065551",
+      "label": "小学教育",
+      "value": "80",
+      "sort": 38
+    },
+    {
+      "id": "9b544f66210a4b538a4351c3970617c9",
+      "label": "小学毕业",
+      "value": "81",
+      "sort": 39
+    },
+    {
+      "id": "7cd3c42ff9094a089203d3365d34e9a8",
+      "label": "小学肄业",
+      "value": "83",
+      "sort": 40
+    },
+    {
+      "id": "67429451dae14421a6ec3421be43f731",
+      "label": "其他",
+      "value": "90",
+      "sort": 41
+    }
+  ],
+  "relation": [
+    {
+      "id": "f2863777f57646189c29b2861cee3db2",
+      "label": "本人",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "e9ff2ec4f9e04c8fa61fbad6ae85da9a",
+      "label": "户主",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "1bb8e51d0f66410eb1e4d04746df73da",
+      "label": "配偶",
+      "value": "10",
+      "sort": 3
+    },
+    {
+      "id": "f2ba6dfe674c49efbeb627a819adcad3",
+      "label": "夫",
+      "value": "11",
+      "sort": 4
+    },
+    {
+      "id": "f3f1f11e5582447eb599bc0ed078dbe1",
+      "label": "妻",
+      "value": "12",
+      "sort": 5
+    },
+    {
+      "id": "37c1b8c7d7e54c66b26a38c5eba4b335",
+      "label": "独生子",
+      "value": "21",
+      "sort": 6
+    },
+    {
+      "id": "db58eaa8e2964e02a183cb3ffc63d8b7",
+      "label": "长子",
+      "value": "22",
+      "sort": 7
+    },
+    {
+      "id": "ff8460cef3624c7c9ab3cf24f73d4153",
+      "label": "次子",
+      "value": "23",
+      "sort": 8
+    },
+    {
+      "id": "2e0d8e2cacac435eb3abcd9fa13b282b",
+      "label": "三子",
+      "value": "24",
+      "sort": 9
+    },
+    {
+      "id": "aac75443395b4d4ab7105d588459b12c",
+      "label": "四子",
+      "value": "25",
+      "sort": 10
+    },
+    {
+      "id": "8dc97db5dc734ee284a062a949461984",
+      "label": "五子",
+      "value": "26",
+      "sort": 11
+    },
+    {
+      "id": "41e45c009cca4d4bb625c4e625203f35",
+      "label": "养子或继子",
+      "value": "27",
+      "sort": 12
+    },
+    {
+      "id": "8832d78090ae486a9c82a0c674b03cc8",
+      "label": "女婿",
+      "value": "28",
+      "sort": 13
+    },
+    {
+      "id": "6b56f78bbcb74879b94ed119a51d7baa",
+      "label": "其他儿子",
+      "value": "29",
+      "sort": 14
+    },
+    {
+      "id": "625b2b8f3ffa472d923d5fdaddf9c4b3",
+      "label": "女",
+      "value": "30",
+      "sort": 15
+    },
+    {
+      "id": "41083db8dbfa40a2b2f33d1d1c44dcae",
+      "label": "长女",
+      "value": "32",
+      "sort": 16
+    },
+    {
+      "id": "ca0dcc07bab645189d79a3959269260f",
+      "label": "独生女",
+      "value": "31",
+      "sort": 17
+    },
+    {
+      "id": "3ca1ca50dc144f4794dc15bd94e2954b",
+      "label": "长女",
+      "value": "32",
+      "sort": 18
+    },
+    {
+      "id": "a0789b5238814a9b80a195f1ac725b3f",
+      "label": "次女",
+      "value": "33",
+      "sort": 19
+    },
+    {
+      "id": "c26e78222ffa440f8a3af8edd4309564",
+      "label": "三女",
+      "value": "34",
+      "sort": 20
+    },
+    {
+      "id": "668b0421042a41dca76a5cbeb39d26cb",
+      "label": "四女",
+      "value": "35",
+      "sort": 21
+    },
+    {
+      "id": "fc5a50438cf64f23a2e31e11b6de547f",
+      "label": "五女",
+      "value": "36",
+      "sort": 22
+    },
+    {
+      "id": "27f8d53ab9e3414fbd76d5ade6e76bc8",
+      "label": "养女或继女",
+      "value": "37",
+      "sort": 23
+    },
+    {
+      "id": "41d32b8f7dbd457aa08541dbd3b45c65",
+      "label": "儿媳",
+      "value": "38",
+      "sort": 24
+    },
+    {
+      "id": "f23a4798b2654f6ca793017c8d8c19e0",
+      "label": "其他女儿",
+      "value": "39",
+      "sort": 25
+    },
+    {
+      "id": "12f071dc16084f6d953cecca6d86207b",
+      "label": "孙子",
+      "value": "41",
+      "sort": 26
+    },
+    {
+      "id": "e034e657f202456c9208f9126ba717b0",
+      "label": "孙女",
+      "value": "42",
+      "sort": 27
+    },
+    {
+      "id": "81f5f2f80d5f47bcac218a4bf69b6d9a",
+      "label": "外孙子",
+      "value": "43",
+      "sort": 28
+    },
+    {
+      "id": "43113149e3be4e9ab7ab784597118c23",
+      "label": "外孙女",
+      "value": "44",
+      "sort": 29
+    },
+    {
+      "id": "d11f4d8dabbe406abc0f8397cadf0e87",
+      "label": "孙媳妇或外孙媳妇",
+      "value": "45",
+      "sort": 30
+    },
+    {
+      "id": "32686b0169724f21ae7af182cc0ef594",
+      "label": "孙女婿或外孙女婿",
+      "value": "46",
+      "sort": 31
+    },
+    {
+      "id": "fa0481193f7f4c1a85547c1fde28be0b",
+      "label": "曾孙子或外曾孙子",
+      "value": "47",
+      "sort": 32
+    },
+    {
+      "id": "510fc61d2b134fd9a6170b930554c468",
+      "label": "曾孙女或外曾孙女",
+      "value": "48",
+      "sort": 33
+    },
+    {
+      "id": "03f1006e00ee4ffa9a4799f287cf73e4",
+      "label": "其他孙子、孙女、外孙子、外孙女",
+      "value": "49",
+      "sort": 34
+    },
+    {
+      "id": "c3bb4459962c4ca0a15e53fbcbe79e50",
+      "label": "父母",
+      "value": "50",
+      "sort": 35
+    },
+    {
+      "id": "1c57487ee889469abdc32a6a1099483b",
+      "label": "父亲",
+      "value": "51",
+      "sort": 36
+    },
+    {
+      "id": "3ee5f2bbe87946868b56c567b913bf5c",
+      "label": "母亲",
+      "value": "52",
+      "sort": 37
+    },
+    {
+      "id": "6f8010ae35c94ff6b472940acc52cd8b",
+      "label": "公公",
+      "value": "53",
+      "sort": 38
+    },
+    {
+      "id": "9143b13abaf649e5a63a5c1d64a844d7",
+      "label": "婆婆",
+      "value": "54",
+      "sort": 39
+    },
+    {
+      "id": "6d89f12ca58c45a5880b2028f110afa4",
+      "label": "岳父",
+      "value": "55",
+      "sort": 40
+    },
+    {
+      "id": "743e41c20f164dd1b15bef2b356f8e34",
+      "label": "岳母",
+      "value": "56",
+      "sort": 41
+    },
+    {
+      "id": "a1bfb74d4e5544a3a0212cb3c4b3b237",
+      "label": "继父或养父",
+      "value": "57",
+      "sort": 42
+    },
+    {
+      "id": "4b4e53c4413b4eefb7baac9298e57f96",
+      "label": "继母或养母",
+      "value": "58",
+      "sort": 43
+    },
+    {
+      "id": "cc777e107f184fcc99969f718ddcd8f7",
+      "label": "其他父母关系",
+      "value": "59",
+      "sort": 44
+    },
+    {
+      "id": "2968866d788549518f0dfb166bde37eb",
+      "label": "祖父",
+      "value": "61",
+      "sort": 45
+    },
+    {
+      "id": "b650781f564848a5a67e06ecb42a8d2d",
+      "label": "祖母",
+      "value": "62",
+      "sort": 46
+    },
+    {
+      "id": "8e1f0585bd2646d78fa92969a3477b24",
+      "label": "外祖父",
+      "value": "63",
+      "sort": 47
+    },
+    {
+      "id": "0898f370108e4f1bbc2f10ab19dc3f6f",
+      "label": "外祖母",
+      "value": "64",
+      "sort": 48
+    },
+    {
+      "id": "c2fe5fd7b3f94123b36a9eed4debdd04",
+      "label": "配偶的祖父母外祖父母",
+      "value": "65",
+      "sort": 49
+    },
+    {
+      "id": "691ddcc057d8412aba0421efbbfb116f",
+      "label": "曾祖父",
+      "value": "66",
+      "sort": 50
+    },
+    {
+      "id": "fbe312b52ed344ce843760afb91493af",
+      "label": "曾祖母",
+      "value": "67",
+      "sort": 51
+    },
+    {
+      "id": "6e5025d173ef40ef8a8a694f726e950b",
+      "label": "配偶的曾祖父母外曾祖父母",
+      "value": "68",
+      "sort": 52
+    },
+    {
+      "id": "726779df744941a287b89cff641cbfd1",
+      "label": "其他祖父母或外祖父母关系",
+      "value": "69",
+      "sort": 53
+    },
+    {
+      "id": "8b53b36003bc4aa289b7f8513935ec60",
+      "label": "兄",
+      "value": "71",
+      "sort": 54
+    },
+    {
+      "id": "0ef3c7de9797465a8596ed5c76012da7",
+      "label": "嫂",
+      "value": "72",
+      "sort": 55
+    },
+    {
+      "id": "4084afcfc2124f8d92e1027220191e04",
+      "label": "弟",
+      "value": "73",
+      "sort": 56
+    },
+    {
+      "id": "7df4ef9e0b55416ba601592e1c4e044d",
+      "label": "弟媳",
+      "value": "74",
+      "sort": 57
+    },
+    {
+      "id": "52891ad4d73d42ce9943b4406a9e2745",
+      "label": "姐姐",
+      "value": "75",
+      "sort": 58
+    },
+    {
+      "id": "4d78474b6e7c40df8f91efc9bb8a281e",
+      "label": "姐夫",
+      "value": "76",
+      "sort": 59
+    },
+    {
+      "id": "c983b8d023cc42228ec7706d361fb875",
+      "label": "妹妹",
+      "value": "77",
+      "sort": 60
+    },
+    {
+      "id": "13511d64b5da4ad4819f1f233248ea64",
+      "label": "妹夫",
+      "value": "78",
+      "sort": 61
+    },
+    {
+      "id": "5dd7a8505df5467e9ec1ec89a1653baf",
+      "label": "其他兄弟姐妹",
+      "value": "79",
+      "sort": 62
+    },
+    {
+      "id": "65d32398fbe940fea1a7655322a2b695",
+      "label": "其他",
+      "value": "80",
+      "sort": 63
+    },
+    {
+      "id": "c9d9d6f4395c498493bbc767642d9f0b",
+      "label": "伯父",
+      "value": "81",
+      "sort": 64
+    },
+    {
+      "id": "416051f14be14d269eb42e46c436e83a",
+      "label": "伯母",
+      "value": "82",
+      "sort": 65
+    },
+    {
+      "id": "0e1e95954e8b4b6d94e805a9a363de85",
+      "label": "叔父",
+      "value": "83",
+      "sort": 66
+    },
+    {
+      "id": "9eabc6b080c1467b867ada7ce21b5269",
+      "label": "婶母",
+      "value": "84",
+      "sort": 67
+    },
+    {
+      "id": "36fe62d0e4d1497f83b3eeecde5b4f6e",
+      "label": "舅母",
+      "value": "86",
+      "sort": 68
+    },
+    {
+      "id": "e76e7ecc08fe42358bc8fb148b75288f",
+      "label": "舅父",
+      "value": "85",
+      "sort": 69
+    },
+    {
+      "id": "65f014a2124e4b88ac453bebe986baf5",
+      "label": "姨夫",
+      "value": "87",
+      "sort": 70
+    },
+    {
+      "id": "a88bb1aa0d9d4672a6733ecae780a3da",
+      "label": "姨母",
+      "value": "88",
+      "sort": 71
+    },
+    {
+      "id": "723c1282a8e24ba3b86886a631f92110",
+      "label": "姑父",
+      "value": "89",
+      "sort": 72
+    },
+    {
+      "id": "6a5e25ec8ee04ed491265199eb596678",
+      "label": "姑母",
+      "value": "90",
+      "sort": 73
+    },
+    {
+      "id": "be2286ee99d14adc988a261fbb333a89",
+      "label": "堂兄弟、堂姐妹",
+      "value": "91",
+      "sort": 74
+    },
+    {
+      "id": "36e1a55b98ed497091435a29101d9a05",
+      "label": "表兄弟、表姐妹",
+      "value": "92",
+      "sort": 75
+    },
+    {
+      "id": "1044aaae19f0460cad8c6adb2384b507",
+      "label": "侄子",
+      "value": "93",
+      "sort": 76
+    },
+    {
+      "id": "71f2a4d244b245ab97642972d65144cc",
+      "label": "侄女",
+      "value": "94",
+      "sort": 77
+    },
+    {
+      "id": "54ceb8e2478941869a9f7495f80e00eb",
+      "label": "外甥女",
+      "value": "96",
+      "sort": 78
+    },
+    {
+      "id": "b022f4aaca724bc8ba780db3d8c02d4f",
+      "label": "外甥",
+      "value": "95",
+      "sort": 79
+    },
+    {
+      "id": "e57beccda94a42798fc2cd3a55306ab4",
+      "label": "其他亲属",
+      "value": "97",
+      "sort": 80
+    },
+    {
+      "id": "0b5cf9532a234426a6a1bf965ce96aa1",
+      "label": "非亲属",
+      "value": "99",
+      "sort": 81
+    }
+  ],
+  "evidence_dispute": [
+    {
+      "id": "1df272d126b44e51bc76ea194f13bb4f",
+      "label": "案件受理",
+      "value": "case_acceptance",
+      "sort": 1
+    },
+    {
+      "id": "b384c5e35c5a4eea8014ba65d403849c",
+      "label": "案件调查（调查记录）",
+      "value": "case_investigation",
+      "sort": 2
+    },
+    {
+      "id": "52a85a67bc2b491db4a9e4948a21b89c",
+      "label": "被申请人证据",
+      "value": "evidence_respondent",
+      "sort": 3
+    },
+    {
+      "id": "9fe1d311b289479e98a3cb8f7f00c2b7",
+      "label": "回访记录",
+      "value": "return_visit_record",
+      "sort": 4
+    },
+    {
+      "id": "33e05990424142318e010a2e4da362af",
+      "label": "申请人证据",
+      "value": "evidence_applicant",
+      "sort": 5
+    },
+    {
+      "id": "b35de89954044981b4306a622efb3c02",
+      "label": "案件调解（调解笔录）",
+      "value": "case_mediation",
+      "sort": 6
+    },
+    {
+      "id": "4620d03825ab499cbdd2c3988ec3a596",
+      "label": "协议登记",
+      "value": "agreement_registration",
+      "sort": 7
+    },
+    {
+      "id": "0dd43c942c054a19bb10e2e1c55fbc7a",
+      "label": "调解视频",
+      "value": "mediation_video",
+      "sort": 8
+    }
+  ],
+  "support_means": [
+    {
+      "id": "b5673d2000e34b2b9e81997030db7b62",
+      "label": "教育矫治",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "34dd5d8d81f94251ab32a29a2fd795ef",
+      "label": "思想引导",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "61da56b18a4d47d2b0d62f4b2d036bd2",
+      "label": "困难帮扶",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "bb6954d5d4fc4da7ace23acae83fa8ee",
+      "label": "心里关爱",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "841dd0ae3c6a48ad89708ef3e6e6a6bd",
+      "label": "其他",
+      "value": "99",
+      "sort": 5
+    }
+  ],
+  "db_jdbc_url": [
+    {
+      "id": "4f53163c4e8c4348af13d1859fcfcfd5",
+      "label": "mysql",
+      "value": "jdbc:mysql://${host}:${port}/${db}?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=true",
+      "sort": 1
+    },
+    {
+      "id": "703497bd5519489e9a83e6c5b8221e05",
+      "label": "oracle",
+      "value": "jdbc:oracle:thin:@${host}:${port}:${db}",
+      "sort": 2
+    },
+    {
+      "id": "7410b27ddc9542a7a1e95fe7eafa0602",
+      "label": "mssql",
+      "value": "jdbc:jtds:sqlserver://${host}:${port}/${db}",
+      "sort": 3
+    },
+    {
+      "id": "cea83b59c74948b09823eda00d7f3a24",
+      "label": "postgre",
+      "value": "jdbc:postgresql://${host}:${port}/${db}",
+      "sort": 4
+    }
+  ],
+  "event_type": [
+    {
+      "id": "13b4bdcdd8b8428b94a9d10d04368e35",
+      "label": "街面秩序",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "6e292ca9d1c7430982856c8d4c022a08",
+      "label": "园林绿化",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "8dbaa64612d5446c83b34690904349a4",
+      "label": "突发事件",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "c83b51ac2f0a4803b803c31b74959bcc",
+      "label": "环卫市容",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "0b86caec6db74679915c01dfad4e8464",
+      "label": "设施管理",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "66e1971990b648be81a2baad06b19931",
+      "label": "小区管理",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "2d654e955ec44e97a804b160fded10c0",
+      "label": "公共设施",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "f3e923e36c8f41a49686eb34bc2f2cc9",
+      "label": "踩踏事件",
+      "value": "08",
+      "sort": 8
+    },
+    {
+      "id": "f787a7e2a3814cb0a44018d48ed9e5b0",
+      "label": "卫生安全",
+      "value": "09",
+      "sort": 9
+    },
+    {
+      "id": "6e536f596f694efa8bb317ae6dd9fc9e",
+      "label": "民族与宗教",
+      "value": "10",
+      "sort": 10
+    },
+    {
+      "id": "f2a116f5d47b4f9187306e70c9e91d44",
+      "label": "辖区道路交通事故",
+      "value": "11",
+      "sort": 11
+    },
+    {
+      "id": "3fe9403f611b4244a6c323c86dc2252b",
+      "label": "烟花爆竹与民用爆炸物",
+      "value": "12",
+      "sort": 12
+    },
+    {
+      "id": "8b349d566da14bdd8c9e08eb5c9eed61",
+      "label": "火灾事故",
+      "value": "13",
+      "sort": 13
+    },
+    {
+      "id": "78b888a62177437099ee635e4104c2da",
+      "label": "食品安全",
+      "value": "14",
+      "sort": 14
+    },
+    {
+      "id": "dde57732627843dcb1cfb0d0537ccba8",
+      "label": "打架斗殴",
+      "value": "15",
+      "sort": 15
+    }
+  ],
+  "sys_office_grade": [
+    {
+      "id": "28",
+      "label": "一级",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "29",
+      "label": "二级",
+      "value": "2",
+      "sort": 20
+    },
+    {
+      "id": "30",
+      "label": "三级",
+      "value": "3",
+      "sort": 30
+    },
+    {
+      "id": "31",
+      "label": "四级",
+      "value": "4",
+      "sort": 40
+    }
+  ],
+  "law_case": [
+    {
+      "id": "4dad2c6f997047dd84191f4d1b115289",
+      "label": "危害国家安全案",
+      "value": "010000",
+      "sort": 1
+    },
+    {
+      "id": "1543eb26a34b44748072173ec0d552de",
+      "label": "危害公共安全案",
+      "value": "020000",
+      "sort": 2
+    },
+    {
+      "id": "4cf8a80967804c6082d94073a80d87b8",
+      "label": "破坏社会主义市场经济秩序案",
+      "value": "030000",
+      "sort": 3
+    },
+    {
+      "id": "07e66565f1514c2e8dc8243998633ca0",
+      "label": "侵犯公民人身权利、民主权利案",
+      "value": "040000",
+      "sort": 4
+    },
+    {
+      "id": "8406774dd1264ab1822e48a7358f3387",
+      "label": "侵犯财产按",
+      "value": "050000",
+      "sort": 5
+    },
+    {
+      "id": "dd5f9ee65124477bb636f2bd8d71facc",
+      "label": "妨害社会管理秩序案",
+      "value": "060000",
+      "sort": 6
+    },
+    {
+      "id": "ba14116c01204da58248309bc34ec28b",
+      "label": "危害国防利益案",
+      "value": "070000",
+      "sort": 7
+    }
+  ],
+  "gen_java_type": [
+    {
+      "id": "93",
+      "label": "String",
+      "value": "String",
+      "sort": 10
+    },
+    {
+      "id": "94",
+      "label": "Long",
+      "value": "Long",
+      "sort": 20
+    },
+    {
+      "id": "98",
+      "label": "Integer",
+      "value": "Integer",
+      "sort": 30
+    },
+    {
+      "id": "99",
+      "label": "Double",
+      "value": "Double",
+      "sort": 40
+    },
+    {
+      "id": "100",
+      "label": "Date",
+      "value": "java.util.Date",
+      "sort": 50
+    },
+    {
+      "id": "101",
+      "label": "User",
+      "value": "com.jeeplus.modules.sys.entity.User",
+      "sort": 60
+    },
+    {
+      "id": "102",
+      "label": "Office",
+      "value": "com.jeeplus.modules.sys.entity.Office",
+      "sort": 70
+    },
+    {
+      "id": "103",
+      "label": "Area",
+      "value": "com.jeeplus.modules.sys.entity.Area",
+      "sort": 80
+    },
+    {
+      "id": "104",
+      "label": "Custom",
+      "value": "Custom",
+      "sort": 90
+    }
+  ],
+  "sys_user_group_region": [
+    {
+      "id": "200489620ccb449282969a4226abef24",
+      "label": "本人数据",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "8517d24d5c424b3e922449942a523cbb",
+      "label": "本公司数据",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "705e147fc8b54c45b731e600a0a2d2fe",
+      "label": "本单位数据",
+      "value": "3",
+      "sort": 3
+    }
+  ],
+  "three_experience": [
+    {
+      "id": "46c77da8c8bd4c089850889fe244f464",
+      "label": "涉毒",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "3db4f710577941599d8105f4de4729d4",
+      "label": "涉黑",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "64e50e733fe447ab8d5a1dd988f89b04",
+      "label": "涉枪",
+      "value": "03",
+      "sort": 3
+    }
+  ],
+  "relatedPeopletype": [
+    {
+      "id": "5f754bd0b1e24bb083cfee3345918149",
+      "label": "犯罪嫌疑人",
+      "value": "02",
+      "sort": 1
+    },
+    {
+      "id": "a51c83edc8814942abf665535b337402",
+      "label": "受害人",
+      "value": "01",
+      "sort": 1
+    }
+  ],
+  "yes_no": [
+    {
+      "id": "5",
+      "label": "是",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "6",
+      "label": "否",
+      "value": "0",
+      "sort": 20
+    }
+  ],
+  "t_express": [
+    {
+      "id": "b2b84bd17d8b4dafb0dd83c14c3c962d",
+      "label": "大于",
+      "value": ">",
+      "sort": 1
+    },
+    {
+      "id": "35ee2efb9daa45179328fe49542d8e64",
+      "label": "大于等于",
+      "value": ">=",
+      "sort": 2
+    },
+    {
+      "id": "9de5be7eea4f492fb726a958cca1d4b0",
+      "label": "小于",
+      "value": "<",
+      "sort": 3
+    },
+    {
+      "id": "a4de7bc6a5b94d54bac6c577b76e27a2",
+      "label": "小于等于",
+      "value": "<=",
+      "sort": 4
+    },
+    {
+      "id": "f7556a086d264cd29e0ceb417535fe61",
+      "label": "不等于",
+      "value": "<>",
+      "sort": 5
+    },
+    {
+      "id": "39c83ee547644d7ca16e2ba1b1cf0ab7",
+      "label": "等于",
+      "value": "=",
+      "sort": 6
+    },
+    {
+      "id": "f7c2d3753c77489e99c5e9a59e7ebd3d",
+      "label": "包含",
+      "value": "contain",
+      "sort": 7
+    },
+    {
+      "id": "8a0dca98a94d46a486a796f4288a9863",
+      "label": "模糊匹配",
+      "value": "like",
+      "sort": 8
+    }
+  ],
+  "dispute_office_type": [
+    {
+      "id": "9cfbcf858252426f9bc40ca36d2053c3",
+      "label": "综治办部门",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "0de5ac66ca094141966b067b8a12e16c",
+      "label": "职能部门",
+      "value": "2",
+      "sort": 2
+    }
+  ],
+  "sys_office_common": [
+    {
+      "id": "25",
+      "label": "综合部",
+      "value": "1",
+      "sort": 30
+    },
+    {
+      "id": "26",
+      "label": "开发部",
+      "value": "2",
+      "sort": 40
+    },
+    {
+      "id": "27",
+      "label": "人力部",
+      "value": "3",
+      "sort": 50
+    }
+  ],
+  "business_practice": [
+    {
+      "id": "ad9f81e29c094a6386ed2688df220cc7",
+      "label": "其它",
+      "value": "9",
+      "sort": 1
+    },
+    {
+      "id": "f091498a9bc74bf6b695171aedea6378",
+      "label": "联营",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "d95a7049d1704b2499251bd51a49b1e0",
+      "label": "自营",
+      "value": "1",
+      "sort": 3
+    }
+  ],
+  "land_certificate": [
+    {
+      "id": "bd3173275c7044619746654aceeab495",
+      "label": "国有土地使用权证",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "721c279f32c843239b12c45b06332e45",
+      "label": "集体土地使用权证",
+      "value": "1",
+      "sort": 2
+    }
+  ],
+  "business_scope": [
+    {
+      "id": "d359cf47d88c431d85fd2d3a8f17953c",
+      "label": "国内同城",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "b57f439cc8a64724ba8d0e042f1b4cd2",
+      "label": "国内异地",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "108df57c6c9b4f32be948bc3dd29f48e",
+      "label": "港澳台",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "9553d615eb2b4542b56fadd5072b1666",
+      "label": "国际",
+      "value": "04",
+      "sort": 4
+    }
+  ],
+  "sys_user_type": [
+    {
+      "id": "39",
+      "label": "系统管理",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "40",
+      "label": "部门经理",
+      "value": "2",
+      "sort": 20
+    },
+    {
+      "id": "41",
+      "label": "普通用户",
+      "value": "3",
+      "sort": 30
+    }
+  ],
+  "duty_personnel_type": [
+    {
+      "id": "4bfeb2dcd5ab4e4e9c84177a47ac7d59",
+      "label": "领导",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "8a191110fb944448a1f141c22cd49c82",
+      "label": "值班人员",
+      "value": "2",
+      "sort": 2
+    }
+  ],
+  "nationality": [
+    {
+      "id": "d03e8e3637ee4f58b2a9741dc58d47ea",
+      "label": "阿富汗",
+      "value": "4",
+      "sort": 1
+    },
+    {
+      "id": "543e24e6949f420e8715a295978ebe02",
+      "label": "阿尔巴尼亚",
+      "value": "8",
+      "sort": 2
+    },
+    {
+      "id": "7097d8495e9a4c20a3f9f91d6d6d3db0",
+      "label": "阿尔及利亚",
+      "value": "12",
+      "sort": 3
+    },
+    {
+      "id": "e186c3d871b04c5b9122682d38e2fd3b",
+      "label": "美属萨摩亚",
+      "value": "16",
+      "sort": 4
+    },
+    {
+      "id": "12ca67f915bd45e599bbc4694bb542e5",
+      "label": "安道尔",
+      "value": "20",
+      "sort": 5
+    },
+    {
+      "id": "529948e26c8d4235a5826711f531bc86",
+      "label": "安哥拉",
+      "value": "24",
+      "sort": 6
+    },
+    {
+      "id": "dd3e2b32a1d748579bb88777beac4393",
+      "label": "安圭拉",
+      "value": "660",
+      "sort": 7
+    },
+    {
+      "id": "d76b9fec4b4b49e1ab348ae1466f4781",
+      "label": "南极洲",
+      "value": "10",
+      "sort": 8
+    },
+    {
+      "id": "a6be3145abe34911b29deede8ac75409",
+      "label": "安提瓜和巴布达",
+      "value": "28",
+      "sort": 9
+    },
+    {
+      "id": "154cfcbc71974a33b408c3b38ee11f82",
+      "label": "阿根廷",
+      "value": "32",
+      "sort": 10
+    },
+    {
+      "id": "7a6e7981ac74412c9d78f484cb3f37b3",
+      "label": "亚美尼亚",
+      "value": "51",
+      "sort": 11
+    },
+    {
+      "id": "e187e49e08894f16b878308fa234407e",
+      "label": "瑞典",
+      "value": "753",
+      "sort": 11
+    },
+    {
+      "id": "61e8d6a224ec4a17a400fd63c43d0de6",
+      "label": "阿鲁巴",
+      "value": "533",
+      "sort": 12
+    },
+    {
+      "id": "bb7b37d560244203b194bd889955b7ed",
+      "label": "澳大利亚",
+      "value": "36",
+      "sort": 13
+    },
+    {
+      "id": "9b5ded4c823346bf98d0f53d66dd2901",
+      "label": "奥地利",
+      "value": "40",
+      "sort": 14
+    },
+    {
+      "id": "cd191a62a52c4d8395f6f64b66c16d9b",
+      "label": "阿塞拜疆",
+      "value": "31",
+      "sort": 15
+    },
+    {
+      "id": "316d095364034fde8fe1d8e04502c6f8",
+      "label": "巴哈马",
+      "value": "44",
+      "sort": 16
+    },
+    {
+      "id": "93d2349efc8c4343881f2d1cef48f4f4",
+      "label": "巴林",
+      "value": "48",
+      "sort": 17
+    },
+    {
+      "id": "7f6247ff57c444caa196f4bf1ac83913",
+      "label": "孟加拉国",
+      "value": "50",
+      "sort": 18
+    },
+    {
+      "id": "61222419046d4cdeb3e6f4fd668cd8f4",
+      "label": "巴巴多斯",
+      "value": "52",
+      "sort": 19
+    },
+    {
+      "id": "6bdb481c1e6c4e15aceb82f4c418f47a",
+      "label": "西班牙",
+      "value": "724",
+      "sort": 19
+    },
+    {
+      "id": "ca470a6ddf314f6683d933915ed3bfe7",
+      "label": "白俄罗斯",
+      "value": "112",
+      "sort": 20
+    },
+    {
+      "id": "ffbf9a8ba1224f458c7801a0c225930c",
+      "label": "比利时",
+      "value": "56",
+      "sort": 21
+    },
+    {
+      "id": "daa1df23e0be4e3a8ef7367a1e2f401f",
+      "label": "伯利兹",
+      "value": "84",
+      "sort": 22
+    },
+    {
+      "id": "21a8444c1574401cadf744baa8c0f976",
+      "label": "贝宁",
+      "value": "204",
+      "sort": 23
+    },
+    {
+      "id": "72ccb747375341f1b76f19d82266b8a6",
+      "label": "百慕大",
+      "value": "60",
+      "sort": 24
+    },
+    {
+      "id": "9d1aad9fbae64c2ea91ac84827bf3357",
+      "label": "不丹",
+      "value": "64",
+      "sort": 25
+    },
+    {
+      "id": "8f27734958f2442599930276249fe134",
+      "label": "玻利维亚",
+      "value": "68",
+      "sort": 26
+    },
+    {
+      "id": "206bf971b0b640d485d4707050a313d7",
+      "label": "波黑",
+      "value": "70",
+      "sort": 27
+    },
+    {
+      "id": "6294103da70f4f84a85002dab9f3e2d6",
+      "label": "博茨瓦纳",
+      "value": "72",
+      "sort": 28
+    },
+    {
+      "id": "ef630eb9dd5142dd8102aaba37c48242",
+      "label": "布维岛",
+      "value": "74",
+      "sort": 29
+    },
+    {
+      "id": "f49c862dc8c94c8ba0c08f0f31eb4ee5",
+      "label": "巴西",
+      "value": "76",
+      "sort": 30
+    },
+    {
+      "id": "b42c4f55889547edb4ddb98197854f01",
+      "label": "英属印度洋领土",
+      "value": "86",
+      "sort": 31
+    },
+    {
+      "id": "4e71d372e4344b0ebd0647fb2b063473",
+      "label": "文莱",
+      "value": "96",
+      "sort": 32
+    },
+    {
+      "id": "967cfdaad5134bb0b18969c60ad60bd0",
+      "label": "保加利亚",
+      "value": "100",
+      "sort": 33
+    },
+    {
+      "id": "6cb4df4941c44c4e9d55a4437542cdf7",
+      "label": "布基纳法索",
+      "value": "854",
+      "sort": 34
+    },
+    {
+      "id": "fc9e7cbbb1a7495883002521946b94dd",
+      "label": "布隆迪",
+      "value": "108",
+      "sort": 35
+    },
+    {
+      "id": "3322c169c139438c9f966a1d175bb478",
+      "label": "柬埔寨",
+      "value": "116",
+      "sort": 36
+    },
+    {
+      "id": "fa6cdd6bfb144c4ba282caa3caff5458",
+      "label": "喀麦隆",
+      "value": "120",
+      "sort": 37
+    },
+    {
+      "id": "b808f3bae669443eb4589025ac180b12",
+      "label": "加拿大",
+      "value": "124",
+      "sort": 38
+    },
+    {
+      "id": "53a2a277d4f24ef881102fea4202169c",
+      "label": "佛得角",
+      "value": "132",
+      "sort": 39
+    },
+    {
+      "id": "8fcc270b6e5f419e886300209278695b",
+      "label": "开曼群岛",
+      "value": "136",
+      "sort": 40
+    },
+    {
+      "id": "811ee7a56c5e477cbd16c5fc047b464c",
+      "label": "中非",
+      "value": "140",
+      "sort": 41
+    },
+    {
+      "id": "d81af48575d94049a4b603c49a8ccdd9",
+      "label": "乍得",
+      "value": "148",
+      "sort": 42
+    },
+    {
+      "id": "5a01d4bd748d41c2a22eb01eaf48b8e4",
+      "label": "智利",
+      "value": "152",
+      "sort": 43
+    },
+    {
+      "id": "e7eb0c8717b045c3b8ec2689dbc67871",
+      "label": "中国",
+      "value": "156",
+      "sort": 44
+    },
+    {
+      "id": "233ca7ab60524c75a866680796e41559",
+      "label": "中国香港",
+      "value": "344",
+      "sort": 45
+    },
+    {
+      "id": "3dc5dad34d5a467fa77e8d280c33e897",
+      "label": "中国澳门",
+      "value": "446",
+      "sort": 46
+    },
+    {
+      "id": "6c7c7dbee0ff47f999a38cd940db5ef6",
+      "label": "中国台湾",
+      "value": "158",
+      "sort": 47
+    },
+    {
+      "id": "914347ae0a274f40a6b9c2c44345cf9a",
+      "label": "圣诞岛",
+      "value": "162",
+      "sort": 48
+    },
+    {
+      "id": "4ad01fbded7f4a0e885b2b734138b726",
+      "label": "科科斯（基林）群岛",
+      "value": "166",
+      "sort": 49
+    },
+    {
+      "id": "1e513e30cdc043a7a7dad6b90daf3941",
+      "label": "哥伦比亚",
+      "value": "170",
+      "sort": 50
+    },
+    {
+      "id": "efbc864483054d9cb779916dc7549dbb",
+      "label": "科摩罗",
+      "value": "174",
+      "sort": 51
+    },
+    {
+      "id": "ed03633ec1b64344a9d762d47763564f",
+      "label": "刚果（布）",
+      "value": "178",
+      "sort": 52
+    },
+    {
+      "id": "a44343bb072c4158b4289f44120a15a7",
+      "label": "刚果（金）",
+      "value": "180",
+      "sort": 53
+    },
+    {
+      "id": "7a32e6c2f612489ea516bb5b16c3c0e0",
+      "label": "库克群岛",
+      "value": "184",
+      "sort": 54
+    },
+    {
+      "id": "04bd1504b49e4bbe9c4122bd53d5c53d",
+      "label": "哥斯达黎加",
+      "value": "188",
+      "sort": 55
+    },
+    {
+      "id": "18f0a782903d470f90031ec92428bb39",
+      "label": "科特迪瓦",
+      "value": "384",
+      "sort": 56
+    },
+    {
+      "id": "92e04323441440899840c36bbadf0609",
+      "label": "克罗地亚",
+      "value": "191",
+      "sort": 57
+    },
+    {
+      "id": "02d763179be94497aaac575995dbd4fc",
+      "label": "古巴",
+      "value": "192",
+      "sort": 58
+    },
+    {
+      "id": "b22acb1dbcec47d0a7118d9a71645a3e",
+      "label": "塞浦路斯",
+      "value": "196",
+      "sort": 59
+    },
+    {
+      "id": "28d46384728a44c69ef7fb481a6a472e",
+      "label": "捷克",
+      "value": "203",
+      "sort": 60
+    },
+    {
+      "id": "994460fd45ae4a1f9415fe09f9379097",
+      "label": "丹麦",
+      "value": "203",
+      "sort": 61
+    },
+    {
+      "id": "4b4ff0e531e6484ab126779712953095",
+      "label": "吉布提",
+      "value": "262",
+      "sort": 62
+    },
+    {
+      "id": "dc0e2de8f4cb4277a103fa4cc3d41f5a",
+      "label": "多米尼克",
+      "value": "212",
+      "sort": 63
+    },
+    {
+      "id": "b3b838278f074d53ac716bb76e2a2a38",
+      "label": "多米尼加共和国",
+      "value": "214",
+      "sort": 64
+    },
+    {
+      "id": "94a57bbe0ab3417abda411b228508a8b",
+      "label": "东帝汶",
+      "value": "626",
+      "sort": 65
+    },
+    {
+      "id": "3165601efc53401d9409efe6bcfab2f9",
+      "label": "厄瓜多尔",
+      "value": "218",
+      "sort": 66
+    },
+    {
+      "id": "68f8c3daee8e4fcab5b05e7e102d5fb6",
+      "label": "埃及",
+      "value": "818",
+      "sort": 67
+    },
+    {
+      "id": "92ed3306463c41918ca3ab3069a072df",
+      "label": "萨尔瓦多",
+      "value": "222",
+      "sort": 68
+    },
+    {
+      "id": "596f8fa7e9c844f88f7c7d7d6904d547",
+      "label": "赤道几内亚",
+      "value": "226",
+      "sort": 69
+    },
+    {
+      "id": "950d5496a0b743f2abacfe442c78ed2a",
+      "label": "厄立特里亚",
+      "value": "232",
+      "sort": 70
+    },
+    {
+      "id": "934e116421854dfe956720a693c5b23d",
+      "label": "爱沙尼亚",
+      "value": "233",
+      "sort": 71
+    },
+    {
+      "id": "1d0125a467294aa3a62dc901ab2d706d",
+      "label": "埃塞俄比亚",
+      "value": "231",
+      "sort": 72
+    },
+    {
+      "id": "025aa464e93044bc896108044370ab4a",
+      "label": "福克兰群岛（马尔维纳斯）",
+      "value": "238",
+      "sort": 73
+    },
+    {
+      "id": "6c274d895a494891b5eb41747dc6bcd8",
+      "label": "法罗群岛",
+      "value": "234",
+      "sort": 74
+    },
+    {
+      "id": "b92fc4a03d3948edaec78d8e0dfe55d4",
+      "label": "斐济",
+      "value": "242",
+      "sort": 75
+    },
+    {
+      "id": "63b2e26365b840c7ba5c9eb40c5dd127",
+      "label": "芬兰",
+      "value": "246",
+      "sort": 76
+    },
+    {
+      "id": "8e13cf3107cb47ae810afcb95984ee63",
+      "label": "法国",
+      "value": "250",
+      "sort": 77
+    },
+    {
+      "id": "e9d21d705d1346aa9b40221797b87362",
+      "label": "法属圭亚那",
+      "value": "254",
+      "sort": 78
+    },
+    {
+      "id": "d7207b29a29d453491e8aec75ac871d7",
+      "label": "法属波利尼西亚",
+      "value": "258",
+      "sort": 79
+    },
+    {
+      "id": "b98606660d5b4a6aac1903cdda9eb52e",
+      "label": "法属南部领土",
+      "value": "260",
+      "sort": 80
+    },
+    {
+      "id": "5b594ec12b9a4c189c422abd31b50046",
+      "label": "加蓬",
+      "value": "266",
+      "sort": 81
+    },
+    {
+      "id": "78313ccc6044471c8a421bce02ac0386",
+      "label": "冈比亚Gambia",
+      "value": "270",
+      "sort": 82
+    },
+    {
+      "id": "2e5816884c574c5ca5f37398f330f031",
+      "label": "格鲁吉亚",
+      "value": "268",
+      "sort": 83
+    },
+    {
+      "id": "2f4568079fd346f0a40f7ad75426c610",
+      "label": "德国",
+      "value": "276",
+      "sort": 84
+    },
+    {
+      "id": "9ed469dee49740cea11434cbc32761d3",
+      "label": "加纳",
+      "value": "288",
+      "sort": 85
+    },
+    {
+      "id": "4be36f43759d4ba88be3573723e01050",
+      "label": "直布罗陀",
+      "value": "292",
+      "sort": 86
+    },
+    {
+      "id": "a292ba72d9584683acf4db886992430d",
+      "label": "希腊",
+      "value": "300",
+      "sort": 87
+    },
+    {
+      "id": "40209b10d66b488a849955876185a21b",
+      "label": "格陵兰",
+      "value": "304",
+      "sort": 88
+    },
+    {
+      "id": "972fef7cf78a44d391e7b108f597d923",
+      "label": "格林纳达",
+      "value": "308",
+      "sort": 89
+    },
+    {
+      "id": "6092bbcac6e440459a75e8b35fc69869",
+      "label": "瓜德罗普",
+      "value": "312",
+      "sort": 90
+    },
+    {
+      "id": "4c92a7825a8d487d8aa1836a88cb11c6",
+      "label": "关岛",
+      "value": "316",
+      "sort": 91
+    },
+    {
+      "id": "ae3641641a5745c784d5fa39cdf979f5",
+      "label": "危地马拉",
+      "value": "320",
+      "sort": 92
+    },
+    {
+      "id": "d2fb5c0580404ff2bea4937bbe440d63",
+      "label": "几内亚",
+      "value": "324",
+      "sort": 93
+    },
+    {
+      "id": "f5d037df5f8f4c09801575df1561ff18",
+      "label": "几内亚比绍",
+      "value": "624",
+      "sort": 94
+    },
+    {
+      "id": "6d4d85ea51264f5386137232563e80e7",
+      "label": "圭亚那",
+      "value": "328",
+      "sort": 95
+    },
+    {
+      "id": "c4b51b0e8b6c403e864a9a4f7550e46d",
+      "label": "海地",
+      "value": "332",
+      "sort": 96
+    },
+    {
+      "id": "5fe8dc66c8b64c198b57f7c95990ee52",
+      "label": "赫德岛和麦克唐纳岛",
+      "value": "334",
+      "sort": 97
+    },
+    {
+      "id": "b63eed02fc004b5ba17c0d934c08f509",
+      "label": "洪都拉斯",
+      "value": "340",
+      "sort": 98
+    },
+    {
+      "id": "328d1f8d6e004c2ead1443f26adc2066",
+      "label": "匈牙利",
+      "value": "348",
+      "sort": 99
+    },
+    {
+      "id": "80adcb574abf47009d271b44a4fa761f",
+      "label": "冰岛",
+      "value": "352",
+      "sort": 100
+    },
+    {
+      "id": "925cb168156843ec844698f1e602e784",
+      "label": "印度",
+      "value": "356",
+      "sort": 101
+    },
+    {
+      "id": "e009df8e6ffa481fb2d2e87aa32b42d0",
+      "label": "印度尼西亚",
+      "value": "360",
+      "sort": 102
+    },
+    {
+      "id": "268487b0c6ca4b1e8b7fdbb162733341",
+      "label": "伊朗",
+      "value": "364",
+      "sort": 103
+    },
+    {
+      "id": "2e3d776a8bd74148809e7eebc610f052",
+      "label": "伊拉克",
+      "value": "368",
+      "sort": 104
+    },
+    {
+      "id": "7a280fea0b79498db18f715397f048ea",
+      "label": "爱尔兰",
+      "value": "372",
+      "sort": 105
+    },
+    {
+      "id": "f3e262b3e5ec4cf4b5cd10c1b3be37e9",
+      "label": "以色列",
+      "value": "376",
+      "sort": 106
+    },
+    {
+      "id": "673232381c514621ac231ac4094be924",
+      "label": "意大利",
+      "value": "380",
+      "sort": 107
+    },
+    {
+      "id": "6f398e601eb04810aae5f0ff564cd7ca",
+      "label": "牙买加",
+      "value": "388",
+      "sort": 108
+    },
+    {
+      "id": "45badcb5cd08482f910032f3f4a3d1cc",
+      "label": "日本",
+      "value": "392",
+      "sort": 109
+    },
+    {
+      "id": "270ea9b7e7a1459eb75d1c126809be13",
+      "label": "约旦",
+      "value": "400",
+      "sort": 110
+    },
+    {
+      "id": "e8ccea0f471044f9abdf7183360cd173",
+      "label": "哈萨克斯坦",
+      "value": "398",
+      "sort": 111
+    },
+    {
+      "id": "79d715be152144508276b1d30046ad09",
+      "label": "肯尼亚",
+      "value": "404",
+      "sort": 112
+    },
+    {
+      "id": "cff325d1318a48cc875df7915771979c",
+      "label": "基里巴斯",
+      "value": "296",
+      "sort": 113
+    },
+    {
+      "id": "ab0f5cf70c13404985c1d4ef1be8080a",
+      "label": "朝鲜",
+      "value": "408",
+      "sort": 114
+    },
+    {
+      "id": "aa725da2b9834820ab1972b8e3b0d160",
+      "label": "韩国",
+      "value": "410",
+      "sort": 115
+    },
+    {
+      "id": "e5fa200b69ac4d77a70882fce32a81df",
+      "label": "吉尔吉斯斯坦",
+      "value": "417",
+      "sort": 116
+    },
+    {
+      "id": "3bc05cb3f01e4267bc451b14c381b69a",
+      "label": "老挝",
+      "value": "418",
+      "sort": 117
+    },
+    {
+      "id": "7d2fded70dcc4dfabd0107de871fc15f",
+      "label": "拉脱维亚",
+      "value": "428",
+      "sort": 118
+    },
+    {
+      "id": "0b5b629f8d4c4f43947a14531f86e9eb",
+      "label": "黎巴嫩",
+      "value": "422",
+      "sort": 119
+    },
+    {
+      "id": "ef9502f6d77b4e808c19931ecacacce9",
+      "label": "莱索托",
+      "value": "426",
+      "sort": 120
+    },
+    {
+      "id": "db197d387f534ec0a84e83c3319c4f4f",
+      "label": "利比里亚",
+      "value": "430",
+      "sort": 121
+    },
+    {
+      "id": "5770ec5fccfb4a1aa77c9d3fc0f5f355",
+      "label": "利比亚",
+      "value": "434",
+      "sort": 122
+    },
+    {
+      "id": "0a2d912e6b364c0eb59decdda622eeb5",
+      "label": "列支敦士登",
+      "value": "438",
+      "sort": 123
+    },
+    {
+      "id": "69758a4925db455b8def63dc695492b6",
+      "label": "立陶宛",
+      "value": "440",
+      "sort": 124
+    },
+    {
+      "id": "c70928eac1ce423ca42216aa44bcb26d",
+      "label": "卢森堡",
+      "value": "442",
+      "sort": 125
+    },
+    {
+      "id": "ad4932058c544ba6a5b414c00d773b0e",
+      "label": "前南马其顿",
+      "value": "807",
+      "sort": 126
+    },
+    {
+      "id": "456a415c05e941778330b7716cf1f721",
+      "label": "马达加斯加",
+      "value": "450",
+      "sort": 127
+    },
+    {
+      "id": "68fcec0d162c47d9b76b5dd7d4e9a33f",
+      "label": "马拉维",
+      "value": "454",
+      "sort": 128
+    },
+    {
+      "id": "616d0cdfef8441dc86f9e16b6c8ee999",
+      "label": "马来西亚",
+      "value": "458",
+      "sort": 129
+    },
+    {
+      "id": "c0a93239f7ee47a1b369ec888be05a77",
+      "label": "马尔代夫",
+      "value": "462",
+      "sort": 130
+    },
+    {
+      "id": "6738df0dce594b9abc2f05a69a732558",
+      "label": "马里",
+      "value": "466",
+      "sort": 131
+    },
+    {
+      "id": "cc5a047600704254a51fa585e891db70",
+      "label": "马耳他",
+      "value": "470",
+      "sort": 132
+    },
+    {
+      "id": "0f457f215a4645fb8b3e73f9207594db",
+      "label": "马绍尔群岛",
+      "value": "584",
+      "sort": 133
+    },
+    {
+      "id": "f0347445ff7242179ba76d371e20a330",
+      "label": "马提尼克",
+      "value": "474",
+      "sort": 134
+    },
+    {
+      "id": "f46a946361034b23aed76ff625d3ea85",
+      "label": "毛里塔尼亚",
+      "value": "478",
+      "sort": 135
+    },
+    {
+      "id": "9d7b0ffee56f4fbfaac517b14274ef64",
+      "label": "毛里求斯",
+      "value": "480",
+      "sort": 136
+    },
+    {
+      "id": "f6f1469330d5454099ce611dda515ffe",
+      "label": "马约特",
+      "value": "175",
+      "sort": 137
+    },
+    {
+      "id": "db8b44b43a0f41d9a4c3225bbba8e7eb",
+      "label": "墨西哥",
+      "value": "484",
+      "sort": 138
+    },
+    {
+      "id": "73b3da5889b642849f45135d47b2c520",
+      "label": "密克罗尼西亚联邦",
+      "value": "583",
+      "sort": 139
+    },
+    {
+      "id": "a882d451a4c24ff38051af5d9c115c91",
+      "label": "摩尔多瓦",
+      "value": "498",
+      "sort": 140
+    },
+    {
+      "id": "e5e7a88bd6df4da9be00feddf82a7448",
+      "label": "摩纳哥",
+      "value": "492",
+      "sort": 141
+    },
+    {
+      "id": "95160e8b506547f9b4a562f127cb7232",
+      "label": "蒙古",
+      "value": "496",
+      "sort": 142
+    },
+    {
+      "id": "b82132423cd442dea51498bc48385a29",
+      "label": "蒙特塞拉特",
+      "value": "500",
+      "sort": 143
+    },
+    {
+      "id": "1604016d41ce4a9f9710d4f22f0ef3e2",
+      "label": "摩洛哥",
+      "value": "504",
+      "sort": 144
+    },
+    {
+      "id": "293fe99438204012b4f64b91c56367fb",
+      "label": "莫桑比克",
+      "value": "508",
+      "sort": 145
+    },
+    {
+      "id": "ca3ae8a3949049b3aa02985809ba71c8",
+      "label": "缅甸",
+      "value": "104",
+      "sort": 146
+    },
+    {
+      "id": "2064b41616024f8aa1693255ba27a065",
+      "label": "纳米比亚",
+      "value": "516",
+      "sort": 147
+    },
+    {
+      "id": "8f8501fc41784b7198fbd18e62c29d94",
+      "label": "瑙鲁",
+      "value": "520",
+      "sort": 148
+    },
+    {
+      "id": "d8758f39cf9c493c9ef2c3c890e2e8b2",
+      "label": "尼泊尔",
+      "value": "524",
+      "sort": 149
+    },
+    {
+      "id": "1de2c95e55cd4f3f86b652b3192250f4",
+      "label": "荷兰",
+      "value": "528",
+      "sort": 150
+    },
+    {
+      "id": "e7f47c50e278428f9121981519f087aa",
+      "label": "荷属安的列斯",
+      "value": "530",
+      "sort": 151
+    },
+    {
+      "id": "068159ac84f34ddc8a476159bae85a8a",
+      "label": "新喀里多尼亚",
+      "value": "540",
+      "sort": 152
+    },
+    {
+      "id": "fe73b069bcc24c05a0370e5915af1bde",
+      "label": "新西兰",
+      "value": "554",
+      "sort": 153
+    },
+    {
+      "id": "b673019d603d4c3489575a75d8dc89d9",
+      "label": "尼加拉瓜",
+      "value": "558",
+      "sort": 154
+    },
+    {
+      "id": "7456d225c83546d6b58dfb230155833d",
+      "label": "尼日尔",
+      "value": "562",
+      "sort": 156
+    },
+    {
+      "id": "9bef6fdd46d9444880dc09e04778403f",
+      "label": "尼日利亚",
+      "value": "566",
+      "sort": 157
+    },
+    {
+      "id": "018ded70464f4db59aa2608302ec17dd",
+      "label": "纽埃",
+      "value": "570",
+      "sort": 158
+    },
+    {
+      "id": "91390901610c4d909b6c8580d36c2ec8",
+      "label": "诺福克岛",
+      "value": "574",
+      "sort": 159
+    },
+    {
+      "id": "f6ed15ea1d9545ccbf0865ae10ff18d5",
+      "label": "北马里亚纳",
+      "value": "580",
+      "sort": 160
+    },
+    {
+      "id": "4529e819045b419580a146eb7edaf343",
+      "label": "挪威",
+      "value": "578",
+      "sort": 161
+    },
+    {
+      "id": "64009c5da11c4403ba3e374ca9e5b5ae",
+      "label": "阿曼",
+      "value": "512",
+      "sort": 161
+    },
+    {
+      "id": "6e097e8ec8604debaad46f505cfba2f6",
+      "label": "巴基斯坦",
+      "value": "586",
+      "sort": 162
+    },
+    {
+      "id": "008c5a9b33d14e7c88b89fa4762d0b78",
+      "label": "帕劳",
+      "value": "585",
+      "sort": 163
+    },
+    {
+      "id": "c57527e9b69d4e4d85a7b3fac0a92f2f",
+      "label": "巴勒斯坦",
+      "value": "275",
+      "sort": 164
+    },
+    {
+      "id": "ca60e84f68704711ac73c3c1b20bf6c7",
+      "label": "巴拿马",
+      "value": "591",
+      "sort": 165
+    },
+    {
+      "id": "c22cf7e61be146a38a8da62cb4d58248",
+      "label": "巴布亚新几内亚",
+      "value": "598",
+      "sort": 166
+    },
+    {
+      "id": "c11849429be64af88eaae7b5f55d6bdf",
+      "label": "巴拉圭",
+      "value": "600",
+      "sort": 167
+    },
+    {
+      "id": "5d00bbeef6c14334830feb4d68531fdc",
+      "label": "秘鲁",
+      "value": "604",
+      "sort": 168
+    },
+    {
+      "id": "452b543198d44a18ba270bc9a6a3820f",
+      "label": "菲律宾",
+      "value": "608",
+      "sort": 169
+    },
+    {
+      "id": "836a752578e343878ee5f77b87e749b9",
+      "label": "皮特凯恩群岛",
+      "value": "612",
+      "sort": 170
+    },
+    {
+      "id": "d87753ead3064917bb0612ec247c255e",
+      "label": "波兰",
+      "value": "616",
+      "sort": 171
+    },
+    {
+      "id": "6aaa092aa1a24144863adac240cfab0f",
+      "label": "葡萄牙",
+      "value": "620",
+      "sort": 172
+    },
+    {
+      "id": "82bfae74d5034e87aae491d0e2e5a44b",
+      "label": "波多黎各",
+      "value": "630",
+      "sort": 173
+    },
+    {
+      "id": "686d2621d38e4e63b50f13d3c2420874",
+      "label": "卡塔尔",
+      "value": "634",
+      "sort": 174
+    },
+    {
+      "id": "5a352da116654253829ff767830fa3ee",
+      "label": "留尼汪",
+      "value": "638",
+      "sort": 175
+    },
+    {
+      "id": "b9ecae41e79c436c834e70584b29e86b",
+      "label": "罗马尼亚",
+      "value": "642",
+      "sort": 176
+    },
+    {
+      "id": "2d6f879654d04b059200559890fe5c7f",
+      "label": "俄罗斯联邦",
+      "value": "643",
+      "sort": 177
+    },
+    {
+      "id": "3315cf67f65d4d5599d548af7fcce1fc",
+      "label": "卢旺达",
+      "value": "646",
+      "sort": 178
+    },
+    {
+      "id": "d790ed227c754a97bd1449c1f811007a",
+      "label": "圣赫勒拿",
+      "value": "654",
+      "sort": 179
+    },
+    {
+      "id": "ab0625b4c19c448e95f4b79d1a5d686a",
+      "label": "圣基茨和尼维斯",
+      "value": "659",
+      "sort": 180
+    },
+    {
+      "id": "15b9e4c0639444649a1d2a385ab137e6",
+      "label": "新加坡",
+      "value": "702",
+      "sort": 181
+    },
+    {
+      "id": "8920813e8db34bf1b252a6503ef1578d",
+      "label": "圣卢西亚",
+      "value": "662",
+      "sort": 181
+    },
+    {
+      "id": "c0b8cbdc68cd42e488bcd7b6eb061be3",
+      "label": "圣皮埃尔和密克隆",
+      "value": "666",
+      "sort": 182
+    },
+    {
+      "id": "14c86102255e404498f5c3434d4304e0",
+      "label": "圣文森特和格林纳丁斯",
+      "value": "670",
+      "sort": 183
+    },
+    {
+      "id": "84b2c30da4b54ac881482499f124f97e",
+      "label": "萨摩亚",
+      "value": "882",
+      "sort": 184
+    },
+    {
+      "id": "bbe58d6005ef4678b4b67d2ce88a5b6f",
+      "label": "圣马力诺",
+      "value": "674",
+      "sort": 185
+    },
+    {
+      "id": "d3bd8321736e4c4fa1fd305f4edadbfa",
+      "label": "圣多美和普林西比",
+      "value": "678",
+      "sort": 186
+    },
+    {
+      "id": "852b997c2b35424a8da37245a806f4b1",
+      "label": "沙特阿拉伯",
+      "value": "682",
+      "sort": 187
+    },
+    {
+      "id": "3c1a861aee13431ba23481efc122ca7e",
+      "label": "塞内加尔",
+      "value": "686",
+      "sort": 188
+    },
+    {
+      "id": "5b27b52a7a5d4bbfa8946707a8a92fcb",
+      "label": "塞舌尔",
+      "value": "690",
+      "sort": 189
+    },
+    {
+      "id": "d7b76f3608c948828af8622a00035c02",
+      "label": "塞拉利昂",
+      "value": "694",
+      "sort": 190
+    },
+    {
+      "id": "e51ac5d0c8b34bf49f7df8ec167fad0f",
+      "label": "新加坡",
+      "value": "702",
+      "sort": 191
+    },
+    {
+      "id": "0a3da2fa6e1a4ce9b67c7f4292134406",
+      "label": "斯洛伐克",
+      "value": "703",
+      "sort": 192
+    },
+    {
+      "id": "3174384e7c614f7f9082281403ef30f8",
+      "label": "斯洛文尼亚",
+      "value": "705",
+      "sort": 193
+    },
+    {
+      "id": "187046331ba041c1b5d5950673dca25d",
+      "label": "所罗门群岛",
+      "value": "90",
+      "sort": 194
+    },
+    {
+      "id": "5ebfa4d8a0ab4c14a9b0761a1b594fb8",
+      "label": "索马里",
+      "value": "706",
+      "sort": 195
+    },
+    {
+      "id": "8d74c8fee2c147a59eea2d92932eb38f",
+      "label": "南非",
+      "value": "710",
+      "sort": 197
+    },
+    {
+      "id": "4b7a9870ee47437eb8698ff1d349082e",
+      "label": "南乔治亚岛和南桑德韦奇岛",
+      "value": "239",
+      "sort": 198
+    },
+    {
+      "id": "9a58785361e0430b8b1592333b7a721e",
+      "label": "西班牙",
+      "value": "764",
+      "sort": 199
+    },
+    {
+      "id": "2af0c4bb2a47449aa4b4b77cf995510d",
+      "label": "斯里兰卡",
+      "value": "144",
+      "sort": 200
+    },
+    {
+      "id": "0767056901aa4ef3b17be137bd3d6a76",
+      "label": "苏丹",
+      "value": "736",
+      "sort": 201
+    },
+    {
+      "id": "012c699b021e4780964747f2bcbf38b0",
+      "label": "苏里南",
+      "value": "740",
+      "sort": 202
+    },
+    {
+      "id": "ecc26361a95f49ba9a9e5b906bb49172",
+      "label": "斯瓦尔巴群岛",
+      "value": "744",
+      "sort": 203
+    },
+    {
+      "id": "be4200e8da42457ba921967032fbd96c",
+      "label": "斯威士兰",
+      "value": "748",
+      "sort": 204
+    },
+    {
+      "id": "aa8f848e8eee4f1eb0db190a3d0da41b",
+      "label": "瑞典",
+      "value": "752",
+      "sort": 205
+    },
+    {
+      "id": "bc4a1b13ddb74c3183b6194908dcfd2c",
+      "label": "瑞士",
+      "value": "756",
+      "sort": 206
+    },
+    {
+      "id": "45f64080de9744feac734abcb1e6529e",
+      "label": "叙利亚",
+      "value": "760",
+      "sort": 207
+    },
+    {
+      "id": "5bdc21c0272f4a8f9f7c820b39d14458",
+      "label": "塔吉克斯坦",
+      "value": "762",
+      "sort": 208
+    },
+    {
+      "id": "6c81091f7d7a429eb23e50d809b436b3",
+      "label": "坦桑尼亚",
+      "value": "834",
+      "sort": 209
+    },
+    {
+      "id": "44d0738d4968484f9cdd527212550792",
+      "label": "泰国",
+      "value": "764",
+      "sort": 210
+    },
+    {
+      "id": "5b73a875be3e47d1b2eea9c9b7c80cca",
+      "label": "多哥",
+      "value": "768",
+      "sort": 211
+    },
+    {
+      "id": "88700a40a57b4d32b7aee7102b212785",
+      "label": "托克劳",
+      "value": "772",
+      "sort": 212
+    },
+    {
+      "id": "9dddd4d2f83847ef8bb5de6fc6c30ec0",
+      "label": "汤加",
+      "value": "776",
+      "sort": 213
+    },
+    {
+      "id": "a165a0668ce84097a0b9c8fc78cd1e10",
+      "label": "特立尼达和多巴哥",
+      "value": "780",
+      "sort": 214
+    },
+    {
+      "id": "b8735dda9dd74dff89a7881e741261d3",
+      "label": "突尼斯",
+      "value": "788",
+      "sort": 215
+    },
+    {
+      "id": "6850499ab1ea4d58ba3e7a2c2017e96e",
+      "label": "土耳其",
+      "value": "792",
+      "sort": 216
+    },
+    {
+      "id": "e6dd7366a83c47b6bdb63871689be2cc",
+      "label": "土库曼斯坦",
+      "value": "795",
+      "sort": 217
+    },
+    {
+      "id": "c24018f8f6614b348f676aadb91e9c3f",
+      "label": "特克斯科斯群岛",
+      "value": "796",
+      "sort": 218
+    },
+    {
+      "id": "d9f6684a03094f609bd9c6c4ae959f51",
+      "label": "图瓦卢",
+      "value": "798",
+      "sort": 219
+    },
+    {
+      "id": "96e5d451516043d682bbb42b0c98c75a",
+      "label": "乌干达",
+      "value": "800",
+      "sort": 220
+    },
+    {
+      "id": "f62a6929c50f42c79e277de88b8d00f3",
+      "label": "乌克兰",
+      "value": "804",
+      "sort": 221
+    },
+    {
+      "id": "abde076d19094645860542aae0ca659d",
+      "label": "阿联酋",
+      "value": "784",
+      "sort": 222
+    },
+    {
+      "id": "2794bbac2a544d529f78d69b7f5ef96a",
+      "label": "英国",
+      "value": "826",
+      "sort": 223
+    },
+    {
+      "id": "9721ae24bf9d4a9580af2a9710b9db09",
+      "label": "美国",
+      "value": "840",
+      "sort": 224
+    },
+    {
+      "id": "962b182e05fd4435b1453ae60ada0b31",
+      "label": "美国本土外小岛屿",
+      "value": "581",
+      "sort": 225
+    },
+    {
+      "id": "2ee49bc4fcda40668519e163e475e33c",
+      "label": "乌拉圭",
+      "value": "858",
+      "sort": 226
+    },
+    {
+      "id": "e32d741f9ec54a61bb3b67e4aa2960b3",
+      "label": "乌兹别克斯坦",
+      "value": "860",
+      "sort": 227
+    },
+    {
+      "id": "0c1e9679c86f40878f6a1f7de197aca9",
+      "label": "瓦努阿图",
+      "value": "548",
+      "sort": 228
+    },
+    {
+      "id": "9d22136cc00f41e08d7dbfa7dc5f16c8",
+      "label": "梵蒂冈",
+      "value": "336",
+      "sort": 229
+    },
+    {
+      "id": "4054e705004442c592819cdf53da5831",
+      "label": "委内瑞拉",
+      "value": "862",
+      "sort": 230
+    },
+    {
+      "id": "c1b03c78d21b422d8079ae715bc78fd2",
+      "label": "越南",
+      "value": "704",
+      "sort": 231
+    },
+    {
+      "id": "0ae98842a3334c0dae21ad9700f54ccb",
+      "label": "英属维尔京群岛",
+      "value": "92",
+      "sort": 232
+    },
+    {
+      "id": "afc5e9b899ed4a7d8b317004e1125d1a",
+      "label": "美属维尔京群岛",
+      "value": "850",
+      "sort": 233
+    },
+    {
+      "id": "46ee42720c694cf0ad10200ce0c34337",
+      "label": "瓦利斯和富图纳",
+      "value": "876",
+      "sort": 234
+    },
+    {
+      "id": "08ae8dfad711469888374365f026fa76",
+      "label": "西撒哈拉",
+      "value": "732",
+      "sort": 235
+    },
+    {
+      "id": "8cbcb352b4de4f8a8900aa3da1c718c3",
+      "label": "也门",
+      "value": "887",
+      "sort": 236
+    },
+    {
+      "id": "62a851867c7b4674921d1ef358c27dcd",
+      "label": "南斯拉夫",
+      "value": "891",
+      "sort": 237
+    },
+    {
+      "id": "ecaa44995c5046529ed342ca92896ec1",
+      "label": "赞比亚",
+      "value": "894",
+      "sort": 238
+    },
+    {
+      "id": "fdb28662c5c3463486d1df5ae2ddd860",
+      "label": "津巴布韦",
+      "value": "716",
+      "sort": 239
+    }
+  ],
+  "attention_degree": [
+    {
+      "id": "f837493b209f4c7e86d7d80ca9260e16",
+      "label": "高",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "72854e206db54ffd92af2248ad14ba97",
+      "label": "中",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "68c2e9719d6c47d2ac865ba6d073a097",
+      "label": "低",
+      "value": "03",
+      "sort": 3
+    }
+  ],
+  "case_category": [
+    {
+      "id": "fc7e904778f64370b2358879b457485e",
+      "label": "危害国家安全案",
+      "value": "010000",
+      "sort": 1
+    },
+    {
+      "id": "ac9ada94730446f0be45efe050a70eb9",
+      "label": "危害公共安全案",
+      "value": "020000",
+      "sort": 2
+    },
+    {
+      "id": "b454dc5767de451c84c9ae8df7032b2b",
+      "label": "破坏社会主义市场经济秩序案",
+      "value": "030000",
+      "sort": 3
+    },
+    {
+      "id": "505c3cf4aab64bf9b571a6db6be0201b",
+      "label": "侵害公民人身权利、民主权利案",
+      "value": "040000",
+      "sort": 4
+    },
+    {
+      "id": "4d81498a4e0c458589668c4bf90debba",
+      "label": "侵犯财产案",
+      "value": "050000",
+      "sort": 5
+    },
+    {
+      "id": "ed3d827ac24446f788aba4126610a80c",
+      "label": "妨害社会管理秩序案",
+      "value": "060000",
+      "sort": 6
+    }
+  ],
+  "on_line_type": [
+    {
+      "id": "5c284c5a401f48b28a12c2f523395572",
+      "label": "在线",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "008ba1f027ee46d99abee9ab734893b7",
+      "label": "不在线",
+      "value": "2",
+      "sort": 2
+    }
+  ],
+  "house_property_type": [
+    {
+      "id": "3de4c3d2a04944339044ccac00c512fc",
+      "label": "购买商品房",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "84602187ff524756b3a66769c9d60afc",
+      "label": "经济适用房",
+      "value": "1",
+      "sort": 2
+    },
+    {
+      "id": "ecfd56a7e4bb4561b93452c3d1f00350",
+      "label": "其它",
+      "value": "2",
+      "sort": 3
+    }
+  ],
+  "credentials_type": [
+    {
+      "id": "d91976a6ff754d8aaaabb6fb8752707f",
+      "label": "身份证",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527071",
+      "label": "军人证",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527072",
+      "label": "护照",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527073",
+      "label": "外国人永久居留证",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527074",
+      "label": "武警证",
+      "value": "5",
+      "sort": 5
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527075",
+      "label": "工商营业执照",
+      "value": "6",
+      "sort": 6
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527076",
+      "label": "法人代码证",
+      "value": "7",
+      "sort": 7
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527077",
+      "label": "学生证",
+      "value": "8",
+      "sort": 8
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527078",
+      "label": "士兵证",
+      "value": "9",
+      "sort": 9
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527079",
+      "label": "港澳居民来往内地通行证",
+      "value": "10",
+      "sort": 10
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527010",
+      "label": "台湾居民来往内地通行证",
+      "value": "11",
+      "sort": 11
+    },
+    {
+      "id": "d91976a6ff754d8aaaabb6fb87527011",
+      "label": "其他证件类型",
+      "value": "12",
+      "sort": 12
+    }
+  ],
+  "schedule_task_info": [
+    {
+      "id": "eac171acc70b40e59b436817752aae9b",
+      "label": "超级管理员",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "b2995896020e48fcac899f54e494e529",
+      "label": "所有用户",
+      "value": "2",
+      "sort": 20
+    }
+  ],
+  "nation_type": [
+    {
+      "id": "7373c315caf34296827e1019594606b3",
+      "label": "汉族",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "ab42b4644488449f981e84c78010314d",
+      "label": "壮族",
+      "value": "8",
+      "sort": 2
+    },
+    {
+      "id": "86c9d895ab8544fd93fdb4b8ea1e6f00",
+      "label": "回族",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "ebb0b7a2ce4d4eaba3f3c2df11e307e1",
+      "label": "藏族",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "12080f235c6e4ba58106810eaa2d35d9",
+      "label": "维吾尔族",
+      "value": "5",
+      "sort": 5
+    },
+    {
+      "id": "58c0a2794dba4edbbb0ea49a0aff6ae3",
+      "label": "苗族",
+      "value": "6",
+      "sort": 6
+    },
+    {
+      "id": "a884f45a1bca4b879c1c7866349be2c0",
+      "label": "彝族",
+      "value": "7",
+      "sort": 7
+    },
+    {
+      "id": "9deedc38da5440278b7f51d580abeccb",
+      "label": "布依族",
+      "value": "9",
+      "sort": 9
+    },
+    {
+      "id": "c422bb4335fb4080a890ea01ceaa1028",
+      "label": "蒙古族",
+      "value": "2",
+      "sort": 10
+    },
+    {
+      "id": "eb4bdde48f81464e850a6a653541efe3",
+      "label": "朝鲜族",
+      "value": "10",
+      "sort": 10
+    },
+    {
+      "id": "3711497edede47ba879e8a20ae14540c",
+      "label": "满族",
+      "value": "11",
+      "sort": 11
+    },
+    {
+      "id": "5d992502215344a7be5d0455ff4bf542",
+      "label": "侗族",
+      "value": "12",
+      "sort": 12
+    },
+    {
+      "id": "d4e5dcbf36fc47f9b635fba65d1f08d7",
+      "label": "瑶族",
+      "value": "13",
+      "sort": 13
+    },
+    {
+      "id": "65fa6ee994c242f7af8c0744eec23748",
+      "label": "白族",
+      "value": "14",
+      "sort": 14
+    },
+    {
+      "id": "b1c9e864d14d4e8fb6166f9419c1e770",
+      "label": "土家族",
+      "value": "15",
+      "sort": 15
+    },
+    {
+      "id": "9954a87ebfa0407e8dcc6280c7ae5dec",
+      "label": "哈尼族",
+      "value": "16",
+      "sort": 16
+    },
+    {
+      "id": "8d40e6b346ff4f3db1b4aa5628ebc11f",
+      "label": "哈萨克族",
+      "value": "17",
+      "sort": 17
+    },
+    {
+      "id": "b76a2f4d1a894842b2d1f2a47bd64cef",
+      "label": "傣族",
+      "value": "18",
+      "sort": 18
+    },
+    {
+      "id": "fb017889ab9f40cd85c81a28f9add5cf",
+      "label": "黎族",
+      "value": "19",
+      "sort": 19
+    },
+    {
+      "id": "024c7c75467a4321bc02a392139358c2",
+      "label": "傈僳族",
+      "value": "20",
+      "sort": 20
+    },
+    {
+      "id": "b749154e6bcf420e97cf34c7af5643bc",
+      "label": "佤族",
+      "value": "21",
+      "sort": 21
+    },
+    {
+      "id": "b0eba1f9c3b148aa9fa5789c87507206",
+      "label": "畲族",
+      "value": "222",
+      "sort": 22
+    },
+    {
+      "id": "827fffac37a14ae89c3aec4c276efbb4",
+      "label": "高山族",
+      "value": "23",
+      "sort": 23
+    },
+    {
+      "id": "830388e415b345afbc61ca5b3710dcc2",
+      "label": "拉祜族",
+      "value": "24",
+      "sort": 24
+    },
+    {
+      "id": "00b01eb4f5974b6396b21593a8508869",
+      "label": "水族",
+      "value": "25",
+      "sort": 25
+    },
+    {
+      "id": "720c8194c7ab449182f54ad9d3a393e6",
+      "label": "东乡族",
+      "value": "26",
+      "sort": 26
+    },
+    {
+      "id": "06f00ad43dcc4da1842682fc4748f498",
+      "label": "纳西族",
+      "value": "27",
+      "sort": 27
+    },
+    {
+      "id": "dd1c1d79c4b94e51a362770d86ace50e",
+      "label": "景颇族",
+      "value": "28",
+      "sort": 28
+    },
+    {
+      "id": "78964101bca54f8cb7f8441396dca80a",
+      "label": "柯尔克孜族",
+      "value": "29",
+      "sort": 29
+    },
+    {
+      "id": "70fe36057ffe40f583be7dfe9960b13d",
+      "label": "土族",
+      "value": "30",
+      "sort": 30
+    },
+    {
+      "id": "861189e8cd75453ca73653683be8191e",
+      "label": "达翰尔族",
+      "value": "31",
+      "sort": 31
+    },
+    {
+      "id": "19a689fda26a4a53a392dc4849f19346",
+      "label": "么佬族",
+      "value": "32",
+      "sort": 32
+    },
+    {
+      "id": "45235deb62af4182b9bd7213f3d2b453",
+      "label": "羌族",
+      "value": "33",
+      "sort": 33
+    },
+    {
+      "id": "7b89f074c7444237a6609379d53a2d8e",
+      "label": "布朗族",
+      "value": "34",
+      "sort": 34
+    },
+    {
+      "id": "c78b566e6a8441b9bf465a57f80d71f9",
+      "label": "撒拉族",
+      "value": "35",
+      "sort": 35
+    },
+    {
+      "id": "bdf1ff16018d4c76bd97ec1db7ebd262",
+      "label": "毛南族",
+      "value": "36",
+      "sort": 36
+    },
+    {
+      "id": "5de54bab687f41ff8d1c81bd94760e67",
+      "label": "仡佬族",
+      "value": "37",
+      "sort": 37
+    },
+    {
+      "id": "fa8dede8d2cd4a7dabf6813869e66ac8",
+      "label": "锡伯族",
+      "value": "38",
+      "sort": 38
+    },
+    {
+      "id": "6636592ec7fe48f090ade893b4266e6a",
+      "label": "阿昌族",
+      "value": "39",
+      "sort": 39
+    },
+    {
+      "id": "ea91fc91900c45fcb05b03c200e5c0ac",
+      "label": "塔吉克族",
+      "value": "41",
+      "sort": 41
+    },
+    {
+      "id": "398feb4e918842ae90a7dd54c7641157",
+      "label": "怒族",
+      "value": "42",
+      "sort": 42
+    },
+    {
+      "id": "1eee1c3fc31a4a7784271579e5a0247b",
+      "label": "乌孜别克族",
+      "value": "43",
+      "sort": 43
+    },
+    {
+      "id": "03bafe8b9797475a880dcee1e085def7",
+      "label": "俄罗斯族",
+      "value": "44",
+      "sort": 44
+    },
+    {
+      "id": "918ce706643242bfa20a2e3a81dcb6b7",
+      "label": "鄂温克族",
+      "value": "45",
+      "sort": 45
+    },
+    {
+      "id": "616b9ec7f3084e5bafe7be8b17b8a177",
+      "label": "德昂族",
+      "value": "46",
+      "sort": 46
+    },
+    {
+      "id": "6b96236d218e4366bdcd9785d29cb245",
+      "label": "保安族",
+      "value": "47",
+      "sort": 47
+    },
+    {
+      "id": "6159b87c8faa4e07b015196a1d38e3b1",
+      "label": "裕固族",
+      "value": "48",
+      "sort": 48
+    },
+    {
+      "id": "291b3b63c6c7425abcf9f2d11979a97e",
+      "label": "京族",
+      "value": "49",
+      "sort": 49
+    },
+    {
+      "id": "49f71548ce89488ab98c69e356a79591",
+      "label": "塔塔尔族",
+      "value": "50",
+      "sort": 50
+    },
+    {
+      "id": "98376df446694d619f7ca6a6fb6b15ff",
+      "label": "普米族",
+      "value": "40",
+      "sort": 50
+    },
+    {
+      "id": "b549d92d33a24f519bb42efe487971a1",
+      "label": "独龙族",
+      "value": "51",
+      "sort": 51
+    },
+    {
+      "id": "41821129e75c4f9ab6a7dd831b29ac89",
+      "label": "鄂伦春族",
+      "value": "52",
+      "sort": 52
+    },
+    {
+      "id": "4035bded0a944bb19cf58fd9e835b0c2",
+      "label": "赫哲族",
+      "value": "53",
+      "sort": 53
+    },
+    {
+      "id": "f9ae056371454028b7368204d7375fea",
+      "label": "门巴族",
+      "value": "54",
+      "sort": 54
+    },
+    {
+      "id": "52a6f228111449518c2b96e6d9a7d8dc",
+      "label": "珞巴族",
+      "value": "55",
+      "sort": 55
+    },
+    {
+      "id": "4ab472f4c4694a4aa4a74570cb421769",
+      "label": "基诺族",
+      "value": "56",
+      "sort": 56
+    },
+    {
+      "id": "ed8a6284d0f6425b8b6430ea71108d33",
+      "label": "华侨",
+      "value": "57",
+      "sort": 57
+    },
+    {
+      "id": "5c9b78db044b4354852eddb6ab8ec4bc",
+      "label": "港澳人",
+      "value": "58",
+      "sort": 58
+    },
+    {
+      "id": "e9926599037e4feeb2ce163b751b828f",
+      "label": "台湾人",
+      "value": "59",
+      "sort": 59
+    },
+    {
+      "id": "1febb190de0840db86402a31b21aa016",
+      "label": "其他",
+      "value": "99",
+      "sort": 99
+    }
+  ],
+  "person_type": [
+    {
+      "id": "c8be1730c7224233a50646381346c041",
+      "label": "闲散青少年",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "a09147b5090741cebee86aa7b0b61a66",
+      "label": "有不良行为和严重不良行为青少年",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "77a44ad2fc724a939e0c75563190847c",
+      "label": "流浪乞讨未成年人",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "944098c113a44f39a11acb6804f332e3",
+      "label": "服刑人员未成年子女",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "dce77273dd2a495aa750644dcb5dbf2f",
+      "label": "农村留守儿童",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "e9c99947960e465c821c020f0fa0d6c7",
+      "label": "其他",
+      "value": "99",
+      "sort": 6
+    }
+  ],
+  "support_case": [
+    {
+      "id": "5c58de718b90465bb996fda4b4a5c9cc",
+      "label": "民政",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "91d66032d31142f0a193b3b0c6946310",
+      "label": "卫生",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "5c15440539ab4adf92f3eac8570c09a7",
+      "label": "公安",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "563689b9f3b84ee895c82e98f38c5822",
+      "label": "残联",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "37d25fbb47ba48e59e1d1d87b6753e01",
+      "label": "街道办事处或者乡镇政府",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "b0cc959f4a6440619233834a408d19af",
+      "label": "非政府组织",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "5174c554893e466e9c6c3a7be56fd10e",
+      "label": "其他",
+      "value": "99",
+      "sort": 7
+    }
+  ],
+  "social_organization_type": [
+    {
+      "id": "dcb1ac5b3ccc41a59bfd7f9b3d110fed",
+      "label": "社会团体",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "9521913d6fad487f8710f56e0a70f0b4",
+      "label": "民办非企业单位",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "dccca96a2de04ce0a8bdf10ddaa1f679",
+      "label": "基金会",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "2a94c6c73f714ed9be6331f8ce602ccd",
+      "label": "其他",
+      "value": "99",
+      "sort": 4
+    }
+  ],
+  "house_use": [
+    {
+      "id": "2f178271179249979c5816562443264b",
+      "label": "住宅",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "e1543f5da2284d21adb2e27fc9039dd0",
+      "label": "商业",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "38f41dd76bc34873ba342b4ab0d27020",
+      "label": "办公",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "98279ccc57aa4079b35de85731a6cc26",
+      "label": "工业",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "04af7f800bb14f4598dd1132113c82a5",
+      "label": "仓储",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "831e64bcc1ea48e38d5eeb3f32a549b3",
+      "label": "商住混用",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "ee63af6066804662a47e4a92a514623e",
+      "label": "其他",
+      "value": "99",
+      "sort": 7
+    }
+  ],
+  "oa_notify_status": [
+    {
+      "id": "108",
+      "label": "草稿",
+      "value": "0",
+      "sort": 10
+    },
+    {
+      "id": "109",
+      "label": "发布",
+      "value": "1",
+      "sort": 20
+    }
+  ],
+  "im_event_type": [
+    {
+      "id": "c55196dd84d943b89f14140a750c80ac",
+      "label": "提示消息",
+      "value": "msgInfo",
+      "sort": 1
+    },
+    {
+      "id": "dc6d06602ac84e849496186a9a5045ee",
+      "label": "成功消息",
+      "value": "msgSuccess",
+      "sort": 2
+    },
+    {
+      "id": "45197207c07345cea73fce9386f2c035",
+      "label": "警告消息",
+      "value": "msgWarn",
+      "sort": 3
+    },
+    {
+      "id": "e977ac637d284319af85dc3d98eac8b0",
+      "label": "错误消息",
+      "value": "msgError",
+      "sort": 4
+    },
+    {
+      "id": "1329990d92474e2f85719064351c824f",
+      "label": "提示弹窗",
+      "value": "notifyInfo",
+      "sort": 5
+    },
+    {
+      "id": "ee43f4f38b1844f480b220c10a417d74",
+      "label": "成功弹窗",
+      "value": "notifySuccess",
+      "sort": 6
+    },
+    {
+      "id": "473352ba02e34536815c1dec8ba06ca7",
+      "label": "警告弹窗",
+      "value": "notifyWarn",
+      "sort": 7
+    },
+    {
+      "id": "48b4882e90aa4d5d93f18642933a9b55",
+      "label": "错误弹窗",
+      "value": "notifyError",
+      "sort": 8
+    },
+    {
+      "id": "7c144a061ce24044b1d1a1220ad27edc",
+      "label": "路由跳转",
+      "value": "routerRedirect",
+      "sort": 9
+    },
+    {
+      "id": "e72a00d0eb0e41f69dc94bfb9b67d71b",
+      "label": "路由刷新",
+      "value": "routerRefresh",
+      "sort": 10
+    },
+    {
+      "id": "170c91563905438b882176f0a9c6dfca",
+      "label": "路由关闭",
+      "value": "routerClose",
+      "sort": 11
+    },
+    {
+      "id": "d1098fad714547579442fe3689afb2c7",
+      "label": "退出登录",
+      "value": "routerLogout",
+      "sort": 12
+    }
+  ],
+  "household_economy": [
+    {
+      "id": "d811acbf394b4284b01302021cb800e3",
+      "label": "无固定经济来源",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "6241191439c344709571ac4e06e4349f",
+      "label": "有固定经济来源",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "820e476ed5ca4d028af32cb88db8a18a",
+      "label": "低收入家庭",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "b740701bc453477b8fad9acc1e60c26c",
+      "label": "贫困",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "b8c824694fb249ccaf2167cc34f4b0f0",
+      "label": "其他",
+      "value": "99",
+      "sort": 5
+    }
+  ],
+  "theme": [
+    {
+      "id": "7cb7addc38514c9db568c629ed26fbf9",
+      "label": "default",
+      "value": "default",
+      "sort": 1
+    },
+    {
+      "id": "627f89a30f9047d0bd3f993fb7eff7dd",
+      "label": "default-dark",
+      "value": "default-dark",
+      "sort": 2
+    },
+    {
+      "id": "317639faa30846ee9faeb06e0bce11c9",
+      "label": "green",
+      "value": "green",
+      "sort": 3
+    },
+    {
+      "id": "bbd7e4a19edc422cbea2ba144f0e2430",
+      "label": "green-dark",
+      "value": "green-dark",
+      "sort": 4
+    },
+    {
+      "id": "472d017ca73d48c49d6c6509f1c1acfb",
+      "label": "gray",
+      "value": "gray",
+      "sort": 5
+    },
+    {
+      "id": "e206f5625529473c861181846c9e03f9",
+      "label": "gray-dark",
+      "value": "gray-dark",
+      "sort": 6
+    },
+    {
+      "id": "414317faceb34fee8ebaf31d08926bd8",
+      "label": "blue",
+      "value": "blue",
+      "sort": 7
+    },
+    {
+      "id": "f027adf9d69a43c7856fcb1601a1db8f",
+      "label": "blue-dark",
+      "value": "blue-dark",
+      "sort": 8
+    },
+    {
+      "id": "04bfdef776b34bef9b08eb655a916af0",
+      "label": "purple",
+      "value": "purple",
+      "sort": 9
+    },
+    {
+      "id": "064fd7b6021e45af820bdb5399a3f609",
+      "label": "purple-dark",
+      "value": "purple-dark",
+      "sort": 10
+    },
+    {
+      "id": "71a3ce0324b24f2b9c45cf4f004ab5fd",
+      "label": "megna",
+      "value": "megna",
+      "sort": 11
+    },
+    {
+      "id": "33107c8af62341a186d72a0e49416e0f",
+      "label": "megna-dark",
+      "value": "megna-dark",
+      "sort": 12
+    }
+  ],
+  "deal_rate": [
+    {
+      "id": "a639b2163c8446a39afa4de1ddc7fa8a",
+      "label": "未办理",
+      "value": "not_deal",
+      "sort": 1
+    },
+    {
+      "id": "24524aa5a1fe4b08ad1ba88d4a8d75f9",
+      "label": "办理中",
+      "value": "dealing",
+      "sort": 2
+    },
+    {
+      "id": "0ebfb75995b940619204efade3ccb27c",
+      "label": "已办理",
+      "value": "dealed",
+      "sort": 3
+    }
+  ],
+  "infection_route": [
+    {
+      "id": "b3b62124c1984447ab52c5251b6b8edb",
+      "label": "异性性传播",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "c8073b4ad6c34221979ebfc88ea2e898",
+      "label": "同性性传播",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "3751658fb3404e018ff360d0e750bf0f",
+      "label": "注射毒品传播",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "0b89e337297c4e12bb9dcc50a24672f9",
+      "label": "母婴传播",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "b9d34811d8d146cb8fbd3b0225721a11",
+      "label": "输血及使用血制品传播",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "5c274c9972fa4fa38d1d1222a5ab2357",
+      "label": "性接触加注射毒品传播",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "f4a6f98c215f4262a5fbc328cac7f14b",
+      "label": "既往采血浆传播",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "704b92e3dac749a991e1bf4afba177b1",
+      "label": "不祥",
+      "value": "99",
+      "sort": 8
+    }
+  ],
+  "house_type": [
+    {
+      "id": "a5b658d1cd7c40c7b0a2faf5f1af2701",
+      "label": "1室1厅1卫",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "d8e9bb57200a4b81892cfe79255cd3ad",
+      "label": "2室1厅1卫",
+      "value": "1",
+      "sort": 2
+    },
+    {
+      "id": "68b71c80f61f4970992a074a7264b7d8",
+      "label": "2室厅1卫",
+      "value": "2",
+      "sort": 3
+    },
+    {
+      "id": "ef124367e92d49d79c43ff308ebde085",
+      "label": "3室1厅1卫",
+      "value": "3",
+      "sort": 4
+    },
+    {
+      "id": "895facd82cd34f38a57201b5933380c3",
+      "label": "3室2厅1卫",
+      "value": "4",
+      "sort": 5
+    }
+  ],
+  "holdings": [
+    {
+      "id": "6bd98ce643d349dbb0bd0666cb3b72f9",
+      "label": "国有控股",
+      "value": "110",
+      "sort": 1
+    },
+    {
+      "id": "f559dd9ef58143c5b7112b3a8c177035",
+      "label": "集体控股",
+      "value": "120",
+      "sort": 2
+    },
+    {
+      "id": "64ea6b67499a481fb3af13ea30f482c0",
+      "label": "私人控股",
+      "value": "210",
+      "sort": 3
+    },
+    {
+      "id": "627208f1a14c4ba8acba6f0e68d390d0",
+      "label": "港澳台控股",
+      "value": "220",
+      "sort": 4
+    },
+    {
+      "id": "85e6c29bf0d44baca9b2f5d57dd3761c",
+      "label": "外商控股",
+      "value": "230",
+      "sort": 5
+    }
+  ],
+  "oa_notify_type": [
+    {
+      "id": "105",
+      "label": "会议通告",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "106",
+      "label": "奖惩通告",
+      "value": "2",
+      "sort": 20
+    },
+    {
+      "id": "107",
+      "label": "活动通知",
+      "value": "3",
+      "sort": 30
+    }
+  ],
+  "table_type": [
+    {
+      "id": "5b899603552c48519e7ba8eb9da0b41f",
+      "label": "单表",
+      "value": "0",
+      "sort": 10
+    },
+    {
+      "id": "0a22f3278a624882a822e0820f27efcb",
+      "label": "主表",
+      "value": "1",
+      "sort": 20
+    },
+    {
+      "id": "cc94b0c5df554a46894991210a5fc486",
+      "label": "附表",
+      "value": "2",
+      "sort": 30
+    },
+    {
+      "id": "bde6043665ef4571b85d0edab667cd15",
+      "label": "树结构表",
+      "value": "3",
+      "sort": 40
+    },
+    {
+      "id": "1b265b5f6f274429a8298d8e5e40d286",
+      "label": "左树(主表)",
+      "value": "4",
+      "sort": 50
+    },
+    {
+      "id": "5b4f93870ce14e449becc07280f31be9",
+      "label": "右表(附表)",
+      "value": "5",
+      "sort": 60
+    },
+    {
+      "id": "4387b2f3a54a4078af410618e97d8148",
+      "label": "工作流表单",
+      "value": "6",
+      "sort": 70
+    }
+  ],
+  "treated_case": [
+    {
+      "id": "42f14947c4454878aff94a2e60dcc187",
+      "label": "无",
+      "value": "00",
+      "sort": 1
+    },
+    {
+      "id": "350816ec37314ae0aa07643cdeba836a",
+      "label": "羁押",
+      "value": "01",
+      "sort": 2
+    },
+    {
+      "id": "42e6409e20454fa2ac305315f43b745f",
+      "label": "抗病毒治疗",
+      "value": "02",
+      "sort": 3
+    },
+    {
+      "id": "aa0e3ffef07246ab805443d5633458ad",
+      "label": "戒毒药物维持治疗",
+      "value": "03",
+      "sort": 4
+    },
+    {
+      "id": "bceb031486b64e4d80aacc4bbbebcc06",
+      "label": "其他",
+      "value": "99",
+      "sort": 5
+    }
+  ],
+  "dispute_defuse_type": [
+    {
+      "id": "4ca9f698789d42a19d94ef59a51a43e1",
+      "label": "行政调解",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "9f2af2693ac0459f812f01566df7faa2",
+      "label": "司法调解",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "6dd1986c93704379bb89a55c1ce43c77",
+      "label": "人民调解",
+      "value": "3",
+      "sort": 3
+    }
+  ],
+  "family_condition": [
+    {
+      "id": "b673c790c0984f31b6cae4a55d9eb86f",
+      "label": "低收入家庭",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "dd78f75dba4349488277fd9fe300e105",
+      "label": "单亲家庭",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "6e494e465cf04bb08ecfca18e829dad2",
+      "label": "流动家庭",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "1da18c02d7464e0a89f8b11bc5a99a73",
+      "label": "抚养人受教育水平相对较低",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "eaf1107e6bde44f3b2fde2948a53d9e6",
+      "label": "与父母关系不融洽",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "c6613c7624e9434a8e9322d091edde29",
+      "label": "家庭成员的不良行为多",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "3634a2e2bccc430bbd8b462ba19e3b85",
+      "label": "其他",
+      "value": "99",
+      "sort": 7
+    }
+  ],
+  "act_category": [
+    {
+      "id": "71",
+      "label": "常用流程",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "72",
+      "label": "办公流程",
+      "value": "2",
+      "sort": 20
+    }
+  ],
+  "involved_area": [
+    {
+      "id": "564046c17d654d558a5ebf14474b3631",
+      "label": "学校周边",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "e10a97bae24e4db39546e023649fb5c7",
+      "label": "交通场站",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "e5f2553b4d83460eb317e2493b3f0954",
+      "label": "娱乐场所",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "db6d9212fb87486786ee844dafbe6610",
+      "label": "集贸市场",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "35c7cd629b9f40b684b1a2e07afd6aa9",
+      "label": "城乡结合部",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "8b17c79f239b4f3dbcdd70673d476509",
+      "label": "重点线路",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "14b2dc044b1642a79a069d538ec80de3",
+      "label": "其他",
+      "value": "99",
+      "sort": 7
+    }
+  ],
+  "sys_office_type": [
+    {
+      "id": "21",
+      "label": "公司",
+      "value": "1",
+      "sort": 60
+    },
+    {
+      "id": "22",
+      "label": "部门",
+      "value": "2",
+      "sort": 70
+    },
+    {
+      "id": "23",
+      "label": "小组",
+      "value": "3",
+      "sort": 80
+    },
+    {
+      "id": "24",
+      "label": "其它",
+      "value": "4",
+      "sort": 90
+    }
+  ],
+  "sex": [
+    {
+      "id": "db5e865f6bcf4a23b018087760ff0d71",
+      "label": "男性",
+      "value": "1",
+      "sort": 2
+    },
+    {
+      "id": "17764b3009f34ba18181601ff4241a56",
+      "label": "女性",
+      "value": "2",
+      "sort": 3
+    },
+    {
+      "id": "c0a5f8a8af82437aaa695bfb8a568114",
+      "label": "未说明的性别",
+      "value": "9",
+      "sort": 4
+    },
+    {
+      "id": "23cf66b190c945c68e75b2f3eeda6107",
+      "label": "未知的性别",
+      "value": "0",
+      "sort": 5
+    }
+  ],
+  "accept_type": [
+    {
+      "id": "1de71841851f4c7ab8082bf5f92d0808",
+      "label": "自行报道",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "83558aa873214901b1e6d86fefc884cd",
+      "label": "狱所押送",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "48fa98b1be12403da6a5d6a368c62780",
+      "label": "当庭交接",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "d52b39a0fb084d82bc9e4339265a397c",
+      "label": "其他",
+      "value": "99",
+      "sort": 4
+    }
+  ],
+  "sys_area_type": [
+    {
+      "id": "17",
+      "label": "国家",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "18",
+      "label": "省份、直辖市",
+      "value": "2",
+      "sort": 20
+    },
+    {
+      "id": "19",
+      "label": "地市",
+      "value": "3",
+      "sort": 30
+    },
+    {
+      "id": "20",
+      "label": "区县",
+      "value": "4",
+      "sort": 40
+    }
+  ],
+  "effect_appraisal": [
+    {
+      "id": "c10668a2d3ec4ac790f1a30b4e738f67",
+      "label": "好",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "a0f09c48774d40fc8a70805e7fcf3993",
+      "label": "较好",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "f4fe6480c2b94d50bd1653efe58e7742",
+      "label": "差",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "883f15fcf3c64ab68ba0c1435d13b2a5",
+      "label": "较差",
+      "value": "04",
+      "sort": 4
+    }
+  ],
+  "sys_office_nature": [
+    {
+      "id": "a244412693c6438fbc33eaee8c465c3a",
+      "label": "行政机构",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "ab1ca1ffcff2439fbf616fdee429d2a3",
+      "label": "党委机构",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "3d25ba16def44a7189a7f9be70daa691",
+      "label": "党政机构",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "a301c7ea2cd7455d812c7c088e8ff706",
+      "label": "企事业单位",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "104eb634e14a4fe481c1efddcddb6cf3",
+      "label": "综治中心",
+      "value": "5",
+      "sort": 5
+    }
+  ],
+  "vocation": [
+    {
+      "id": "d69febcad06c4e6390efd8ccfff95a70",
+      "label": "公务员",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "29c13545e78642a7a0b04a350fe248ae",
+      "label": "退休法官",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "64008786a17b4880986b836c301e6099",
+      "label": "退休检察官",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "363d081d428745289c323bf5ff736ee2",
+      "label": "退休警官",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "4af6073ce15046d884df2ba282420226",
+      "label": "退休司法行政人员",
+      "value": "5",
+      "sort": 5
+    },
+    {
+      "id": "9d0992c2e9e44f2c92cb3b62713ed685",
+      "label": "其他退休公务员",
+      "value": "6",
+      "sort": 6
+    },
+    {
+      "id": "65cf4cb9062b459b8433eb9431651726",
+      "label": "农民",
+      "value": "7",
+      "sort": 7
+    },
+    {
+      "id": "7b5bb773ab494ca7af881519c8759a28",
+      "label": "工人",
+      "value": "8",
+      "sort": 8
+    },
+    {
+      "id": "099c1c6a3e8c48b4914f5af1d7bc6324",
+      "label": "会计",
+      "value": "9",
+      "sort": 9
+    },
+    {
+      "id": "f2451f5ffe024f2d85156facec0f92f0",
+      "label": "教师",
+      "value": "10",
+      "sort": 10
+    },
+    {
+      "id": "fc61c028c351440fa1b4b6ef7ba7d17a",
+      "label": "医生",
+      "value": "11",
+      "sort": 11
+    },
+    {
+      "id": "1bc757a6f6d24e3a9da1aeb417b52a67",
+      "label": "律师",
+      "value": "12",
+      "sort": 12
+    },
+    {
+      "id": "a7d0e58840b94022bde62269d90c364a",
+      "label": "基层法律服务工作者",
+      "value": "13",
+      "sort": 13
+    },
+    {
+      "id": "fb956659da164d98ae750cd620188fdd",
+      "label": "退伍军人",
+      "value": "14",
+      "sort": 14
+    },
+    {
+      "id": "cfcd205cd9484dd8bd4b9a005d7d737a",
+      "label": "村（居）委会干部",
+      "value": "15",
+      "sort": 15
+    },
+    {
+      "id": "97d5b7634a724fd2a07825883c20da3e",
+      "label": "大学生村官",
+      "value": "16",
+      "sort": 16
+    },
+    {
+      "id": "375af10f04074b2eb834a164e146b654",
+      "label": "法警",
+      "value": "18",
+      "sort": 18
+    },
+    {
+      "id": "641e2fc49e4740168fe37437dec9f1c2",
+      "label": "电器工程师",
+      "value": "19",
+      "sort": 19
+    },
+    {
+      "id": "0e7eef4f6d14481cb112fd4e673c71de",
+      "label": "消防员",
+      "value": "20",
+      "sort": 20
+    },
+    {
+      "id": "8db58eb6302c47f4a920fa4a3cdb83b5",
+      "label": "家庭主妇",
+      "value": "21",
+      "sort": 21
+    },
+    {
+      "id": "8172ff79ea844839a167b81b084b116c",
+      "label": "保安",
+      "value": "22",
+      "sort": 22
+    },
+    {
+      "id": "6b73b101c4c046f29cf1ce5ae2b8b9a8",
+      "label": "快递员",
+      "value": "23",
+      "sort": 23
+    },
+    {
+      "id": "a6e29fb25f89482db4b8cbe0441f1a86",
+      "label": "交通警察",
+      "value": "24",
+      "sort": 24
+    },
+    {
+      "id": "4517d59c07dd455286e23f7e9d02efb8",
+      "label": "警察",
+      "value": "25",
+      "sort": 25
+    },
+    {
+      "id": "e5e54583a3a741028bd2fd4bf55695cd",
+      "label": "护士",
+      "value": "26",
+      "sort": 26
+    },
+    {
+      "id": "a34d9b2eaded467abd7e9a8f2b03f53e",
+      "label": "厨师",
+      "value": "27",
+      "sort": 27
+    },
+    {
+      "id": "df4ef2bd3f334a46b7f0becef35ea103",
+      "label": "新闻记者",
+      "value": "28",
+      "sort": 28
+    },
+    {
+      "id": "18f91a4baf2e4372bb1ccd31e5edb664",
+      "label": "邮递员",
+      "value": "29",
+      "sort": 29
+    },
+    {
+      "id": "ee46866b61694cb088649d57895084da",
+      "label": "服务员",
+      "value": "30",
+      "sort": 30
+    },
+    {
+      "id": "bbb4b5fa78104ebd8e1932d18ac42c24",
+      "label": "清洁工",
+      "value": "31",
+      "sort": 31
+    },
+    {
+      "id": "d4a3c506a867490aa57a60e40e85ae0c",
+      "label": "售货员",
+      "value": "33",
+      "sort": 33
+    },
+    {
+      "id": "1b0ee19a6d174bb38c556dbd5f73987b",
+      "label": "保险从业员",
+      "value": "34",
+      "sort": 34
+    },
+    {
+      "id": "2cf0462f904d4511ab6be085d27d93fd",
+      "label": "保姆",
+      "value": "35",
+      "sort": 35
+    },
+    {
+      "id": "31ff250d90ee431e80277c69d4d1b8b2",
+      "label": "售票员",
+      "value": "36",
+      "sort": 36
+    },
+    {
+      "id": "36131c7d00544bb8be2912bc16c1226a",
+      "label": "推销员",
+      "value": "37",
+      "sort": 37
+    },
+    {
+      "id": "3f745d113ac84f70af940f722ae86635",
+      "label": "维修工程师",
+      "value": "38",
+      "sort": 38
+    },
+    {
+      "id": "132e64bf4b5e4c5e893e2db58263111c",
+      "label": "导游",
+      "value": "39",
+      "sort": 39
+    },
+    {
+      "id": "77f921107af044c98e02a786cc74f568",
+      "label": "淘宝店主",
+      "value": "40",
+      "sort": 40
+    },
+    {
+      "id": "b8b7a697ffd74f2196fd7b57f1023cf2",
+      "label": "兽医",
+      "value": "41",
+      "sort": 41
+    },
+    {
+      "id": "12b33a00f8e849a894fb29ecc0615121",
+      "label": "舞蹈老师",
+      "value": "42",
+      "sort": 42
+    },
+    {
+      "id": "53f910a596d2403c90d9fe99e615e753",
+      "label": "牙医",
+      "value": "43",
+      "sort": 43
+    },
+    {
+      "id": "bb93e8f5bfd044d99ca8888fc586f6a8",
+      "label": "美发师",
+      "value": "44",
+      "sort": 44
+    },
+    {
+      "id": "e381ccdecb8741e0be35ba9c7969f1d9",
+      "label": "计算机工程师",
+      "value": "45",
+      "sort": 45
+    },
+    {
+      "id": "b11d73d8d307402f95c4c60f4439400b",
+      "label": "司机",
+      "value": "46",
+      "sort": 46
+    },
+    {
+      "id": "4bce4fd0d3854e0eac8c2fa6c52f4aba",
+      "label": "健身教练",
+      "value": "47",
+      "sort": 47
+    },
+    {
+      "id": "e486dedeb4bc42ce8bc02f6c37523967",
+      "label": "其他",
+      "value": "99",
+      "sort": 99
+    }
+  ],
+  "db_driver": [
+    {
+      "id": "d359723e07454c61ac726cb79d2f0aae",
+      "label": "mysql",
+      "value": "com.mysql.cj.jdbc.Driver",
+      "sort": 10
+    },
+    {
+      "id": "afd3390dcdcc4d4cad288c0690ddc09a",
+      "label": "oracle",
+      "value": "oracle.jdbc.driver.OracleDriver",
+      "sort": 30
+    },
+    {
+      "id": "afc412bbcb634ab2aedfdd92e622ab6a",
+      "label": "mssql",
+      "value": "net.sourceforge.jtds.jdbc.Driver",
+      "sort": 60
+    },
+    {
+      "id": "f3ba8501aa734c7c97b46e640e65b5ce",
+      "label": "postgre",
+      "value": "org.postgresql.Driver",
+      "sort": 90
+    }
+  ],
+  "act_type": [
+    {
+      "id": "69",
+      "label": "请假流程",
+      "value": "leave",
+      "sort": 10
+    },
+    {
+      "id": "70",
+      "label": "审批测试流程",
+      "value": "test_audit",
+      "sort": 20
+    }
+  ],
+  "oa_leave_type": [
+    {
+      "id": "62",
+      "label": "公休",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "63",
+      "label": "病假",
+      "value": "2",
+      "sort": 20
+    },
+    {
+      "id": "64",
+      "label": "事假",
+      "value": "3",
+      "sort": 30
+    },
+    {
+      "id": "65",
+      "label": "调休",
+      "value": "4",
+      "sort": 40
+    },
+    {
+      "id": "66",
+      "label": "婚假",
+      "value": "5",
+      "sort": 60
+    }
+  ],
+  "implement_medical_reasons_for_hospitalization": [
+    {
+      "id": "291d8b3a4d674f9295237904430dcd81",
+      "label": "已发生危害他人安全的行为",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "f6aa958b58dd45c8a40f29a43f57936e",
+      "label": "存在危害他人安全的危险",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "e97e03f219454985a37c236f664088c3",
+      "label": "其他",
+      "value": "99",
+      "sort": 3
+    }
+  ],
+  "real_population": [
+    {
+      "id": "50337f4dbcd9499dbcdb370890bc9a86",
+      "label": "有户籍人口",
+      "value": "10",
+      "sort": 1
+    },
+    {
+      "id": "bf7baea2379841cba79bf4a9da617855",
+      "label": "本地户籍人口",
+      "value": "11",
+      "sort": 2
+    },
+    {
+      "id": "62fc0f0e44374f128a64fe3f1eaa19d0",
+      "label": "非本地户籍人口",
+      "value": "12",
+      "sort": 3
+    },
+    {
+      "id": "7dd69ddae0274d259f76867be0dbbbcd",
+      "label": "境外来华停（居）留人员",
+      "value": "20",
+      "sort": 4
+    },
+    {
+      "id": "f846d0611b8841e89cdd1379fed25338",
+      "label": "未落户人员",
+      "value": "30",
+      "sort": 5
+    },
+    {
+      "id": "82b784ad9f3f4cf1a9196dedb97c68d5",
+      "label": "其他",
+      "value": "90",
+      "sort": 6
+    }
+  ],
+  "certificate_code": [
+    {
+      "id": "6ef6220f729a4c5ea15056ebc9c3f490",
+      "label": "居民身份证",
+      "value": "111",
+      "sort": 1
+    },
+    {
+      "id": "b01fc261c40749e0a614fd0b3d1b3fa5",
+      "label": "临时居民身份证",
+      "value": "112",
+      "sort": 2
+    },
+    {
+      "id": "d6a0b8faf98048aea30ae1ea1fda2bf9",
+      "label": "户口簿",
+      "value": "113",
+      "sort": 3
+    },
+    {
+      "id": "38b40d74bedc4d35bb94a19281ea35b0",
+      "label": "中国人民解放军军官证",
+      "value": "114",
+      "sort": 4
+    },
+    {
+      "id": "e60158877c4f430ea71dd66073311d85",
+      "label": "中国人民武装警察部队警官证",
+      "value": "115",
+      "sort": 5
+    },
+    {
+      "id": "47097ca345644d1a8f19eab636fa3fff",
+      "label": "暂住证",
+      "value": "116",
+      "sort": 6
+    },
+    {
+      "id": "42909fd384924a3ca7bde11b5ad64f70",
+      "label": "出生医学证明",
+      "value": "117",
+      "sort": 7
+    },
+    {
+      "id": "e5378a2bf85a41eba38ba37d8dc66d2d",
+      "label": "法官证",
+      "value": "121",
+      "sort": 8
+    },
+    {
+      "id": "8b10c2027d0f4af8a5e6381d78bc298a",
+      "label": "警官证",
+      "value": "123",
+      "sort": 9
+    },
+    {
+      "id": "c825fd854beb4d669860da1ddf870989",
+      "label": "检察官证",
+      "value": "125",
+      "sort": 10
+    },
+    {
+      "id": "1aa8eaa9f80c4d5583af94010ac8ae40",
+      "label": "记者证",
+      "value": "127",
+      "sort": 11
+    },
+    {
+      "id": "cbef9a18076f4360be1dfec5c7942b1f",
+      "label": "工作证",
+      "value": "131",
+      "sort": 12
+    },
+    {
+      "id": "a96bb48af8a04f6f93bf98324b900eee",
+      "label": "学生证",
+      "value": "133",
+      "sort": 13
+    },
+    {
+      "id": "90acdd13106c4b72a758d363b8ee7267",
+      "label": "出入证",
+      "value": "151",
+      "sort": 14
+    },
+    {
+      "id": "fb5ce0052ab344f29657987eccefd53f",
+      "label": "临时出入证",
+      "value": "153",
+      "sort": 15
+    },
+    {
+      "id": "3819f6c21dea49598646488a84c36038",
+      "label": "住宿证",
+      "value": "155",
+      "sort": 16
+    },
+    {
+      "id": "c31ccc9c96064b79b8b0aab241b4c6c2",
+      "label": "医疗证",
+      "value": "157",
+      "sort": 17
+    },
+    {
+      "id": "851fae44208048f6a028c1aa7d83e902",
+      "label": "老保证",
+      "value": "159",
+      "sort": 18
+    },
+    {
+      "id": "93981fcc181543ed8516fdabece3c20b",
+      "label": "献血证",
+      "value": "161",
+      "sort": 19
+    },
+    {
+      "id": "010e60d70ef24a2289206970a8685a5a",
+      "label": "保险单",
+      "value": "163",
+      "sort": 20
+    },
+    {
+      "id": "92515eed45014e07a77088bd6bacf95b",
+      "label": "会员证",
+      "value": "191",
+      "sort": 21
+    },
+    {
+      "id": "63a024b33f6b47e4bfdb9553ab895ffb",
+      "label": "离休证",
+      "value": "211",
+      "sort": 22
+    },
+    {
+      "id": "9810df38fc574ec6a4cbb593a432dc6f",
+      "label": "退休证",
+      "value": "213",
+      "sort": 23
+    },
+    {
+      "id": "ecafcdcc99ff40a5a4bdbe7c8bc9b786",
+      "label": "老年证",
+      "value": "215",
+      "sort": 24
+    },
+    {
+      "id": "eba31f5aa01b4977b2df9cdad0cd3dba",
+      "label": "残疾证",
+      "value": "217",
+      "sort": 25
+    },
+    {
+      "id": "dc7c06906b754daa8fe5a034f9bd093f",
+      "label": "结婚证",
+      "value": "219",
+      "sort": 26
+    },
+    {
+      "id": "a539e8e1e9994a2a994a3cab20648910",
+      "label": "离婚证",
+      "value": "221",
+      "sort": 27
+    },
+    {
+      "id": "43713813c9c640da9c3786c969759b23",
+      "label": "独生子女证",
+      "value": "223",
+      "sort": 28
+    },
+    {
+      "id": "b5c2e76cbe3f472e977221acf722b161",
+      "label": "毕业证书",
+      "value": "225",
+      "sort": 29
+    },
+    {
+      "id": "204461c3123b4bd1b9e4d5380c632eef",
+      "label": "肄业证",
+      "value": "227",
+      "sort": 30
+    },
+    {
+      "id": "9b4e930276144b5dbd777754beca393f",
+      "label": "结业证",
+      "value": "229",
+      "sort": 31
+    },
+    {
+      "id": "4d09e3cbe33e437f828c862f115aa591",
+      "label": "学位证",
+      "value": "231",
+      "sort": 32
+    },
+    {
+      "id": "ae73a2ab38324e838dd640d27a6ea2a3",
+      "label": "军人通行证",
+      "value": "233",
+      "sort": 33
+    },
+    {
+      "id": "06619212ba6349e29c7903d55675c8b3",
+      "label": "证明信",
+      "value": "291",
+      "sort": 34
+    },
+    {
+      "id": "ed39551db0f64724ab3c548789930527",
+      "label": "持枪证",
+      "value": "311",
+      "sort": 35
+    },
+    {
+      "id": "c002767fb8a145b8900649034ab94861",
+      "label": "枪证",
+      "value": "313",
+      "sort": 36
+    },
+    {
+      "id": "70c5c93c4813414991b27cd00cf4aff0",
+      "label": "机动车驾驶证",
+      "value": "335",
+      "sort": 37
+    },
+    {
+      "id": "a5a44bca9d4e477c80e148aacd4ccd36",
+      "label": "枪支（弹药）携运许可证",
+      "value": "315",
+      "sort": 37
+    },
+    {
+      "id": "1f5159b4830f4ec8b363e5c7cbc40080",
+      "label": "砍伐证",
+      "value": "317",
+      "sort": 38
+    },
+    {
+      "id": "c9efba00484a4ba0a56f1f3cc0025f49",
+      "label": "准运证",
+      "value": "319",
+      "sort": 39
+    },
+    {
+      "id": "955a1fa7f2ca4ec0930090bf22a85749",
+      "label": "准购证",
+      "value": "319",
+      "sort": 40
+    },
+    {
+      "id": "64380a40105a4abfa714f3189c63771a",
+      "label": "粮油证",
+      "value": "323",
+      "sort": 41
+    },
+    {
+      "id": "2b9cf27a01004b67b6374e7b6a9d88ac",
+      "label": "购煤证",
+      "value": "325",
+      "sort": 42
+    },
+    {
+      "id": "98f37c34da2440de9ba1b24fc305b00e",
+      "label": "购煤气证",
+      "value": "327",
+      "sort": 43
+    },
+    {
+      "id": "624736139b124136af8dd59a240efc8f",
+      "label": "房屋产权证",
+      "value": "329",
+      "sort": 44
+    },
+    {
+      "id": "e400f1397c6f47858328025ce9b318e3",
+      "label": "土地使用证",
+      "value": "331",
+      "sort": 45
+    },
+    {
+      "id": "9d0827ae66b74aab9e8461b99ad6c20f",
+      "label": "车辆通行证",
+      "value": "333",
+      "sort": 46
+    },
+    {
+      "id": "cee4180c7651457d855bc2789a1286df",
+      "label": "机动车行驶证",
+      "value": "337",
+      "sort": 47
+    },
+    {
+      "id": "8e1f6976c210490b98db3a86efbc0403",
+      "label": "机动车驾驶证",
+      "value": "335",
+      "sort": 48
+    },
+    {
+      "id": "43165a9e9c1447c1801ee5298eb8c88e",
+      "label": "机动车登记证书",
+      "value": "339",
+      "sort": 49
+    },
+    {
+      "id": "ae78eee33e744eca988c2778675c971d",
+      "label": "机动车年检合格证",
+      "value": "341",
+      "sort": 50
+    },
+    {
+      "id": "48fa875f4c3846208ebad48c7b6ce6cb",
+      "label": "春运临时检验合格证",
+      "value": "343",
+      "sort": 51
+    },
+    {
+      "id": "beef1b1750404467a39f33a8e46acf8d",
+      "label": "飞机驾驶证",
+      "value": "345",
+      "sort": 52
+    },
+    {
+      "id": "c4fbfce2fd904d97952daac14adc3304",
+      "label": "船舶驾驶证",
+      "value": "347",
+      "sort": 53
+    },
+    {
+      "id": "4fcd5a1551b94bc4a78f272c1a6b0bfc",
+      "label": "船舶行驶证",
+      "value": "349",
+      "sort": 54
+    },
+    {
+      "id": "07dc53c7e4d14b0eb8e40ec29a7c4678",
+      "label": "自行车行驶证",
+      "value": "351",
+      "sort": 55
+    },
+    {
+      "id": "c8e348cf36c94581bc818e658c84632b",
+      "label": "汽车号牌",
+      "value": "353",
+      "sort": 56
+    },
+    {
+      "id": "8314ecf3ca29405fac5b68a38ab34986",
+      "label": "拖拉机牌",
+      "value": "355",
+      "sort": 57
+    },
+    {
+      "id": "6048c7447ff74e68887d42aa81bf62b8",
+      "label": "摩托车牌",
+      "value": "357",
+      "sort": 58
+    },
+    {
+      "id": "1af0cb4414bf4e38927f7cfbb96c8a29",
+      "label": "船舶牌",
+      "value": "359",
+      "sort": 59
+    },
+    {
+      "id": "5ac4b50f5d254390b5e4b08afd4cb5d3",
+      "label": "三轮车牌",
+      "value": "361",
+      "sort": 60
+    },
+    {
+      "id": "c3031fd619d648a2af95de214dd49ec2",
+      "label": "自行车牌",
+      "value": "363",
+      "sort": 61
+    },
+    {
+      "id": "ca98f85660f44abd8d7f88624a2f5339",
+      "label": "残疾人机动轮椅车",
+      "value": "391",
+      "sort": 62
+    },
+    {
+      "id": "8f90faecc45441e9b1bc20d68bc68be7",
+      "label": "外交护照",
+      "value": "411",
+      "sort": 63
+    },
+    {
+      "id": "2f09650178dd4b17957a605b9690bf20",
+      "label": "公务护照",
+      "value": "412",
+      "sort": 64
+    },
+    {
+      "id": "7dfa929812d24e1ba4dcdab25f68e411",
+      "label": "因公普护照",
+      "value": "413",
+      "sort": 65
+    },
+    {
+      "id": "5c8dde7f9dc34f20b4ac2c933cfdfc8c",
+      "label": "普通护照",
+      "value": "414",
+      "sort": 66
+    },
+    {
+      "id": "5fc7778631f943c2a802e6effadb2ebe",
+      "label": "旅行证",
+      "value": "415",
+      "sort": 67
+    },
+    {
+      "id": "d87450a8b15449ee8fddad47cc60e1b9",
+      "label": "人处境通行证",
+      "value": "416",
+      "sort": 68
+    },
+    {
+      "id": "45ddc74aff54452a976cb0100bfcfc9b",
+      "label": "外国人出入境证",
+      "value": "417",
+      "sort": 69
+    },
+    {
+      "id": "eb0f7ca2d99b497686a3778860473b3e",
+      "label": "外国人旅行证",
+      "value": "418",
+      "sort": 70
+    },
+    {
+      "id": "b784f08d5feb476db7a34831d3e5642d",
+      "label": "海员证",
+      "value": "419",
+      "sort": 71
+    },
+    {
+      "id": "1b8af338476145ca85ae9144bc904523",
+      "label": "香港特别行政区护照",
+      "value": "420",
+      "sort": 72
+    },
+    {
+      "id": "238e1a13b1ee499aa3697f28ee0d75d4",
+      "label": "澳门特别行政区护照",
+      "value": "421",
+      "sort": 73
+    },
+    {
+      "id": "3e4f0451dade46d88216e3bfdaca16c8",
+      "label": "澳门特别行政区旅行证",
+      "value": "423",
+      "sort": 74
+    },
+    {
+      "id": "1cb329b51dcb4411872ba202b6a25bcb",
+      "label": "台湾居民来往大陆通行证",
+      "value": "511",
+      "sort": 75
+    },
+    {
+      "id": "13bb533678554d5ea92c77a03cf42f1a",
+      "label": "台湾居民来往大陆通行证（一次有效）",
+      "value": "512",
+      "sort": 76
+    },
+    {
+      "id": "a7db6248e17a47a38e583b8c4104e06a",
+      "label": "往来港澳通行证",
+      "value": "513",
+      "sort": 77
+    },
+    {
+      "id": "362ee461b09545fe8b6e2137067bccbe",
+      "label": "前往港澳通行证",
+      "value": "515",
+      "sort": 78
+    },
+    {
+      "id": "b8f15178ab2a4f97bd8f8ceebe7a6878",
+      "label": "港澳同胞回乡证（通行证）",
+      "value": "516",
+      "sort": 79
+    },
+    {
+      "id": "462bbe6a4324400cb4ce490b8176b2fe",
+      "label": "大陆居民往来台湾通行证",
+      "value": "517",
+      "sort": 80
+    },
+    {
+      "id": "2eb55681ed9f4dab93294c70ad199bec",
+      "label": "因公往来香港澳门特别行政区通行证",
+      "value": "518",
+      "sort": 81
+    },
+    {
+      "id": "f42e6d312c8d4d08ae882916efad4dd2",
+      "label": "华侨回国定居证",
+      "value": "551",
+      "sort": 82
+    },
+    {
+      "id": "d911763dd1ab42f19a384b280409a435",
+      "label": "台湾居民定居证",
+      "value": "552",
+      "sort": 83
+    },
+    {
+      "id": "12a73415038c476ebf363a002412a4d1",
+      "label": "外国人永久居留证",
+      "value": "553",
+      "sort": 84
+    },
+    {
+      "id": "847f6af4f15a42139fc770e2273d36de",
+      "label": "外国人居留证",
+      "value": "554",
+      "sort": 85
+    },
+    {
+      "id": "c611106843934d23ae002f25987971d0",
+      "label": "外国人临时居留证",
+      "value": "555",
+      "sort": 86
+    },
+    {
+      "id": "4a5bce66e5e34e788dd3598bb69c97da",
+      "label": "人籍证书",
+      "value": "556",
+      "sort": 87
+    },
+    {
+      "id": "b683758d678f45f992b737848c6b093b",
+      "label": "处籍证书",
+      "value": "557",
+      "sort": 88
+    },
+    {
+      "id": "ccde4f2da67d4e37804f95045624b586",
+      "label": "复籍证书",
+      "value": "558",
+      "sort": 89
+    },
+    {
+      "id": "d78fd27197bb47379367870da346ab7c",
+      "label": "外籍船员住宿证",
+      "value": "611",
+      "sort": 90
+    },
+    {
+      "id": "8fd58198820a41d6924daa5a38a6ae17",
+      "label": "随船工作证",
+      "value": "612",
+      "sort": 91
+    },
+    {
+      "id": "563d2e52b2af477a91382ec1c06f2570",
+      "label": "海上执勤证（红色）",
+      "value": "620",
+      "sort": 92
+    },
+    {
+      "id": "72729d2c6abb47199c469fead54824f8",
+      "label": "海上执勤证（蓝色）",
+      "value": "621",
+      "sort": 93
+    },
+    {
+      "id": "c53797e657fc4d30bc498d5f1f6c82c8",
+      "label": "出海船民证",
+      "value": "631",
+      "sort": 94
+    },
+    {
+      "id": "7e4e34c9381f42e7a0ca68dabec5e442",
+      "label": "出海船舶户口薄",
+      "value": "633",
+      "sort": 95
+    },
+    {
+      "id": "c8efffbcb3d645639adf6a6ed17d94fd",
+      "label": "出海船舶边防登记薄",
+      "value": "634",
+      "sort": 96
+    },
+    {
+      "id": "42ec08525e1049dfb4c0a5e5ba77b492",
+      "label": "搭靠台轮许可证",
+      "value": "635",
+      "sort": 97
+    },
+    {
+      "id": "22f156116b164998b4ed09357a929279",
+      "label": "台湾居民登陆证",
+      "value": "636",
+      "sort": 98
+    },
+    {
+      "id": "aa7e3fd667c34b37a744cd66e1e57ed0",
+      "label": "台湾船员登陆证",
+      "value": "637",
+      "sort": 99
+    },
+    {
+      "id": "ec83587cf101454fa5a204ffc9a97842",
+      "label": "外国船员登陆证",
+      "value": "638",
+      "sort": 100
+    },
+    {
+      "id": "24649ceea33842db9092995e1c479632",
+      "label": "对台劳务人员登轮作业证",
+      "value": "639",
+      "sort": 101
+    },
+    {
+      "id": "d6afdf675b944de28be1bf31f12b67f8",
+      "label": "合资船船员登陆证",
+      "value": "640",
+      "sort": 102
+    },
+    {
+      "id": "bc8b143f77a748c3bc12e4e2d189dcb8",
+      "label": "合资船船员登轮作业证",
+      "value": "641",
+      "sort": 103
+    },
+    {
+      "id": "fd714e5031af4fc3b041389bcab0d251",
+      "label": "粤港澳流动渔民证",
+      "value": "642",
+      "sort": 104
+    },
+    {
+      "id": "f43681a341cd4cfdb4c3a62e644127d5",
+      "label": "粤港澳l临时流动渔民证",
+      "value": "643",
+      "sort": 105
+    },
+    {
+      "id": "804de1768f504c23a5d4850df2c2e8f1",
+      "label": "粤港澳流动渔船户口薄",
+      "value": "644",
+      "sort": 106
+    },
+    {
+      "id": "4d950f7f4f244e54b12a81a37cccde22",
+      "label": "航行港澳船舶证明书",
+      "value": "645",
+      "sort": 107
+    },
+    {
+      "id": "886fe579e5f3412c98758e6169de302d",
+      "label": "往来港澳小型船舶查验薄",
+      "value": "646",
+      "sort": 108
+    },
+    {
+      "id": "06556cd530514ac194e839d8f889643a",
+      "label": "劳务人员登轮作业证",
+      "value": "650",
+      "sort": 109
+    },
+    {
+      "id": "2d7d7a6727764e9fb581a3d4241c6d51",
+      "label": "边境管理区通行证",
+      "value": "711",
+      "sort": 110
+    },
+    {
+      "id": "3aef8c3b46c64ae98df3e5e9849f3eef",
+      "label": "中朝鸭绿江、图们江水文作业证",
+      "value": "721",
+      "sort": 111
+    },
+    {
+      "id": "2f4a8a050d464cf3832da74c47db2d8a",
+      "label": "朝中鸭绿江、图们江水文作业证",
+      "value": "722",
+      "sort": 112
+    },
+    {
+      "id": "65bfa8b324f84ea194f3ad28b283eb70",
+      "label": "中朝流筏固定代表证",
+      "value": "723",
+      "sort": 113
+    },
+    {
+      "id": "110bc77d17e04e529456b1d0ff7afc70",
+      "label": "朝中流筏固定代表证",
+      "value": "724",
+      "sort": 114
+    },
+    {
+      "id": "54c16fcf0c924f91bbf3930678457fd3",
+      "label": "朝中流筏固定代表证",
+      "value": "724",
+      "sort": 115
+    },
+    {
+      "id": "aa257aba605444f0a5a4494691fad54c",
+      "label": "中朝鸭绿江、图们江船员证",
+      "value": "725",
+      "sort": 116
+    },
+    {
+      "id": "6c69079429684aeba7c22e0898105c13",
+      "label": "朝中鸭绿江、图们江船员证",
+      "value": "726",
+      "sort": 117
+    },
+    {
+      "id": "1d1c3e086c684515b5bf19b8ad6813e5",
+      "label": "朝中鸭绿江、图们江船员证",
+      "value": "727",
+      "sort": 118
+    },
+    {
+      "id": "c3a11b919aa44b0a9e1b4584e15c0ca3",
+      "label": "朝中边境地区公安总代表证",
+      "value": "728",
+      "sort": 119
+    },
+    {
+      "id": "382b8ed0258443a6867c80f9b90cf215",
+      "label": "中朝边境地区公安副总代表证",
+      "value": "729",
+      "sort": 120
+    },
+    {
+      "id": "bf75b951041c4a9697fb59695a78a6ff",
+      "label": "朝中边境地区公安副总代表证",
+      "value": "730",
+      "sort": 121
+    },
+    {
+      "id": "47fecc6a08fc45bf9f58ee909e408b3e",
+      "label": "中朝边境地区公安代表证",
+      "value": "731",
+      "sort": 122
+    },
+    {
+      "id": "3991bacbf9e1400e90ea3b1e72a1dcec",
+      "label": "朝中边境地区公安代表证",
+      "value": "732",
+      "sort": 123
+    },
+    {
+      "id": "4a6c3020f66d4d8a958a365f81137a52",
+      "label": "朝边境地区出入境通行证（甲、乙种本",
+      "value": "733",
+      "sort": 124
+    },
+    {
+      "id": "26bbb049a02e45e8b147934eb7be2a99",
+      "label": "朝中边境公务通行证",
+      "value": "734",
+      "sort": 125
+    },
+    {
+      "id": "2edb79b1fc534af6bf6dd3f954da94b1",
+      "label": "朝中边境住民国境通行证",
+      "value": "735",
+      "sort": 126
+    },
+    {
+      "id": "8f25a455e4ba476f959ed97d05a2c233",
+      "label": "蒙边境地区出入境通行证（甲、乙种本",
+      "value": "736",
+      "sort": 127
+    },
+    {
+      "id": "cb1a6d5c871d4365ad1c3100fbb13472",
+      "label": "蒙中边境地区出入境通行证",
+      "value": "737",
+      "sort": 128
+    },
+    {
+      "id": "a884efb4301f4414926b018f49777ea0",
+      "label": "中缅边境地区出入境通行证",
+      "value": "738",
+      "sort": 129
+    },
+    {
+      "id": "5a1bd65e5ac145149e774c3a3299964b",
+      "label": "缅甸中国边境通行证",
+      "value": "739",
+      "sort": 130
+    },
+    {
+      "id": "b188fbbe0baa43bcae7fd55f655380dc",
+      "label": "云南省边境地区境外边民人出境证",
+      "value": "740",
+      "sort": 131
+    },
+    {
+      "id": "c173ac6385e84b069b1fafdb15fda21b",
+      "label": "中尼边境地区出入境通行证",
+      "value": "741",
+      "sort": 132
+    },
+    {
+      "id": "a5c909e8e3f44bc791fcf542162d0b13",
+      "label": "尼中边境地区出入境通行证",
+      "value": "742",
+      "sort": 133
+    },
+    {
+      "id": "ab7a3ad15c504950a4c9a3f5f12b24c5",
+      "label": "中越边境地区出入境通行证",
+      "value": "743",
+      "sort": 134
+    },
+    {
+      "id": "ea48d6aa70914d928b91259a137e415d",
+      "label": "越中边境地区出入境通行证",
+      "value": "744",
+      "sort": 135
+    },
+    {
+      "id": "32dcf34a458b41dda775641a7ebc846e",
+      "label": "中老边境地区出入境通行证",
+      "value": "745",
+      "sort": 136
+    },
+    {
+      "id": "bc7a01ff5da44796a917a6749c484637",
+      "label": "老中边境地区出入境通行证",
+      "value": "746",
+      "sort": 137
+    },
+    {
+      "id": "f8f3f6d707034a43be3217332ae7eb97",
+      "label": "中印边境地区出入境通行证",
+      "value": "747",
+      "sort": 138
+    },
+    {
+      "id": "851de4700f1b4e2dbefe87846266bba5",
+      "label": "印中边境地区出入境通行证",
+      "value": "748",
+      "sort": 139
+    },
+    {
+      "id": "e02acae61e264c91b57989a62892a3ff",
+      "label": "其他",
+      "value": "1000",
+      "sort": 140
+    }
+  ],
+  "industry_category": [
+    {
+      "id": "f71bfa3920d2411e9a9b81d7a9895452",
+      "label": "农、林、牧、渔业",
+      "value": "A",
+      "sort": 1
+    },
+    {
+      "id": "a4cec4214cbd4f48b19c2e986074c683",
+      "label": "采矿业",
+      "value": "B",
+      "sort": 2
+    },
+    {
+      "id": "3c3bece3ed77437d9da64db6fd2f3b17",
+      "label": "制造业",
+      "value": "C",
+      "sort": 3
+    },
+    {
+      "id": "204130f1eaa845c484b7d38c6dd91de9",
+      "label": "电力、燃气及水的生产和供应业",
+      "value": "D",
+      "sort": 4
+    },
+    {
+      "id": "48e6248099e141eb958d3b9f0acbefd2",
+      "label": "建筑业",
+      "value": "E",
+      "sort": 5
+    },
+    {
+      "id": "997a5ccbd1804b589db7874c63b376d2",
+      "label": "信息传输、计算机服务和软件业",
+      "value": "G",
+      "sort": 7
+    },
+    {
+      "id": "82abc31d41384c6798f71d2de49129ee",
+      "label": "批发和零售业",
+      "value": "H",
+      "sort": 8
+    },
+    {
+      "id": "ba80d7db5a4a4644a2639f5525c18442",
+      "label": "住宿和餐饮业",
+      "value": "I",
+      "sort": 9
+    },
+    {
+      "id": "3bdfbe7303f0418d9a3749feed72ad19",
+      "label": "金融业",
+      "value": "J",
+      "sort": 10
+    },
+    {
+      "id": "eb36228207574fe491d80324187b5999",
+      "label": "房地产业",
+      "value": "K",
+      "sort": 11
+    },
+    {
+      "id": "73bbbb04121b419cb0c0547e6ddc822e",
+      "label": "租赁和商务服务业",
+      "value": "L",
+      "sort": 12
+    },
+    {
+      "id": "6a22aa67ed0b4ea590383c8bacc14d51",
+      "label": "科学研究、技术服务和地质勘查业",
+      "value": "M",
+      "sort": 13
+    },
+    {
+      "id": "78d875bf0cbe445296d736735fb4489b",
+      "label": "水利、环境和公共设施管理业",
+      "value": "N",
+      "sort": 14
+    },
+    {
+      "id": "9a8ae7e6dc2a46c7b30d02ab43876843",
+      "label": "居民服务和其他服务业",
+      "value": "O",
+      "sort": 15
+    },
+    {
+      "id": "47ca4c4aaae54e3f9841d53fcdeaeb70",
+      "label": "教育",
+      "value": "P",
+      "sort": 16
+    },
+    {
+      "id": "5a56dfbc715f4c9281f1edafdc399f9c",
+      "label": "卫生、社会保障和社会福利业",
+      "value": "Q",
+      "sort": 17
+    },
+    {
+      "id": "7472335026744f76b45344ff6cc261cf",
+      "label": "文化、体育和娱乐业",
+      "value": "R",
+      "sort": 18
+    },
+    {
+      "id": "cf58a2961a2244e6bcfc056bc498bed8",
+      "label": "公共管理和社会组织",
+      "value": "S",
+      "sort": 19
+    },
+    {
+      "id": "3c370fea1b3346fc9f225bc6f32d6226",
+      "label": "国际组织",
+      "value": "T",
+      "sort": 20
+    }
+  ],
+  "risk_assess": [
+    {
+      "id": "6cedc403f5c14871abd3c5d6b3c8f775",
+      "label": "重点帮教人员",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "09112d14c6ec4fe585e29c3868505ded",
+      "label": "一般帮教人员",
+      "value": "02",
+      "sort": 2
+    }
+  ],
+  "residence_type": [
+    {
+      "id": "a390d49384a74dc6ad21548b51c96f42",
+      "label": "自购房屋",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "2cedcf9afe7d4c528436e9ae9438678c",
+      "label": "租赁房屋",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "86e666052a0f4862b0a0050616e015c5",
+      "label": "寄宿",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "9373804e206440c083bd43a781c3e100",
+      "label": "借住",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "3171a53cb5814ed9a68dbb274d157828",
+      "label": "单位宿舍",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "978ffb7ae3bf4f079fdd1aaaa8c8093a",
+      "label": "临时性宿舍",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "9b767de04e6a4420bc312a8b7b93892e",
+      "label": "农民工公寓",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "9178f765f81942238fb8737bbed116b3",
+      "label": "其他",
+      "value": "99",
+      "sort": 8
+    }
+  ],
+  "schedule_task_group": [
+    {
+      "id": "c51e8af316b24363bbcfbb8de1e61dc4",
+      "label": "测试任务",
+      "value": "1",
+      "sort": 1
+    }
+  ],
+  "unit_classification": [
+    {
+      "id": "b30917d8b4c8491ea971a92081881a9b",
+      "label": "其它机关团体",
+      "value": "0199",
+      "sort": 1
+    },
+    {
+      "id": "f710cbf0426240c495c649305f58e60b",
+      "label": "其它事业单位",
+      "value": "0299",
+      "sort": 2
+    },
+    {
+      "id": "a7ae01d68c864f1487b1ea568b92e2ef",
+      "label": "经营服务门点",
+      "value": "0400",
+      "sort": 3
+    },
+    {
+      "id": "ef0b3db5b83a449faa0af09948b053a1",
+      "label": "基层群众自治组织",
+      "value": "0104",
+      "sort": 4
+    },
+    {
+      "id": "5ed539c608a248958bd54075cb964fa5",
+      "label": "社会团体",
+      "value": "0103",
+      "sort": 5
+    },
+    {
+      "id": "8ea3a2b1b98d489d90af0347722e346b",
+      "label": "党政机关",
+      "value": "0102",
+      "sort": 6
+    },
+    {
+      "id": "7b696d60a051410b9907d5ba740f271a",
+      "label": "国家机关",
+      "value": "0101",
+      "sort": 7
+    },
+    {
+      "id": "b456f6a69d4c4599a39dee42fb4f8a4a",
+      "label": "综合技术服务业",
+      "value": "0208",
+      "sort": 8
+    },
+    {
+      "id": "113191e51c7446baa84d142781f2cda9",
+      "label": "科学研究业",
+      "value": "0207",
+      "sort": 9
+    },
+    {
+      "id": "a53ff14b18504763a6a8b3a0c11b2b0a",
+      "label": "广播电影电视业",
+      "value": "0206",
+      "sort": 10
+    },
+    {
+      "id": "9ed8aaf3782d4b189d9a79a23703da1e",
+      "label": "文化艺术业",
+      "value": "0205",
+      "sort": 11
+    },
+    {
+      "id": "c03e5cda9f0d4b8cb87d2b43ef28c94d",
+      "label": "教育事业",
+      "value": "0204",
+      "sort": 12
+    },
+    {
+      "id": "26cc4939e0cd428093d1b4827c19c469",
+      "label": "社会事业",
+      "value": "0203",
+      "sort": 13
+    },
+    {
+      "id": "50fa1c25266b43f2a1cc26c3e87f180c",
+      "label": "体育事业",
+      "value": "0202",
+      "sort": 14
+    },
+    {
+      "id": "8f63bf67cf99422f9197795c88b6b146",
+      "label": "卫生事业",
+      "value": "0201",
+      "sort": 15
+    },
+    {
+      "id": "5319d66b38c94a12b80ecba8c5fa654e",
+      "label": "混合所有制",
+      "value": "0306",
+      "sort": 16
+    },
+    {
+      "id": "60d31c5abc934e118eb3f02550aa2c75",
+      "label": "外资",
+      "value": "0305",
+      "sort": 17
+    },
+    {
+      "id": "ffae4a7d283948099d0a926bad4382e3",
+      "label": "私有",
+      "value": "0304",
+      "sort": 18
+    },
+    {
+      "id": "820b5a54bad14cec8880a2e788a22dbd",
+      "label": "个体",
+      "value": "0303",
+      "sort": 19
+    },
+    {
+      "id": "9df1d600b53d43e0a9d543faef24c25a",
+      "label": "集体",
+      "value": "0302",
+      "sort": 20
+    },
+    {
+      "id": "faff2d9390044b8bb683556af8abac9d",
+      "label": "国有",
+      "value": "0301",
+      "sort": 21
+    },
+    {
+      "id": "dd3039d432c5463a9050935264462201",
+      "label": "其它",
+      "value": "9900",
+      "sort": 22
+    },
+    {
+      "id": "1c86ae98a1664fc29ef238eead522214",
+      "label": "企业单位",
+      "value": "0300",
+      "sort": 23
+    },
+    {
+      "id": "26af3637d21e43e28cc4e4ce1e656277",
+      "label": "事业单位",
+      "value": "0200",
+      "sort": 24
+    },
+    {
+      "id": "b5829c4735304d37a31b772bfa7efb41",
+      "label": "机关、团体",
+      "value": "0100",
+      "sort": 25
+    }
+  ],
+  "sys_data_scope": [
+    {
+      "id": "32",
+      "label": "所有数据",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "33",
+      "label": "所在公司及以下数据",
+      "value": "2",
+      "sort": 20
+    },
+    {
+      "id": "34",
+      "label": "所在公司数据",
+      "value": "3",
+      "sort": 30
+    },
+    {
+      "id": "35",
+      "label": "所在部门及以下数据",
+      "value": "4",
+      "sort": 40
+    },
+    {
+      "id": "36",
+      "label": "所在部门数据",
+      "value": "5",
+      "sort": 50
+    },
+    {
+      "id": "37",
+      "label": "仅本人数据",
+      "value": "8",
+      "sort": 90
+    },
+    {
+      "id": "38",
+      "label": "按明细设置",
+      "value": "9",
+      "sort": 100
+    }
+  ],
+  "health_condition": [
+    {
+      "id": "17d6ff75cc77420aa54455f029f60613",
+      "label": "很好",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "2221e10839c0415eb5c4675b56c47de7",
+      "label": "较好",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "55e09ff32dc34e2cbfa9d5d7d2926abf",
+      "label": "一般",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "fb966f318599409194f56e1b1b4141f2",
+      "label": "较差",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "ed738aecf48c46afae1543b90afd3139",
+      "label": "很差",
+      "value": "05",
+      "sort": 5
+    }
+  ],
+  "sys_office_group_region": [
+    {
+      "id": "7c937ec9e4be4630a39478c84a9af718",
+      "label": "本人数据",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "5c8a5d82e6ed47d3bc08baa42b511df4",
+      "label": "本公司可见",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "684e3fd037de4286b70eadfac702f30c",
+      "label": "本部门可见",
+      "value": "3",
+      "sort": 3
+    }
+  ],
+  "gen_template_type": [
+    {
+      "id": "afc0b08b94d64bd9971082fde5f1c6b6",
+      "label": "单表",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "0f20ca9528744750bb62557fa28b514d",
+      "label": "主附表",
+      "value": "2",
+      "sort": 2
+    }
+  ],
+  "guardian_relationship": [
+    {
+      "id": "a02c825cac81437f9409ae6d3df2f5dd",
+      "label": "本人",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "d8027c3740cb46aaba2a289b2487694f",
+      "label": "户主",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "ac213c06781f401b8685dca9a058a524",
+      "label": "配偶",
+      "value": "10",
+      "sort": 3
+    },
+    {
+      "id": "2e40fa5e30bd4703ba4aa6850ece9217",
+      "label": "夫",
+      "value": "11",
+      "sort": 4
+    },
+    {
+      "id": "ff291d2a48984f799fdc837fdf8bc467",
+      "label": "妻",
+      "value": "12",
+      "sort": 5
+    },
+    {
+      "id": "5de821d3c7234925a05afc89bcdb8e52",
+      "label": "子",
+      "value": "20",
+      "sort": 6
+    },
+    {
+      "id": "6d0ce1f66aac4c28b4ef3a6d106f8746",
+      "label": "独生子",
+      "value": "21",
+      "sort": 7
+    },
+    {
+      "id": "b64703d0eb3346abb8308283a7668dcc",
+      "label": "长子",
+      "value": "22",
+      "sort": 8
+    },
+    {
+      "id": "7c40a71c06d9414496a428a28b2a3c24",
+      "label": "次子",
+      "value": "23",
+      "sort": 9
+    }
+  ],
+  "rent_out_use": [
+    {
+      "id": "9f4efb2b8f014fd4ba5b909c6437421c",
+      "label": "宿舍",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "147e5a35f9d04121a9888d9e5a2d413f",
+      "label": "住房",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "eb0ccacfe34944758b52e656a7904a3e",
+      "label": "商铺",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "35af359a9fc143a7a2193a302571aa46",
+      "label": "办公",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "ea7f9051a5e04d7b927cda4fd781c0bc",
+      "label": "仓库",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "10eb388137c440af862c5bbb8913e1dc",
+      "label": "厂房",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "4ba418e852ff4724927a6533f0f3a10c",
+      "label": "其他",
+      "value": "99",
+      "sort": 7
+    }
+  ],
+  "hidden_danger_type": [
+    {
+      "id": "029c6dd0f9c744989a4db052be8e3134",
+      "label": "无",
+      "value": "00",
+      "sort": 1
+    },
+    {
+      "id": "9f5835c0a9c34a978eb3a783506a5b54",
+      "label": "火灾隐患",
+      "value": "01",
+      "sort": 2
+    },
+    {
+      "id": "67fca7295f38410ebdbee0827e305682",
+      "label": "治安隐患",
+      "value": "02",
+      "sort": 3
+    },
+    {
+      "id": "d1a91b689a2c4be098bb1e0229749e69",
+      "label": "矛盾纠纷隐患",
+      "value": "03",
+      "sort": 4
+    },
+    {
+      "id": "fc047d62b5584e63887095e7c8b1c953",
+      "label": "危化物品隐患",
+      "value": "04",
+      "sort": 5
+    },
+    {
+      "id": "f00f843977824c2196e83b71600b9e2a",
+      "label": "疾病传染隐患",
+      "value": "05",
+      "sort": 6
+    },
+    {
+      "id": "c29245382cc24084a3882e85e38e7b49",
+      "label": "其他",
+      "value": "99",
+      "sort": 7
+    }
+  ],
+  "form_style": [
+    {
+      "id": "847ebe927e4a4da3820dde1143ad2b85",
+      "label": "dialog风格",
+      "value": "2",
+      "sort": 20
+    },
+    {
+      "id": "821039da80dd4868adfb63d3f8d8b9ae",
+      "label": "form风格",
+      "value": "1",
+      "sort": 30
+    }
+  ],
+  "people_info_religious": [
+    {
+      "id": "4d28a98ffaee460b854f6008af1b6206",
+      "label": "无",
+      "value": "7",
+      "sort": 1
+    },
+    {
+      "id": "4834abc5c8df48338c88d798a94feaa6",
+      "label": "道教",
+      "value": "0",
+      "sort": 2
+    },
+    {
+      "id": "d0de036295f243188d172b810222dea4",
+      "label": "佛教",
+      "value": "1",
+      "sort": 2
+    },
+    {
+      "id": "2e8ce56aab4f46eab5cfd404f765194b",
+      "label": "天主教",
+      "value": "2",
+      "sort": 3
+    },
+    {
+      "id": "7af54a7f6e8a4f17836b1f5eafbe2afa",
+      "label": "基督教",
+      "value": "3",
+      "sort": 4
+    },
+    {
+      "id": "dee77cc979214743a7a3969c0049be2d",
+      "label": "伊斯兰教",
+      "value": "4",
+      "sort": 5
+    },
+    {
+      "id": "369c09296f664cdd9b4c22a767ad0074",
+      "label": "其他",
+      "value": "5",
+      "sort": 6
+    }
+  ],
+  "gen_id_type": [
+    {
+      "id": "5746b5cb0d0f424caf99681361d7cc8c",
+      "label": "UUID",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "367fc7ccd7e5419d9f8a24020f56a99d",
+      "label": "自增长",
+      "value": "2",
+      "sort": 20
+    }
+  ],
+  "leaser_type": [
+    {
+      "id": "7af3f26dc3f146d49a181b2343721ebe",
+      "label": "个人",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "60def37e1ede4730829a25c6ff30331d",
+      "label": "集体",
+      "value": "1",
+      "sort": 2
+    },
+    {
+      "id": "486d4229e7d54636bb22b423c2fdc042",
+      "label": "其它",
+      "value": "2",
+      "sort": 3
+    }
+  ],
+  "risk_assessment_grade": [
+    {
+      "id": "b8aa1627544e40c9bcc28872e69dc2bb",
+      "label": "0级",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "de0abcb664b042008e73132cf84668c0",
+      "label": "1级",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "d6be44b861bf4910b9ba8bf51fdfbe6a",
+      "label": "2级",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "7d5e614167b6408e97871fa7e703f1b3",
+      "label": "3级",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "3da6e010afb1442faccfc98bc0d5c554",
+      "label": "4级",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "625a427cf55a434db9ceaaea0287fcbf",
+      "label": "5级",
+      "value": "06",
+      "sort": 6
+    }
+  ],
+  "interface_type": [
+    {
+      "id": "221a918bd1e149239a17ab0fdeaf5ecd",
+      "label": "get",
+      "value": "get",
+      "sort": 10
+    },
+    {
+      "id": "1c0ac576c33d41fcb4c16602bf4fad5d",
+      "label": "post",
+      "value": "post",
+      "sort": 20
+    }
+  ],
+  "certificate_handling": [
+    {
+      "id": "e992095fddec496ca77c5209ad2c958a",
+      "label": "居住证",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "e9502b32f7714b82a8786b9276313e4b",
+      "label": "暂住证",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "361ed9d428d6453d97edea33f302373c",
+      "label": "其他",
+      "value": "99",
+      "sort": 3
+    }
+  ],
+  "flow_cause": [
+    {
+      "id": "e3fb5b05ddc5492ebd85972b115daba8",
+      "label": "务工",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "2ca944f0d7cf4694909fee851675e972",
+      "label": "务农",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "7caec346a15c400f8610be1da338ff0e",
+      "label": "经商",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "6401aee81ef84b888faffaa1cc41434a",
+      "label": "学习培训",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "05f548c0ee424a459d6662d5f1c517d9",
+      "label": "婚嫁",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "9c8532bf60d34d4ba20c56f58298fda6",
+      "label": "随迁",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "44d1ed8c8c0b4f339ed061ce8b477c2e",
+      "label": "治病疗养",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "dccf4839f7694a9db88ab7e1d8a8ddee",
+      "label": "投亲靠友",
+      "value": "08",
+      "sort": 8
+    },
+    {
+      "id": "241d3663c2bf4621b80369d307fa94b1",
+      "label": "工作调动",
+      "value": "09",
+      "sort": 9
+    },
+    {
+      "id": "40785990559347a6b885b537c499139f",
+      "label": "其他",
+      "value": "99",
+      "sort": 10
+    }
+  ],
+  "correct_relieve": [
+    {
+      "id": "191dc9109bfc43f2aab7afd67f398e98",
+      "label": "期满解除",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "d6f5ccffc50b4ba1a5a14b69ee12913f",
+      "label": "收监执行",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "345df0dd7a024a9387f41fc05568af24",
+      "label": "死亡",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "2a053f9c7ff742809b03f25ef9e65aa3",
+      "label": "居住地变更",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "f10462fbae5644729e72f944aa044fb0",
+      "label": "其他",
+      "value": "99",
+      "sort": 5
+    }
+  ],
+  "del_flag": [
+    {
+      "id": "1",
+      "label": "正常",
+      "value": "0",
+      "sort": 10
+    },
+    {
+      "id": "2",
+      "label": "删除",
+      "value": "1",
+      "sort": 20
+    }
+  ],
+  "correct_type": [
+    {
+      "id": "1455c8052f6544e582906c55b97809c1",
+      "label": "管制",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "a8d2db1540b94858ae1c94e97aad98b7",
+      "label": "缓刑",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "00716bce267d42459a7e0a024faa3791",
+      "label": "假释",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "c67fc830968c4091b0bb32bd0da28023",
+      "label": "暂予监外执行",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "e3d355c9f8884f2abd7e3e88cb5291e5",
+      "label": "剥夺政治权利",
+      "value": "05",
+      "sort": 5
+    }
+  ],
+  "dispute_mediation_result": [
+    {
+      "id": "3ac7bd6ccc8d4f76b046183809a4508a",
+      "label": "调解完成",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "af1ff1409d1348d98781fa0040d27f02",
+      "label": "调解不成",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "664ff6095e87447e8568e51e5b402a61",
+      "label": "有待继续调解",
+      "value": "3",
+      "sort": 3
+    }
+  ],
+  "come_china_purpose": [
+    {
+      "id": "a21a2608dddd4b7a802c6aee47062231",
+      "label": "商务",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "e8a3542e9e3f43f19c4f4394c33e1585",
+      "label": "就业",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "58c9b3f2a4184b78940248a5ecd214c6",
+      "label": "学习",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "6aeba8a68f9749f192db7db1788f6861",
+      "label": "定居",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "25bed83e6f834d85a28f996d1e8751b8",
+      "label": "探亲",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "90c0c88291614fbcb91053d92b5d0e75",
+      "label": "其他",
+      "value": "99",
+      "sort": 6
+    }
+  ],
+  "pay_attention_type": [
+    {
+      "id": "d090c25d6c274765a4660336d5a98f0f",
+      "label": "无",
+      "value": "00",
+      "sort": 1
+    },
+    {
+      "id": "14ba66fa0c5940ad9ec8c7b0edc72c58",
+      "label": "故意传播",
+      "value": "01",
+      "sort": 2
+    },
+    {
+      "id": "abdc3fbba0a845f483aed366d95e05de",
+      "label": "造谣传播",
+      "value": "02",
+      "sort": 3
+    },
+    {
+      "id": "3a88c6c806644089b8638bff34e0f8bf",
+      "label": "恐吓",
+      "value": "03",
+      "sort": 4
+    },
+    {
+      "id": "7286d4b8bd524953bd97c3cecd5eecb2",
+      "label": "聚众上访",
+      "value": "04",
+      "sort": 5
+    },
+    {
+      "id": "4b3b0a66032c4c639805030bdea826d1",
+      "label": "非正常维权",
+      "value": "05",
+      "sort": 6
+    },
+    {
+      "id": "ff328440c9a145739404ff3afb852474",
+      "label": "非正常上访",
+      "value": "06",
+      "sort": 7
+    }
+  ],
+  "gen_category": [
+    {
+      "id": "73",
+      "label": "增删改查",
+      "value": "crud",
+      "sort": 10
+    },
+    {
+      "id": "74",
+      "label": "增删改查（包含从表）",
+      "value": "crud_many",
+      "sort": 20
+    },
+    {
+      "id": "75",
+      "label": "树结构",
+      "value": "tree",
+      "sort": 30
+    },
+    {
+      "id": "95",
+      "label": "仅持久层",
+      "value": "dao",
+      "sort": 40
+    }
+  ],
+  "four_history": [
+    {
+      "id": "34de4ee3381749e2863fac6c39150881",
+      "label": "吸毒史",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "cb56b14a456844be9e8b43d4379a9205",
+      "label": "逃脱史",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "0a129e54d4e941a2b1238cdb5d64fff0",
+      "label": "自杀史",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "f3cadb332fc345c3a301b45ecf0bf26d",
+      "label": "袭警史",
+      "value": "04",
+      "sort": 4
+    }
+  ],
+  "native_place": [
+    {
+      "id": "fff5f122c2194c58bdf47b69b181f08e",
+      "label": "北京市",
+      "value": "10000",
+      "sort": 1
+    },
+    {
+      "id": "602ab8b758dd4b1fa2106d35d7463f24",
+      "label": "天津市",
+      "value": "120000",
+      "sort": 2
+    },
+    {
+      "id": "d9a114e501d040c7a3c1ab39eeecbd16",
+      "label": "河北省",
+      "value": "130000",
+      "sort": 3
+    },
+    {
+      "id": "67ed23b272574d3cb6cf1426a5c64719",
+      "label": "山西省",
+      "value": "140000",
+      "sort": 4
+    },
+    {
+      "id": "16635f8f787c417abd3501bd6e41ca38",
+      "label": "内蒙古自治区",
+      "value": "150000",
+      "sort": 5
+    },
+    {
+      "id": "fba517ae9c094f218190d041fa286ae7",
+      "label": "辽宁省",
+      "value": "210000",
+      "sort": 6
+    },
+    {
+      "id": "60f12b733a6142e4a8d228db643faae2",
+      "label": "吉林省",
+      "value": "220000",
+      "sort": 7
+    },
+    {
+      "id": "8b375f62458d4037bf81020431532856",
+      "label": "黑龙江省",
+      "value": "230000",
+      "sort": 8
+    },
+    {
+      "id": "090645f09779495cbaf1c2db5a09e644",
+      "label": "上海市",
+      "value": "310000",
+      "sort": 9
+    },
+    {
+      "id": "bae8b5cde363436db700962e77d6efba",
+      "label": "江苏省",
+      "value": "320000",
+      "sort": 10
+    },
+    {
+      "id": "2b468525b3ef436794aac19234b4de36",
+      "label": "浙江省",
+      "value": "330000",
+      "sort": 11
+    },
+    {
+      "id": "b9902aca906444b380f38177cfc44cc1",
+      "label": "安徽省",
+      "value": "340000",
+      "sort": 12
+    },
+    {
+      "id": "f777944578484c38849f75339568f075",
+      "label": "福建省",
+      "value": "350000",
+      "sort": 13
+    },
+    {
+      "id": "16d725d3ff1e48ff8eecc817cb9624c3",
+      "label": "江西省",
+      "value": "360000",
+      "sort": 14
+    },
+    {
+      "id": "86335201a69e497a9921c09732d9e1b8",
+      "label": "山东省",
+      "value": "370000",
+      "sort": 15
+    },
+    {
+      "id": "499e3ca3584f4d029f0dc50367dc844b",
+      "label": "河南省",
+      "value": "410000",
+      "sort": 16
+    },
+    {
+      "id": "9362438c5fb4476787ede0cb2b0d370b",
+      "label": "湖北省",
+      "value": "420000",
+      "sort": 17
+    },
+    {
+      "id": "053be52ef3ef44e6a048cbbea6f42cdd",
+      "label": "湖南省",
+      "value": "430000",
+      "sort": 18
+    },
+    {
+      "id": "0d1ae16bf4224901b5662a0aafa85a3f",
+      "label": "广东省",
+      "value": "440000",
+      "sort": 19
+    },
+    {
+      "id": "0d2c271a9a3f42ef8b6b2c4ad1762da3",
+      "label": "广西壮族自治区",
+      "value": "450000",
+      "sort": 20
+    },
+    {
+      "id": "354c64bf743048daac611a03ac12bc16",
+      "label": "海南省",
+      "value": "460000",
+      "sort": 21
+    },
+    {
+      "id": "82145d18fa714d0da1e8e7b17f8980a6",
+      "label": "重庆市",
+      "value": "500000",
+      "sort": 22
+    },
+    {
+      "id": "76af714220ba4f6ca87d314b099b04bc",
+      "label": "四川省",
+      "value": "510000",
+      "sort": 23
+    },
+    {
+      "id": "10b57d368a464b56aba1693d621937ab",
+      "label": "贵州省",
+      "value": "520000",
+      "sort": 24
+    },
+    {
+      "id": "89f2e4a07d074e208cfb4c271ea0334b",
+      "label": "云南省",
+      "value": "530000",
+      "sort": 25
+    },
+    {
+      "id": "f12272ba106d49c5b536e0d09db57618",
+      "label": "西藏自治区",
+      "value": "540000",
+      "sort": 26
+    },
+    {
+      "id": "4c22e5762cde44ad8474499e65b20abd",
+      "label": "陕西省",
+      "value": "610000",
+      "sort": 27
+    },
+    {
+      "id": "f167624743b04436befc16963d442e80",
+      "label": "甘肃省",
+      "value": "620000",
+      "sort": 28
+    },
+    {
+      "id": "5b9048d484ab4ccb80f536de88e1bf60",
+      "label": "青海省",
+      "value": "630000",
+      "sort": 29
+    },
+    {
+      "id": "aaeda353b85e489db2968a51ba573b7f",
+      "label": "宁夏回族自治区",
+      "value": "640000",
+      "sort": 30
+    },
+    {
+      "id": "886ed59daacf47bda7584cb22010949f",
+      "label": "新疆维吾尔自治区",
+      "value": "6500000",
+      "sort": 31
+    },
+    {
+      "id": "237c572b39394addbf7797157201efa2",
+      "label": "台湾省",
+      "value": "710000",
+      "sort": 32
+    },
+    {
+      "id": "ff4c8d7bb74a48f9b578300f25298ea4",
+      "label": "香港特别行政区",
+      "value": "81000",
+      "sort": 33
+    },
+    {
+      "id": "47dae5f20082489dae3fa2c06d35e99c",
+      "label": "澳门特别行政区",
+      "value": "820000",
+      "sort": 34
+    }
+  ],
+  "have_not": [
+    {
+      "id": "08b45194b1794242a4232bdcda75dcbe",
+      "label": "有",
+      "value": "have",
+      "sort": 1
+    },
+    {
+      "id": "51a9ff9eaa4242cfa6a7fecade39601d",
+      "label": "无",
+      "value": "not_have",
+      "sort": 1
+    }
+  ],
+  "drug_consequences": [
+    {
+      "id": "31481aa34d8a46feb74ae1f4944ca6d2",
+      "label": "危及身体",
+      "value": "100",
+      "sort": 1
+    },
+    {
+      "id": "7d26884919a1400084f2f20ca70ac76c",
+      "label": "性病",
+      "value": "101",
+      "sort": 2
+    },
+    {
+      "id": "07d88c34b3af4935b2964199499841d7",
+      "label": "肝炎",
+      "value": "102",
+      "sort": 3
+    },
+    {
+      "id": "c95f140a74b24f92bf8d717312f8ed72",
+      "label": "心脏病",
+      "value": "103",
+      "sort": 4
+    },
+    {
+      "id": "bc661c54e4b44b9b958bb9492d6f7886",
+      "label": "残疾",
+      "value": "104",
+      "sort": 5
+    },
+    {
+      "id": "491528f8a19c4fa9b9efec6476143ca4",
+      "label": "感染其他疾病",
+      "value": "105",
+      "sort": 6
+    },
+    {
+      "id": "ac834e56f9e24ae9ab0f40668aec98bb",
+      "label": "感染艾滋病毒",
+      "value": "106",
+      "sort": 7
+    },
+    {
+      "id": "97cf74ae8a1e4a49b94608664f791f37",
+      "label": "死亡",
+      "value": "107",
+      "sort": 8
+    },
+    {
+      "id": "8f56c481fdcd4bbd972d0cb0ce5b5228",
+      "label": "其他身体危害",
+      "value": "190",
+      "sort": 9
+    },
+    {
+      "id": "dc6d272969ff47f5b95d98ee9e2f050d",
+      "label": "危害凉癣",
+      "value": "200",
+      "sort": 10
+    },
+    {
+      "id": "f980cbcc49bd4d56a018c3d4661bde0f",
+      "label": "负债",
+      "value": "201",
+      "sort": 11
+    },
+    {
+      "id": "d5ea439ac7fa40b08869111ca665d963",
+      "label": "家庭关系紧张",
+      "value": "202",
+      "sort": 12
+    },
+    {
+      "id": "8fd1c127cdf74cbbb99c177fd1f90204",
+      "label": "夫妻离异",
+      "value": "203",
+      "sort": 13
+    },
+    {
+      "id": "ebd0915c2a7849ffa9efa60899638471",
+      "label": "倾家荡产",
+      "value": "204",
+      "sort": 14
+    },
+    {
+      "id": "12bcdd6867c849a3b85e16a0a7fa2ead",
+      "label": "遗传后代",
+      "value": "206",
+      "sort": 15
+    },
+    {
+      "id": "fbcf9866ff1242a78e9a707e7071b974",
+      "label": "其他家庭危害",
+      "value": "290",
+      "sort": 16
+    },
+    {
+      "id": "a382c632be474b22838c542d8a5b29dd",
+      "label": "危害社会",
+      "value": "300",
+      "sort": 17
+    },
+    {
+      "id": "37928965ba9c44e3a87d44ecf44c4af9",
+      "label": "卖淫",
+      "value": "301",
+      "sort": 18
+    },
+    {
+      "id": "f0605ef658a04bdba1aca91afa84cc09",
+      "label": "贪污",
+      "value": "302",
+      "sort": 19
+    },
+    {
+      "id": "318b54be6b7c405c81aa2bede927bb0b",
+      "label": "诈骗",
+      "value": "303",
+      "sort": 20
+    },
+    {
+      "id": "4ac72d57fe56465a9c1a09831cb6c524",
+      "label": "盗窃",
+      "value": "304",
+      "sort": 21
+    },
+    {
+      "id": "c4ca8f87d3f3489e96d3de5234302fb8",
+      "label": "伤害",
+      "value": "305",
+      "sort": 22
+    },
+    {
+      "id": "dbd6dd8020474a949dff92a90c91bc7a",
+      "label": "抢劫",
+      "value": "306",
+      "sort": 23
+    },
+    {
+      "id": "14d2e1d2bc0943059b35267bad1bdfde",
+      "label": "贩毒",
+      "value": "307",
+      "sort": 24
+    },
+    {
+      "id": "0f44f6c061b34a1b8dca19b1f544465b",
+      "label": "杀人",
+      "value": "308",
+      "sort": 25
+    },
+    {
+      "id": "00c069e7e7af4c06a61179301f86430b",
+      "label": "其他社会危害",
+      "value": "390",
+      "sort": 26
+    },
+    {
+      "id": "5a8de9421ebc45d1ba059b6711fb93a1",
+      "label": "其他",
+      "value": "900",
+      "sort": 27
+    }
+  ],
+  "profession_category": [
+    {
+      "id": "77e26e62676f426d93ec3248b82c9395",
+      "label": "军人",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "fc8595ebb2d241b6b8ee137d9da4b09f",
+      "label": "生产制造及有关人员",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "1bc9783cfdd14e8392697ad4c7e7d9fb",
+      "label": "专业技术人员",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "2a08a98b52da4f6cb39a0a8a08c11ac2",
+      "label": "办事人员和有关人员",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "3381a1c1aa4e405f9e8a20511ceec589",
+      "label": "社会生产服务和生活服务人员",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "cab226710078460eb3ae42d7cba6898d",
+      "label": "农、林、牧、渔业生产及辅助人员",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "968bd611d63b43e69335902e4218eb2a",
+      "label": "党的机关、国家机关、群众团体和社会组织、企事业单位负责人",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "b220024f52be4c0386819aa9d8a3250d",
+      "label": "不便分类的其他从业人员",
+      "value": "08",
+      "sort": 8
+    }
+  ],
+  "current_diagnostic": [
+    {
+      "id": "5306a0db2ce74eb0b5ddedc18339135d",
+      "label": "精神分裂症",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "92e271708a574fcab8ddc9806c761566",
+      "label": "分裂情感性障碍",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "f738aa0b08fd46e29bcd6a2bfce3219c",
+      "label": "持久的妄想性障碍（偏执性精神病）",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "b97462b9a42549368d4ca22ad19ebe9e",
+      "label": "双向（情感）障碍",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "b8f59fdcda83462bb39697e8a3e25400",
+      "label": "癫痫所致精神障碍",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "b8b28399ffae4b85a91f3e9af08bc35b",
+      "label": "精神发育迟滞伴发精神障碍",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "f6a34590e68d40299efd7162a75a2d3c",
+      "label": "重度抑郁发作",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "a2affb8251954efc805f7aa2832c6fd7",
+      "label": "精神活性物质所致精神障碍",
+      "value": "08",
+      "sort": 8
+    },
+    {
+      "id": "c9ef2e1da913440d8b045dcc193682ff",
+      "label": "其他",
+      "value": "99",
+      "sort": 9
+    }
+  ],
+  "gen_query_type": [
+    {
+      "id": "76",
+      "label": "=",
+      "value": "=",
+      "sort": 10
+    },
+    {
+      "id": "77",
+      "label": "!=",
+      "value": "!=",
+      "sort": 20
+    },
+    {
+      "id": "78",
+      "label": "&gt;",
+      "value": "&gt;",
+      "sort": 30
+    },
+    {
+      "id": "79",
+      "label": "&lt;",
+      "value": "&lt;",
+      "sort": 40
+    },
+    {
+      "id": "80",
+      "label": "Between",
+      "value": "between",
+      "sort": 50
+    },
+    {
+      "id": "81",
+      "label": "Like",
+      "value": "like",
+      "sort": 60
+    },
+    {
+      "id": "82",
+      "label": "Left Like",
+      "value": "left_like",
+      "sort": 70
+    },
+    {
+      "id": "83",
+      "label": "Right Like",
+      "value": "right_like",
+      "sort": 80
+    }
+  ],
+  "incident_source": [
+    {
+      "id": "5f3fb0e7c30b43bcb1ac68dda3b6d354",
+      "label": "巡逻排查",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "fa1894b166004728830f351df669c896",
+      "label": "群众反馈",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "5dcf5fe9554344b2acdfb4cf28749d12",
+      "label": "上级交办",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "bd183b3db29d447b88f07e3cd6385345",
+      "label": "平级转办",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "e9e3393ed923415f8364fdc99e9fc188",
+      "label": "媒体曝光",
+      "value": "5",
+      "sort": 5
+    },
+    {
+      "id": "18108b5200f64cbc9616fa8d6341703a",
+      "label": "工作上报",
+      "value": "6",
+      "sort": 6
+    }
+  ],
+  "db_type": [
+    {
+      "id": "24dcdae4298446c39c75e48779cad02f",
+      "label": "MySQL",
+      "value": "mysql",
+      "sort": 1
+    },
+    {
+      "id": "f21daa8e27cc4d8da5708b2ab8c77c8b",
+      "label": "Oracle",
+      "value": "oracle",
+      "sort": 2
+    },
+    {
+      "id": "78b6752e65724bdfa7fade4e06bfc7d7",
+      "label": "SQL Server",
+      "value": "mssql",
+      "sort": 3
+    },
+    {
+      "id": "c469408a28d641c4a0d6402eb7c3adde",
+      "label": "PostgreSQL",
+      "value": "postgre",
+      "sort": 4
+    }
+  ],
+  "political_type": [
+    {
+      "id": "08419857a72945c28e27f5ad7ff62035",
+      "label": "共青团员",
+      "value": "3",
+      "sort": 1
+    },
+    {
+      "id": "123d59ed8aa1416db38019671779d75c",
+      "label": "群众",
+      "value": "13",
+      "sort": 1
+    },
+    {
+      "id": "48251c0a5a834615b623aaf9a45dea44",
+      "label": "民进会员",
+      "value": "7",
+      "sort": 1
+    },
+    {
+      "id": "852fb52fd9394a13b5573a028051e8c9",
+      "label": "民革党员",
+      "value": "4",
+      "sort": 1
+    },
+    {
+      "id": "8ed3b3a9b12e45a09d10b79cccedaf4d",
+      "label": "中共预备党员",
+      "value": "2",
+      "sort": 1
+    },
+    {
+      "id": "a2405ea480344b219023c66e0158fcc0",
+      "label": "中共党员",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "a5c71b54d9ff47bd9a79c22aa39e5597",
+      "label": "民盟盟员",
+      "value": "6",
+      "sort": 1
+    },
+    {
+      "id": "c0f2e807b5da4b1ba3ae4683451690f2",
+      "label": "致公党党员",
+      "value": "9",
+      "sort": 1
+    },
+    {
+      "id": "d13efd7b207c47ec922fb8b081931c4a",
+      "label": "九三学社社员",
+      "value": "10",
+      "sort": 1
+    },
+    {
+      "id": "d2ff033b1aa64fe6b93d14f70ed30e65",
+      "label": "农工党党员",
+      "value": "8",
+      "sort": 1
+    },
+    {
+      "id": "ddbcb644ee5a4fc4bf9a00580449b1c2",
+      "label": "无党派人士",
+      "value": "12",
+      "sort": 1
+    },
+    {
+      "id": "ef88d5595d404bfca082a0c019b3e67b",
+      "label": "台盟盟员",
+      "value": "11",
+      "sort": 1
+    }
+  ],
+  "collect_items": [
+    {
+      "id": "79e3d7a423c74bffae14288475bde2ee",
+      "label": "全部",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "f9daa507f5d44f6fbce54490b290d8b5",
+      "label": "人口信息",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "2d542306db2b47a99a24b8aa2f09a6a7",
+      "label": "组织团体",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "bc59fe406a7c48ee9925de4038175580",
+      "label": "行业场所",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "1ed66d9326c34f548e82b09c4ee667d7",
+      "label": "社会治安",
+      "value": "5",
+      "sort": 5
+    },
+    {
+      "id": "7876ebc0652e41688a25962e05735ce0",
+      "label": "设施部件",
+      "value": "6",
+      "sort": 6
+    },
+    {
+      "id": "ef74c7d1b0144352ad3abb83fbf4732f",
+      "label": "房屋信息",
+      "value": "7",
+      "sort": 7
+    },
+    {
+      "id": "c5c6f8796f1949e991ad2f8860a9a096",
+      "label": "辖区事件",
+      "value": "8",
+      "sort": 8
+    },
+    {
+      "id": "dc01845c19b74761b9e8177392de6021",
+      "label": "社情民意",
+      "value": "9",
+      "sort": 9
+    },
+    {
+      "id": "9ca2c35e742a41af80ffdd3de184060c",
+      "label": "矛盾纠纷",
+      "value": "10",
+      "sort": 10
+    }
+  ],
+  "transaction_status": [
+    {
+      "id": "f89376c23e2345978d6f84bc36919d17",
+      "label": "上报",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "fbbc3c6a945343cebb30802d8f6f472f",
+      "label": "转办",
+      "value": "3",
+      "sort": 2
+    },
+    {
+      "id": "02938b5847374c4eb384831c3c2b0781",
+      "label": "办理",
+      "value": "2",
+      "sort": 3
+    },
+    {
+      "id": "dbf127c3d93b4b1281aa8a5d100dae6f",
+      "label": "驳回",
+      "value": "1",
+      "sort": 4
+    }
+  ],
+  "security_problem": [
+    {
+      "id": "c9c8023df05440808d872f97412dc49f",
+      "label": "命案",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "119c57b28ce947cc9cbcbde7fac6a403",
+      "label": "入室盗窃",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "d414ff0ca61f4f36972489b15df2cc8a",
+      "label": "抢劫抢夺",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "e4c9e17fbafb4951b8281e6e1130d4d9",
+      "label": "电信诈骗",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "7fd025623f914403ad5dd56028bc4cb6",
+      "label": "拎包扒窃",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "1da18dcbd4c14e9aa2381e0c7f1a97c1",
+      "label": "偷盗机动车",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "b0bd8ed5570d48c88394fafdab22fefe",
+      "label": "卖淫嫖娼",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "c75a9db614a7479fb4c5b11397dd3ace",
+      "label": "赌博",
+      "value": "08",
+      "sort": 8
+    },
+    {
+      "id": "636111f77d294a228bd79b54dbfb94f0",
+      "label": "拐卖妇女儿童",
+      "value": "09",
+      "sort": 9
+    },
+    {
+      "id": "434dc595f3b042aaa0919eb20bf93f4c",
+      "label": "制假贩假",
+      "value": "10",
+      "sort": 10
+    },
+    {
+      "id": "4b1dee9472c940579cea957773c05470",
+      "label": "制黄贩黄",
+      "value": "11",
+      "sort": 11
+    },
+    {
+      "id": "52d4c47bed4645d1be0d91d5f4db895b",
+      "label": "高利贷",
+      "value": "12",
+      "sort": 12
+    },
+    {
+      "id": "5a9e12485866499fb608bb8c832787ed",
+      "label": "强买强卖",
+      "value": "13",
+      "sort": 13
+    },
+    {
+      "id": "84b6042bf08d4b2796411701192ead3a",
+      "label": "交通秩序混乱",
+      "value": "14",
+      "sort": 14
+    },
+    {
+      "id": "22a4c6d6ee0a4e0b818942f2876fc2a5",
+      "label": "其他",
+      "value": "99",
+      "sort": 15
+    }
+  ],
+  "sys_draft": [
+    {
+      "id": "7ce75c69a59c4dffb3663166ed095285",
+      "label": "草稿",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "7cf7c25db8e14af0ac9f1fec2dd98c0d",
+      "label": "发布",
+      "value": "1",
+      "sort": 1
+    }
+  ],
+  "sys_log_type": [
+    {
+      "id": "67",
+      "label": "接入日志",
+      "value": "1",
+      "sort": 30
+    },
+    {
+      "id": "68",
+      "label": "异常日志",
+      "value": "2",
+      "sort": 40
+    }
+  ],
+  "correct_group": [
+    {
+      "id": "f9e9b915b25743d3aeba0bcac02d8c65",
+      "label": "司法所工作人员",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "5fb074da24c744e78bd054fdbb2cfc95",
+      "label": "社会工作者",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "3ba3fd223cd34e9abc23bce02e7cc655",
+      "label": "志愿者",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "cce5012b2a624edb91738ee003961b01",
+      "label": "村（居）委会人员",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "eeb0f25d06974d6b9f87cb2ae969a0bb",
+      "label": "所在单位人员",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "371c53f8927c4308b1cf08006106f2b0",
+      "label": "就读学校人员",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "bc476605092946038588b41cbf1bb17c",
+      "label": "家庭成员或监护人",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "8b1f543b3b874a54a052aab1dea01baa",
+      "label": "保证人",
+      "value": "08",
+      "sort": 8
+    },
+    {
+      "id": "a7ffe19b9bd546bf83ac70acb36b86d9",
+      "label": "其他",
+      "value": "99",
+      "sort": 9
+    }
+  ],
+  "show_hide": [
+    {
+      "id": "3",
+      "label": "显示",
+      "value": "1",
+      "sort": 10
+    },
+    {
+      "id": "4",
+      "label": "隐藏",
+      "value": "0",
+      "sort": 20
+    }
+  ],
+  "dispute_risk_degree": [
+    {
+      "id": "6dd8cc1f12a7438aa801edcb6489113f",
+      "label": "一级",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "a05d7804a33f42fb9d87a19f1cc25ae7",
+      "label": "二级",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "63e0130f12a34d48ba8d7b0653f95da2",
+      "label": "三级",
+      "value": "3",
+      "sort": 3
+    }
+  ],
+  "registration_type": [
+    {
+      "id": "f169605b586f47db99cfe45366efe138",
+      "label": "国有",
+      "value": "110",
+      "sort": 1
+    },
+    {
+      "id": "3d8a0da675784d0a9ea893be5de4b9b9",
+      "label": "集体",
+      "value": "120",
+      "sort": 2
+    },
+    {
+      "id": "a3685c220cd14acabc995a38946c5cc2",
+      "label": "股份合作",
+      "value": "130",
+      "sort": 3
+    },
+    {
+      "id": "e47945e47e75471c87fc8247aa864ce8",
+      "label": "联营",
+      "value": "140",
+      "sort": 4
+    },
+    {
+      "id": "0538af2c6ae64edebdb5d4229447e71a",
+      "label": "有限责任公司",
+      "value": "150",
+      "sort": 5
+    },
+    {
+      "id": "f2463c0e8b4c4fb3b9cef8917045dda4",
+      "label": "股份有限公司",
+      "value": "160",
+      "sort": 6
+    },
+    {
+      "id": "73b3fc22be6a4dcbb1ae5005ee430b4c",
+      "label": "私营",
+      "value": "170",
+      "sort": 7
+    },
+    {
+      "id": "d18bcdd77cff4d4dabf418cc331cbdc2",
+      "label": "其他内资企业",
+      "value": "190",
+      "sort": 8
+    },
+    {
+      "id": "85168a3d5fce4f638866d8750cfc13d9",
+      "label": "港澳台商投资企业",
+      "value": "200",
+      "sort": 9
+    },
+    {
+      "id": "591d3b2c2ee7431081ae328a91917874",
+      "label": "外商投资企业",
+      "value": "300",
+      "sort": 10
+    }
+  ],
+  "fire_rating": [
+    {
+      "id": "834c7b5f7a9f4cf9baca331bad6cf0d3",
+      "label": "其它",
+      "value": "9",
+      "sort": 1
+    },
+    {
+      "id": "23355bd463ed4e5596f94713ec05c50a",
+      "label": "一般",
+      "value": "3",
+      "sort": 2
+    },
+    {
+      "id": "99979a08838e4ace85358d003f3e8846",
+      "label": "区县级",
+      "value": "2",
+      "sort": 3
+    },
+    {
+      "id": "f175ce95e9084bfdaa5a95cbb3f3073d",
+      "label": "州地市级",
+      "value": "1",
+      "sort": 4
+    }
+  ],
+  "marriage": [
+    {
+      "id": "635e7b394f964bf298aeee301a44cda9",
+      "label": "未婚",
+      "value": "10",
+      "sort": 1
+    },
+    {
+      "id": "d6d9ab111f5c4072907df28c5a76614e",
+      "label": "已婚",
+      "value": "20",
+      "sort": 2
+    },
+    {
+      "id": "6f6d112e6b8a47f38d1cd50e90ee67aa",
+      "label": "初婚",
+      "value": "21",
+      "sort": 3
+    },
+    {
+      "id": "67182b092b8446b0b7d739c8d313adb3",
+      "label": "再婚",
+      "value": "22",
+      "sort": 4
+    },
+    {
+      "id": "894876c96c7541faa287e835a8ae6c55",
+      "label": "复婚",
+      "value": "23",
+      "sort": 5
+    },
+    {
+      "id": "64370892ee5b4facaed691a9925f1ea8",
+      "label": "丧偶",
+      "value": "30",
+      "sort": 6
+    },
+    {
+      "id": "ab58f12930ed4948bb4d667b4e1e8689",
+      "label": "离婚",
+      "value": "40",
+      "sort": 7
+    },
+    {
+      "id": "6f3a8deb30264fa1b514e9e8750bbc38",
+      "label": "未说明的婚姻状况",
+      "value": "90",
+      "sort": 8
+    }
+  ],
+  "dispute_emergency_degree": [
+    {
+      "id": "9a0065b0b6614d4baaa6c63ccaaed4e0",
+      "label": "一级",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "9f1eb7624dbb4c61a43f3a88d12c8a56",
+      "label": "二级",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "56c95d31860747928430452cab3edd68",
+      "label": "三级",
+      "value": "3",
+      "sort": 3
+    }
+  ],
+  "opening_mode": [
+    {
+      "id": "bb63564f619b48cabe91efd8be13b6ce",
+      "label": "有人进入",
+      "value": "2",
+      "sort": 1
+    },
+    {
+      "id": "c70d4ed38ce94bb882e9a41689d06116",
+      "label": "管理员进入",
+      "value": "3",
+      "sort": 2
+    },
+    {
+      "id": "c7fe16dcc71f49c899f7b7c3d8799967",
+      "label": "未进入",
+      "value": "1",
+      "sort": 3
+    }
+  ],
+  "personnel_type": [
+    {
+      "id": "a345b48101cd45d99e6eb4ec4c746816",
+      "label": "境外人员",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "741e414e516c429e8eec3dbe49c62eb8",
+      "label": "流动人员",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "db7aa07e91e74b0d842948d1fe6a8fa2",
+      "label": "户籍人口",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "8509edd6a3524bac9b934ea4239e9f09",
+      "label": "留守人员",
+      "value": "4",
+      "sort": 4
+    }
+  ],
+  "house_certificate": [
+    {
+      "id": "0df33ea027ac4bf5bf2ff3cebf526182",
+      "label": "房屋所有权",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "c7d20d4aec1b44fdb1c886f1bf0062ad",
+      "label": "土地所有权",
+      "value": "1",
+      "sort": 2
+    }
+  ],
+  "dispute_people_type": [
+    {
+      "id": "209ec471dcb3422b9b0034e1c7eda988",
+      "label": "申请人",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "223c101903e5471689d93c263983438f",
+      "label": "被申请人",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "de1478b70bd24d7daf0cf3402550d9db",
+      "label": "见证人",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "b9bddb45ee024cd082ed01628c31cf3c",
+      "label": "授权代理人",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "668eda4384fe411cb39da710c2101b15",
+      "label": "法定代理人",
+      "value": "5",
+      "sort": 5
+    }
+  ],
+  "menu_type": [
+    {
+      "id": "b17aa24594b042319aa6af6564b5d278",
+      "label": "菜单",
+      "value": "1",
+      "sort": 30
+    },
+    {
+      "id": "10999522b031406b8b2c30e0f35f8978",
+      "label": "按钮",
+      "value": "2",
+      "sort": 60
+    }
+  ],
+  "meeting_rank": [
+    {
+      "id": "1df887eff51c4ba0b0fbe67451375d97",
+      "label": "一级",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "cb1e8dcdab76468f9a2b3cf9924c9b7f",
+      "label": "二级",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "165e512d4952464ca26dbba0087b0849",
+      "label": "三级",
+      "value": "03",
+      "sort": 3
+    }
+  ],
+  "meeting_type": [
+    {
+      "id": "980fdacf36ac4a28bc2c003c641b0020",
+      "label": "常规会议",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "68c492008dc244928b7017e82bd2aa29",
+      "label": "特种会议",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "00bbd5a060564b85935df51e13706de8",
+      "label": "专属会议",
+      "value": "03",
+      "sort": 3
+    }
+  ],
+  "gen_show_type": [
+    {
+      "id": "84",
+      "label": "文本框",
+      "value": "input",
+      "sort": 10
+    },
+    {
+      "id": "85",
+      "label": "文本域",
+      "value": "textarea",
+      "sort": 20
+    },
+    {
+      "id": "86",
+      "label": "下拉框",
+      "value": "select",
+      "sort": 30
+    },
+    {
+      "id": "87",
+      "label": "复选框",
+      "value": "checkbox",
+      "sort": 40
+    },
+    {
+      "id": "88",
+      "label": "单选框",
+      "value": "radiobox",
+      "sort": 50
+    },
+    {
+      "id": "89",
+      "label": "日期选择",
+      "value": "dateselect",
+      "sort": 60
+    },
+    {
+      "id": "90",
+      "label": "人员选择",
+      "value": "userselect",
+      "sort": 70
+    },
+    {
+      "id": "91",
+      "label": "部门选择",
+      "value": "officeselect",
+      "sort": 80
+    },
+    {
+      "id": "92",
+      "label": "区域选择",
+      "value": "areaselect",
+      "sort": 90
+    }
+  ],
+  "resettlement_situation": [
+    {
+      "id": "4fe7b56890ca4c5abd87ec638af939e3",
+      "label": "落实责任田",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "d48c35711ba547878db57d4ba05461ff",
+      "label": "公益性岗位安置",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "3ebf09b5f70d4c73b08cfeeead076183",
+      "label": "企业认证为安置基地安置",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "b22ca61583ce47dc9aed4f7284bce750",
+      "label": "建设政府投入为主的安置基地安置",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "238abc328e4b46b08fec753e687126bf",
+      "label": "从事个体经营",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "3fd0fea9af91419a81b03b60627fecc6",
+      "label": "企业和经济实体吸纳就业",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "52da4e657caa413c8ee65426751b6505",
+      "label": "自主创业",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "8e69cba44d754626a49b9b227f51d949",
+      "label": "其他安置方式",
+      "value": "99",
+      "sort": 8
+    }
+  ],
+  "drugs_cause": [
+    {
+      "id": "f6f84dbca05742298cee144d7d74cdea",
+      "label": "亲友影响",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "f1ccff901e5b42f8bccf4a5be3ceba6e",
+      "label": "好奇",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "34d65248f42a43b1a7f696073778dbcc",
+      "label": "人生受挫",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "bd8ee34aa896409fb9fe166fe02fc1b4",
+      "label": "寻求刺徼",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "0ea255e171d842aeaec73d3e2aa94d6e",
+      "label": "被诱骗",
+      "value": "5",
+      "sort": 5
+    },
+    {
+      "id": "0c9615c8567a4e3fa8fb2cba4726c290",
+      "label": "被逼迫",
+      "value": "6",
+      "sort": 6
+    },
+    {
+      "id": "d492831c407a45999bb856e0c729b39f",
+      "label": "治病引起",
+      "value": "7",
+      "sort": 7
+    },
+    {
+      "id": "4ba7595c51f348c99fd8f80c24c696b8",
+      "label": "遗传",
+      "value": "8",
+      "sort": 8
+    },
+    {
+      "id": "418d1550b6184afe881c6e1d98adda53",
+      "label": "其他",
+      "value": "99",
+      "sort": 9
+    }
+  ],
+  "control_situation": [
+    {
+      "id": "63ff109f1ac347f69d19f2a1f9640343",
+      "label": "在控",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "afd3c1b72cc345ddafec5b3177372751",
+      "label": "失控",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "f70969c0151c4faba9fed7487b5eb49b",
+      "label": "死亡",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "4e9abf093c0c49f8bfa635ede8e6fca8",
+      "label": "出国（境）",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "772b18b05aef467baa96bbf72efd0b63",
+      "label": "社会面戒断三年未复吸",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "223d3fdea65e4bd5ac7e8d4a0c4692cb",
+      "label": "社会面戒断不满三年",
+      "value": "06",
+      "sort": 6
+    }
+  ],
+  "target": [
+    {
+      "id": "5209ffa840734da3adb81e75d6dfa884",
+      "label": "self",
+      "value": "self",
+      "sort": 1
+    },
+    {
+      "id": "233dce402823480fb27cea292583acc9",
+      "label": "iframe",
+      "value": "iframe",
+      "sort": 2
+    },
+    {
+      "id": "3be5175a413d471ca8f9ee185aed3d15",
+      "label": "blank",
+      "value": "blank",
+      "sort": 3
+    }
+  ],
+  "layout": [
+    {
+      "id": "f8639557791d4b8c8329fcf4a2dc4ecd",
+      "label": "横向菜单",
+      "value": "horizontal",
+      "sort": 30
+    },
+    {
+      "id": "24cc0011192545dfb01eacbe73013b1f",
+      "label": "左侧菜单",
+      "value": "vertical",
+      "sort": 60
+    }
+  ],
+  "economic_nature": [
+    {
+      "id": "e2ae5f9ee0af47f4a0cfd40b6dbbf5af",
+      "label": "其他国外投资",
+      "value": "390",
+      "sort": 1
+    },
+    {
+      "id": "a331bb73edce47efb13692913c7f57f9",
+      "label": "国外投资股份有限（公司）",
+      "value": "340",
+      "sort": 2
+    },
+    {
+      "id": "cbcc1310b69d408c82245bf4669a8838",
+      "label": "外资",
+      "value": "330",
+      "sort": 3
+    },
+    {
+      "id": "be116bfe119348d1918687f8efbf1332",
+      "label": "中外合作",
+      "value": "320",
+      "sort": 4
+    },
+    {
+      "id": "97cf39a3f3bd4d758116bb3363a74f6f",
+      "label": "中外合资",
+      "value": "310",
+      "sort": 5
+    },
+    {
+      "id": "f0b286495cbb47be9d4a8eb02331c88c",
+      "label": "其他内资",
+      "value": "190",
+      "sort": 6
+    },
+    {
+      "id": "12e6b85e042a44f79f64d5c4cfac7e35",
+      "label": "其他私有",
+      "value": "179",
+      "sort": 7
+    },
+    {
+      "id": "d544ff5a5f674909ab4c2b324bc1d8e4",
+      "label": "个体经营",
+      "value": "175",
+      "sort": 8
+    },
+    {
+      "id": "2658f65a90fa42708f529a28c45e627e",
+      "label": "私营股份有限（公司）",
+      "value": "174",
+      "sort": 9
+    },
+    {
+      "id": "e9f3ab37c5c54c00876d1fde435ffb2c",
+      "label": "私营有限责任（公司）",
+      "value": "173",
+      "sort": 10
+    },
+    {
+      "id": "7e05e98d12254bd09bb4d3dd596309ee",
+      "label": "私有合伙",
+      "value": "172",
+      "sort": 11
+    },
+    {
+      "id": "ffde1ba1ab5741b1b4d9cb614484ca56",
+      "label": "私有独资",
+      "value": "171",
+      "sort": 12
+    },
+    {
+      "id": "4ae1843326dd4d1aa32e294f973af78b",
+      "label": "私有",
+      "value": "170",
+      "sort": 13
+    },
+    {
+      "id": "11ccd9908f984eb0afb7afe9435dc988",
+      "label": "股份有限（公司）",
+      "value": "160",
+      "sort": 14
+    },
+    {
+      "id": "53a1c2b3d50141a3ab46863792febab9",
+      "label": "其他有限责任（公司）",
+      "value": "159",
+      "sort": 15
+    },
+    {
+      "id": "3352501d1e7b48a183d5be15971960e9",
+      "label": "有限责任（公司）",
+      "value": "150",
+      "sort": 16
+    },
+    {
+      "id": "4fa4e059f3ef46a293982dd67d4dc777",
+      "label": "其他联营",
+      "value": "149",
+      "sort": 17
+    },
+    {
+      "id": "ec80acc6c382480ebcb62a5899a0ac6e",
+      "label": "国有与集体联营",
+      "value": "143",
+      "sort": 18
+    },
+    {
+      "id": "7b39cc25b35d44b0b3957b6a455e00e1",
+      "label": "集体联营",
+      "value": "142",
+      "sort": 19
+    },
+    {
+      "id": "2dc12d3b888841cc803c6c5f9dfa1f89",
+      "label": "国有联营",
+      "value": "141",
+      "sort": 20
+    },
+    {
+      "id": "d287ba5d449e4d5287b5f580b3a8f7c6",
+      "label": "联营",
+      "value": "140",
+      "sort": 21
+    },
+    {
+      "id": "92c6575d0cf64279b9ea149b6474b176",
+      "label": "股份合作",
+      "value": "130",
+      "sort": 22
+    },
+    {
+      "id": "e84c8557e1e34b8eb249b9083263c22c",
+      "label": "集体全资",
+      "value": "120",
+      "sort": 23
+    },
+    {
+      "id": "44e30a249a4f466c9c9f68aa32ec6a42",
+      "label": "国有全资",
+      "value": "110",
+      "sort": 24
+    },
+    {
+      "id": "b184946297824eb9a1fd02d452183762",
+      "label": "其他港澳台投资",
+      "value": "290",
+      "sort": 25
+    },
+    {
+      "id": "5759a1e030bd4f9dac3219ec788b0deb",
+      "label": "港、澳、台投资股份有限（公司）",
+      "value": "240",
+      "sort": 26
+    },
+    {
+      "id": "dbba9a626a734d12981aa04d1c5745f9",
+      "label": "港、澳、台独资",
+      "value": "230",
+      "sort": 27
+    },
+    {
+      "id": "6b4fcd0703624c8d9c47f5d0299e524a",
+      "label": "内地和港、澳、台合作",
+      "value": "220",
+      "sort": 28
+    },
+    {
+      "id": "f763a6157dc24ed293fe762a1b0606dc",
+      "label": "内地和港、澳、台合资",
+      "value": "210",
+      "sort": 29
+    },
+    {
+      "id": "45785ff952664a9386859ba01bae6026",
+      "label": "港、澳、台投资",
+      "value": "200",
+      "sort": 30
+    },
+    {
+      "id": "60d11f696a6c4fc6b94515de7109dee6",
+      "label": "内资",
+      "value": "100",
+      "sort": 31
+    },
+    {
+      "id": "b252bf698851492480d88d25481d045a",
+      "label": "其他",
+      "value": "900",
+      "sort": 32
+    },
+    {
+      "id": "4fd873c129784934943db7227e3be264",
+      "label": "国外投资",
+      "value": "300",
+      "sort": 33
+    }
+  ],
+  "original_accusation": [
+    {
+      "id": "31cbba3b17834c73aaa3c50b3a60db75",
+      "label": "危害国家安全罪",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "a1e7a45c08de4d279b24b6b9a5cde340",
+      "label": "危害公共安全罪",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "6faa181ad37c4d12bc70f1f310e9d1c4",
+      "label": "破坏社会主义市场经济秩序罪",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "d28e88ef793145aea931f759e0f12f8a",
+      "label": "侵犯公民人身权利、民主权利罪",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "6c2500133899472e9cfd5e13427c7f45",
+      "label": "侵犯财产罪",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "0d73990a517b40aea79539d52d92e7f8",
+      "label": "妨害社会管理秩序罪",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "4a183ee8e6d5413688f7622bddf2faab",
+      "label": "危害国防利益罪",
+      "value": "07",
+      "sort": 7
+    },
+    {
+      "id": "d29fbb741f1148ee9a280d4d0dfd61d1",
+      "label": "贪污贿赂罪",
+      "value": "08",
+      "sort": 8
+    },
+    {
+      "id": "4803338462fe494291501942b3d3061f",
+      "label": "渎职罪",
+      "value": "09",
+      "sort": 9
+    },
+    {
+      "id": "6088b65923294c4c870f679e7f8a3b63",
+      "label": "军人违反职责罪",
+      "value": "10",
+      "sort": 10
+    }
+  ],
+  "emergency_degree": [
+    {
+      "id": "399b50c297534d468c25b70bcc396265",
+      "label": "一般",
+      "value": "0",
+      "sort": 1
+    },
+    {
+      "id": "eb6c2b21fda84dd9a06de444aca7bc9a",
+      "label": "平急",
+      "value": "1",
+      "sort": 2
+    },
+    {
+      "id": "959c3a42880641218096d40f6932cb17",
+      "label": "紧急",
+      "value": "2",
+      "sort": 3
+    },
+    {
+      "id": "67de3b6b08984f72add54ec536cde0aa",
+      "label": "特急",
+      "value": "3",
+      "sort": 4
+    }
+  ],
+  "treatment_condition": [
+    {
+      "id": "900913ce10a348ecb187f0b3f9772f24",
+      "label": "住院治疗",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "d96aedff3b564057bf569945c743b2d6",
+      "label": "居家使用抗精神病药物治疗",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "8b3b39b64ede43b6be34a30cda39e58c",
+      "label": "其他治疗",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "f70d52b096ef47af86101494a4a1f9fc",
+      "label": "未接受过治疗",
+      "value": "04",
+      "sort": 4
+    }
+  ],
+  "participating_management_personnel": [
+    {
+      "id": "0ae6418d976743a5822ad3deed9103d6",
+      "label": "基层医务人员",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "222cde35ca754dac9c31f9f89c67e6ed",
+      "label": "片区民警",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "7b83ce6b84c647a8913dd378e2ea8a78",
+      "label": "民政干事",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "9d18d8b1241e4264bb79ac058f0accb4",
+      "label": "助残员",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "00364b3404084661a50dc2460cd89e6d",
+      "label": "村（居）委会干部",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "b7876f325cf1476f950e77375dff044b",
+      "label": "其他",
+      "value": "99",
+      "sort": 6
+    }
+  ],
+  "goes_on": [
+    {
+      "id": "888e8ef2c07140e58de006dfe16e82c7",
+      "label": "基层政府接回",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "08c117469e44407c91feb77a77052d65",
+      "label": "监所送回原籍",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "64e1ff17378e46698d3a5b47b4a2ecbb",
+      "label": "司法所接回",
+      "value": "03",
+      "sort": 3
+    },
+    {
+      "id": "d3e0d7a7a5af4df1a5030f570ef5a5ca",
+      "label": "公安机关落实管控措施",
+      "value": "04",
+      "sort": 4
+    },
+    {
+      "id": "ab6395b725ba49898b827a1e19bf7ff6",
+      "label": "基层组织接回",
+      "value": "05",
+      "sort": 5
+    },
+    {
+      "id": "7194fa2868d246adb290e52e80478a4f",
+      "label": "人员自返",
+      "value": "06",
+      "sort": 6
+    },
+    {
+      "id": "feb4c7512a6e4f29b7302b90b7d05e9d",
+      "label": "其他衔接情况",
+      "value": "99",
+      "sort": 7
+    }
+  ],
+  "duty": [
+    {
+      "id": "047cd804fee74be7979ae0a1606e2ecb",
+      "label": "主任科员",
+      "value": "50",
+      "sort": 1
+    },
+    {
+      "id": "26c3fdb26fe14c8fac04ebdce55fc4aa",
+      "label": "工作人员",
+      "value": "53",
+      "sort": 1
+    },
+    {
+      "id": "3c602f089c034b5cbbba2adbeb9d3d26",
+      "label": "无",
+      "value": "99",
+      "sort": 1
+    },
+    {
+      "id": "3ee5a55c38b24b33bab499f466ebf10c",
+      "label": "副书记",
+      "value": "46",
+      "sort": 1
+    },
+    {
+      "id": "51636b2482354634b1e203db42a6a1de",
+      "label": "工程师",
+      "value": "52",
+      "sort": 1
+    },
+    {
+      "id": "5bd000e164eb440395db038eba2c345b",
+      "label": "副巡视员",
+      "value": "47",
+      "sort": 1
+    },
+    {
+      "id": "5cf60e25b4ff4916bb9aa6e7b8421474",
+      "label": "常委副书记",
+      "value": "45",
+      "sort": 1
+    },
+    {
+      "id": "6a9814b0361a45c997ee812928714460",
+      "label": "副主任科员",
+      "value": "49",
+      "sort": 1
+    },
+    {
+      "id": "8fde7a8b4c944b90b0ce8e0a0c4e3bf7",
+      "label": "副调研员",
+      "value": "48",
+      "sort": 1
+    },
+    {
+      "id": "b4aa2411c1694418ad72aa916b44a97d",
+      "label": "调研员",
+      "value": "51",
+      "sort": 1
+    },
+    {
+      "id": "bcfa245eb2ca4d9589fd99170abcbec9",
+      "label": "省委书记",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "c6950adace2e4680a3bbb1143044269d",
+      "label": "主任",
+      "value": "43",
+      "sort": 1
+    },
+    {
+      "id": "f4c7500d3b8041bd87991b7d181694aa",
+      "label": "副部长",
+      "value": "12",
+      "sort": 1
+    },
+    {
+      "id": "3713c4012a7f47368ce1217cb121f926",
+      "label": "副处长",
+      "value": "42",
+      "sort": 2
+    },
+    {
+      "id": "7ab6c67e268743b081d29d19c4653458",
+      "label": "省长",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "6a35a8b8bc6049a7a583aeca5f3bce02",
+      "label": "省政协主席",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "ccedf50c2ade4f7b972770f59818e5c8",
+      "label": "省人大常委会主席",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "4bc8ab66f21e43bdab41fb0b8480b2b4",
+      "label": "部长",
+      "value": "5",
+      "sort": 5
+    },
+    {
+      "id": "d983bf90af8a4160b84c4c22e45d16b1",
+      "label": "市长",
+      "value": "6",
+      "sort": 6
+    },
+    {
+      "id": "663a317a0ea2490cba4033322ebaa716",
+      "label": "省委副书记",
+      "value": "7",
+      "sort": 7
+    },
+    {
+      "id": "daa8566b2f954063bd384c2bbf9f415e",
+      "label": "副省长",
+      "value": "8",
+      "sort": 8
+    },
+    {
+      "id": "dea45bd84a9e45e691a6d478013dca6f",
+      "label": "省政协副主席",
+      "value": "9",
+      "sort": 9
+    },
+    {
+      "id": "dd4469171786408494e1c368ad0eeb03",
+      "label": "省人大常委会副主席",
+      "value": "10",
+      "sort": 10
+    },
+    {
+      "id": "f36d6ce6e3a3421284eaa9ede7ee0849",
+      "label": "局长",
+      "value": "11",
+      "sort": 11
+    },
+    {
+      "id": "6610c0755adb4419abbfa0996af54167",
+      "label": "副市长",
+      "value": "13",
+      "sort": 13
+    },
+    {
+      "id": "4118f49d04e0424f8e0705f9a3d02ecc",
+      "label": "副部长",
+      "value": "14",
+      "sort": 14
+    },
+    {
+      "id": "b81e2e6cb426421fa031edef852e52fb",
+      "label": "市委书记",
+      "value": "15",
+      "sort": 15
+    },
+    {
+      "id": "19656185e0b444539c3f1903243e64a5",
+      "label": "市人大主席",
+      "value": "16",
+      "sort": 16
+    },
+    {
+      "id": "227544c4358f40939e9443732e1239e3",
+      "label": "市政协主席",
+      "value": "17",
+      "sort": 17
+    },
+    {
+      "id": "33a5cc022a264be8b29f24f43c86119a",
+      "label": "厅长",
+      "value": "18",
+      "sort": 18
+    },
+    {
+      "id": "f2df8fe03f334d5b9bfeed2bf89da1b6",
+      "label": "市委副书记",
+      "value": "19",
+      "sort": 19
+    },
+    {
+      "id": "0c0398fb1a4442eeb9017ecb4157021c",
+      "label": "市委常委",
+      "value": "20",
+      "sort": 20
+    },
+    {
+      "id": "e7d6ef085d974ba9934fca869ec2b995",
+      "label": "市人大副主席",
+      "value": "21",
+      "sort": 21
+    },
+    {
+      "id": "e168b847d7704ca58b65f3fb712a34b9",
+      "label": "市政副协主席",
+      "value": "22",
+      "sort": 22
+    },
+    {
+      "id": "adbc278350f0498497915b262e3d51ae",
+      "label": "副局长",
+      "value": "23",
+      "sort": 23
+    },
+    {
+      "id": "322b9e69f96d4b23b3a265023412eca7",
+      "label": "县委书记",
+      "value": "24",
+      "sort": 24
+    },
+    {
+      "id": "68290f7a4ce34025b109b56fd01d2ce5",
+      "label": "县长",
+      "value": "25",
+      "sort": 25
+    },
+    {
+      "id": "9015a8bba7574be39b874c40fc853446",
+      "label": "县人大",
+      "value": "26",
+      "sort": 26
+    },
+    {
+      "id": "c47cd26e3ad848f987f8954be175b709",
+      "label": "县政协主席",
+      "value": "27",
+      "sort": 27
+    },
+    {
+      "id": "173ba1ca4dce442fb73b91f3640d04c1",
+      "label": "区委书记",
+      "value": "28",
+      "sort": 28
+    },
+    {
+      "id": "5d0285a10ccb4e2794df0f24883a04c9",
+      "label": "区长",
+      "value": "29",
+      "sort": 29
+    },
+    {
+      "id": "83a1158eee42463fa6c7e1e5d79ada66",
+      "label": "区人大",
+      "value": "30",
+      "sort": 30
+    },
+    {
+      "id": "4aa6c304953a4ce1a8fdc71334f53542",
+      "label": "区政协主席",
+      "value": "31",
+      "sort": 31
+    },
+    {
+      "id": "30edc086be1547cbb81f030b33a75897",
+      "label": "县委副书记",
+      "value": "32",
+      "sort": 32
+    },
+    {
+      "id": "525984b3274143d8a5ce97485f337da5",
+      "label": "县委常委",
+      "value": "33",
+      "sort": 33
+    },
+    {
+      "id": "3c16fd590d9e44dbb44ed973fed79187",
+      "label": "党委书记",
+      "value": "34",
+      "sort": 34
+    },
+    {
+      "id": "8560d336eed949488e0c49be6f0094a4",
+      "label": "副县长",
+      "value": "34",
+      "sort": 34
+    },
+    {
+      "id": "4d45a0a66c28468ea82ba88fc8cfd639",
+      "label": "乡长",
+      "value": "35",
+      "sort": 35
+    },
+    {
+      "id": "7e55efbfcd1c43aebbef80d9093f61eb",
+      "label": "镇长",
+      "value": "36",
+      "sort": 36
+    },
+    {
+      "id": "94ad089cde234f87915349b2b7d97c05",
+      "label": "党委副书记",
+      "value": "37",
+      "sort": 37
+    },
+    {
+      "id": "26c632fb4f67497684f28f433b20051b",
+      "label": "党委委员",
+      "value": "38",
+      "sort": 38
+    },
+    {
+      "id": "35e8778d61b6441abc3adda0f266df38",
+      "label": "副乡长",
+      "value": "39",
+      "sort": 39
+    },
+    {
+      "id": "4fa4aee8c82048d6b0265743c6a9a469",
+      "label": "副镇长",
+      "value": "40",
+      "sort": 40
+    },
+    {
+      "id": "00e4b8f8fe3d46e2aed263a7b7257d87",
+      "label": "处长",
+      "value": "41",
+      "sort": 41
+    },
+    {
+      "id": "94b29a21f8b84629a8256b4901296de4",
+      "label": "副主任",
+      "value": "44",
+      "sort": 44
+    }
+  ],
+  "dispute_info_source": [
+    {
+      "id": "391e216b93824a2fa69f43ca575cf34a",
+      "label": "排查发现",
+      "value": "1",
+      "sort": 1
+    },
+    {
+      "id": "c858a43d6673498a9f7b86a4b63c1124",
+      "label": "当事人申请",
+      "value": "2",
+      "sort": 2
+    },
+    {
+      "id": "397c3c842b274df4b81754e3bf677e6b",
+      "label": "媒体披露",
+      "value": "3",
+      "sort": 3
+    },
+    {
+      "id": "dc1fd4ad621d4194b1be4e9aa33d20c5",
+      "label": "每月专报反馈",
+      "value": "4",
+      "sort": 4
+    },
+    {
+      "id": "3d7b3ad7abc24d91bf43995664418f81",
+      "label": "上级交办",
+      "value": "5",
+      "sort": 5
+    },
+    {
+      "id": "ad6d8f4580134f2a83358eab10451765",
+      "label": "其他途径发现",
+      "value": "6",
+      "sort": 6
+    }
+  ],
+  "rear_personnel": [
+    {
+      "id": "8b6f6dc7e98a444a948d51d5fd6fe650",
+      "label": "留守老人",
+      "value": "01",
+      "sort": 1
+    },
+    {
+      "id": "cfce07e1b55f4dc38ce122ef485152ad",
+      "label": "留守妇女",
+      "value": "02",
+      "sort": 2
+    },
+    {
+      "id": "cf40a9685dd94aafad637f23e3d98fce",
+      "label": "留守儿童",
+      "value": "03",
+      "sort": 3
+    }
+  ],
+  "house_nature": [
+    {
+      "id": "ca86dafd9f4f4202a0aa5c9a8ffa33bf",
+      "label": "自住",
+      "value": "0100",
+      "sort": 1
+    },
+    {
+      "id": "6e16dc85b15c465bbdb63611cc8cb712",
+      "label": "出租屋",
+      "value": "0200",
+      "sort": 2
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "空置",
+      "value": "0300",
+      "sort": 3
+    }
+  ],
+  "industry_type": [
+    {
+      "id": "ca86dafd9f4f4202a0aa5c9a8ffa3301",
+      "label": "公共活动场所",
+      "value": "B0301",
+      "sort": 1
+    },
+    {
+      "id": "6e16dc85b15c465bbdb63611cc8cb712",
+      "label": "体育场所",
+      "value": "B0306",
+      "sort": 2
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "居民服务场所",
+      "value": "B0308",
+      "sort": 3
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "宗教场所",
+      "value": "B0309",
+      "sort": 4
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "商贸场所",
+      "value": "B0304",
+      "sort": 5
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "旅游场所",
+      "value": "B0305",
+      "sort": 6
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "特殊行业服务场所",
+      "value": "B0313",
+      "sort": 7
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "餐饮服务场所",
+      "value": "B0312",
+      "sort": 8
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "交通场所",
+      "value": "B0302",
+      "sort": 9
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "娱乐场所",
+      "value": "B0303",
+      "sort": 10
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "文化场所",
+      "value": "B0307",
+      "sort": 11
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "互联网服务营业场所",
+      "value": "B0310",
+      "sort": 12
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "住宿服务场所",
+      "value": "B0311",
+      "sort": 13
+    },
+    {
+      "id": "e108d318140e4b08885b12211aff44aa",
+      "label": "其他场所",
+      "value": "B0399",
+      "sort": 14
+    }
+  ]
+}

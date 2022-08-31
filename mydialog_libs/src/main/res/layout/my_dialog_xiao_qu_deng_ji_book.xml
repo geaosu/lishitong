@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/my_dialog_tv_bg_white_002"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="小区等级划分标准如下"
+            android:textColor="#145FAA"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:text="1.一级小区:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="设有服务接待中心，公示24小时服务*；急修半小时内，其他报修按双方约定时间到达现场；载人电梯24小时正常运行；路灯、道路完好率不低于95%；小区业主出入口24小时站岗值勤；按幢设置垃圾桶，每日清运2次；小区道路、绿地每日清扫2次；楼梯扶手每日擦洗1次等。"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="2.二级小区:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="设有服务接待中心，公示16小时服务*；急修1小时内，其他报修按双方约定时间到达现场；载人电梯24小时正常运行；路灯、道路完好率不低于80%；小区业主出入口24小时站岗值勤；按幢设置垃圾桶，每日清运1次；小区道路、绿地每日清扫1次；楼梯扶手每周擦洗1次等。"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="3.三级小区:"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:gravity="left|top"
+            android:text="小区出入口有人值守；按幢设置垃圾桶，每日清运1次；小区道路、绿地每日清扫1次；楼梯扶手每月擦洗1次等。"
+            android:textColor="#7E7E7E"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

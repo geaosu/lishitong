@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5064EB"
+    android:clipChildren="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar_blue_1_search_click" />
+
+    <com.geaosu.refreshx.PullToRefreshLayout
+        android:id="@+id/mPullToRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#EDEDEE"
+        android:text="hello_blank_fragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:listitem="@layout/base_main_list_item" />
+
+    </com.geaosu.refreshx.PullToRefreshLayout>
+
+</LinearLayout>

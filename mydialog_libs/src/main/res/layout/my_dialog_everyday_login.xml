@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/everyday_singin_bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:hint="提示信息为空！"
+                android:lineHeight="20dp"
+                android:minLines="6"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#3364D3"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvMsg"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:hint="提示信息为空！"
+                android:lineHeight="20dp"
+                android:minLines="6"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#9D9D9D"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvGo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/my_dialog_btn_bg_blue_004"
+            android:gravity="center"
+            android:text="前去现场打卡"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/my_dialog_btn_bg_white_003"
+            android:gravity="center"
+            android:text="稍后再说"
+            android:layout_marginTop="12dp"
+            android:textColor="#9D9D9D"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</RelativeLayout>

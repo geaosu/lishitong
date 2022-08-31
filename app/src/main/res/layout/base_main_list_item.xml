@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg_white_1_r10"
+        android:orientation="vertical">
+
+        <com.itheima.roundedimageview.RoundedImageView
+            android:id="@+id/mRoundedImageView"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/default_img_1"
+            app:riv_corner_radius="10dp"
+            app:riv_mutate_background="true"
+            app:riv_oval="false"
+            app:riv_tile_mode="clamp" />
+
+        <TextView
+            android:id="@+id/tvChaoDai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:gravity="center_vertical"
+            android:hint="暂无朝代信息"
+            android:maxLines="2"
+            android:text="元朝"
+            android:textColor="#000000"
+            android:textSize='16sp' />
+
+        <TextView
+            android:id="@+id/tvDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:gravity="center_vertical"
+            android:hint="暂无介绍内容"
+            android:maxLines="2"
+            android:text="接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费接口了解大发牢骚觉得浪费"
+            android:textColor="#B8B8B8"
+            android:textSize='13sp' />
+
+    </LinearLayout>
+
+</RelativeLayout>
