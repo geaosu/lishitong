@@ -24,6 +24,13 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import butterknife.ButterKnife;
 
+
+
+/**
+ * @des: activity基类
+ * @Author:
+ * @time: 2022年08月20日
+ */
 public abstract class BaseActivity extends AppCompatActivity implements BaseView {
     protected MyLog mMyLog = new MyLog(this.getClass().getSimpleName());
     protected Activity mActivity;

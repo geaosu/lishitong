@@ -1,7 +1,9 @@
 package com.jn.lst.ui.base_login;
 
 /**
- * des: 登录
+ * @des: 登录 - javaBean
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class LoginActivityBean {
 

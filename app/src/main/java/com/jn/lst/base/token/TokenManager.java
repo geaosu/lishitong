@@ -4,7 +4,9 @@ import com.blankj.utilcode.util.SPUtils;
 import com.jn.lst.base.Constants;
 
 /**
- * @Description:
+ * @des: Token信息
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class TokenManager {
     /**

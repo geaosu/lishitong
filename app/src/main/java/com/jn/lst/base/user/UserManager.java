@@ -4,7 +4,11 @@ import com.blankj.utilcode.util.SPUtils;
 import com.jn.lst.base.Constants;
 import com.google.gson.Gson;
 
-
+/**
+ * @des: 用户信息
+ * @Author:
+ * @time: 2022年08月20日
+ */
 public class UserManager {
     /**
      * 保存用户信息

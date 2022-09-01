@@ -1,5 +1,10 @@
 package com.jn.lst.base;
 
+/**
+ * @des: 网络请求地址
+ * @Author:
+ * @time: 2022年08月20日
+ */
 public class UrlManager {
 
     /*******************************************************************  baseUrl  */

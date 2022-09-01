@@ -3,7 +3,9 @@ package com.jn.lst.base.bean;
 import java.util.List;
 
 /**
- * 上传图片成功后返回的javabean
+ * @des: 上传文件 - javaBean
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class UploadFileBean {
 

@@ -30,7 +30,9 @@ import okhttp3.RequestBody;
 
 
 /**
- * Des: 网络请求基类
+ * @des: 网络请求基类
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class BaseModule {
     private static final String TAG = "BaseModule";
@@ -110,8 +112,11 @@ public class BaseModule {
     // POST 请求 带参数
     public Call sendPostRequest(String requestUrl, HashMap<String, Object> mParams) {
         try {
+            // 判断设备网络链接是否正常
             if (NetworkUtils.isConnected()) {
+                // 获取token
                 String token = TokenManager.getToken();
+                // 请求体
                 RequestBody requestBody = null;
                 if (mParams != null && mParams.size() > 0) {
                     FormBody.Builder builder = new FormBody.Builder();
@@ -120,8 +125,10 @@ public class BaseModule {
                     }
                     requestBody = builder.build();
                 }
+                // 连接池
                 ConnectionPool connectionPool = new ConnectionPool(CONNECTION_POOL_MAX_IDEL, CONNECTION_POOL_KEEP_ALIVE, TimeUnit.MINUTES);
                 TrustAllManager trustAllManager = new TrustAllManager();
+                // okhttp客户端
                 OkHttpClient okHttpClient = new OkHttpClient.Builder()
                         .connectionPool(connectionPool)
                         .connectTimeout(CONNECT_TIMEOUT, TimeUnit.SECONDS)
@@ -133,11 +140,13 @@ public class BaseModule {
                         // .addInterceptor(new LoggerInterceptor())
                         // .addNetworkInterceptor(new LoggerInterceptor())
                         .build();
+                // 请求信息
                 Request request = new Request.Builder()
-                        .url(requestUrl)
-                        .addHeader("token", token)
-                        .post(requestBody)
+                        .url(requestUrl)// 设置请求地址
+                        .addHeader("token", token)// 在请求头里设置token
+                        .post(requestBody)// 设置请求体，post方法
                         .build();
+                // 发送一个新的网络请求（携带请求信息）
                 Call call = okHttpClient.newCall(request);
                 return call;
             }

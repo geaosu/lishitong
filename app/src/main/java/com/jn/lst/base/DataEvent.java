@@ -1,7 +1,9 @@
 package com.jn.lst.base;
 
 /**
- * 数据传递事件
+ * @des: EventBus的事件集合
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class DataEvent {
 

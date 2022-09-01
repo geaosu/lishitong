@@ -3,7 +3,9 @@ package com.jn.lst.base;
 import android.os.Environment;
 
 /**
- * 常量类
+ * @des: 常量
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class Constants {
     public static final String FILE_PROVIDER = "com.elon.yczh.provider";// 选择全部文件

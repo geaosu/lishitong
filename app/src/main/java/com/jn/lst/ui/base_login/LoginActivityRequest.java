@@ -5,21 +5,19 @@ import com.jn.lst.base.BaseView;
 import com.jn.lst.base.DataEvent;
 import com.jn.lst.base.UrlManager;
 import com.jn.lst.base.bean.BaseBean;
-import com.jn.lst.base.net.BaseModule;
+import com.jn.lst.base.net.MyRequest;
+import com.jn.lst.base.net.OnMyReuqestListener;
 
 import org.greenrobot.eventbus.EventBus;
 
-import java.io.IOException;
 import java.util.HashMap;
 
-import okhttp3.Call;
-import okhttp3.Callback;
-import okhttp3.Response;
-
 /**
- * des: 登录
+ * @des: 登录 - 网络请求
+ * @Author:
+ * @time: 2022年08月20日
  */
-public class LoginActivityRequest extends BaseModule {
+public class LoginActivityRequest extends MyRequest {
     private final String TAG = "LoginActivityRequest";
     private BaseView mView;
 
@@ -45,26 +43,18 @@ public class LoginActivityRequest extends BaseModule {
         mMyLog.d(TAG, des + " params ------>> " + new Gson().toJson(params));
 
         mView.showLoading();
-        Call call = sendPostRequest(url, params);
-        if (call == null) {
-            mView.cancelLoading();
-            EventBus.getDefault().post(new DataEvent(errType, "网络请求错误，call为空"));
-            return;
-        }
-
-        call.enqueue(new Callback() {
+        sendMyPostRequest(url, params, new OnMyReuqestListener() {
             @Override
-            public void onFailure(Call call, IOException e) {
+            public void onFailure(String err) {
                 mView.cancelLoading();
-                mMyLog.d(TAG, des + " err    ------>> " + e.toString());
-                EventBus.getDefault().post(new DataEvent(errType, e.toString()));
+                mMyLog.d(TAG, des + " err    ------>> " + err);
+                EventBus.getDefault().post(new DataEvent(errType, err));
             }
 
             @Override
-            public void onResponse(Call call, Response response) {
+            public void onResponse(String data) {
                 try {
                     mView.cancelLoading();
-                    String data = response.body().string();
                     mMyLog.d(TAG, des + " data   ------>> " + data);
                     LoginActivityBean bean = new Gson().fromJson(data, LoginActivityBean.class);
                     if (bean.isSuccess()) {
@@ -73,13 +63,11 @@ public class LoginActivityRequest extends BaseModule {
                         EventBus.getDefault().post(new DataEvent(errType, bean.getMsg()));
                     }
                 } catch (Exception e) {
-                    mView.cancelLoading();
                     mMyLog.d(TAG, des + " err    ------>> " + e.toString());
                     EventBus.getDefault().post(new DataEvent(errType, e.toString()));
                 }
             }
         });
-
     }
 
     /**
@@ -99,26 +87,18 @@ public class LoginActivityRequest extends BaseModule {
         mMyLog.d(TAG, des + " params ------>> " + new Gson().toJson(params));
 
         mView.showLoading();
-        Call call = sendPostRequest(url, params);
-        if (call == null) {
-            mView.cancelLoading();
-            EventBus.getDefault().post(new DataEvent(errType, "网络请求错误，call为空"));
-            return;
-        }
-
-        call.enqueue(new Callback() {
+        sendMyPostRequest(url, params, new OnMyReuqestListener() {
             @Override
-            public void onFailure(Call call, IOException e) {
+            public void onFailure(String err) {
                 mView.cancelLoading();
-                mMyLog.d(TAG, des + " err    ------>> " + e.toString());
-                EventBus.getDefault().post(new DataEvent(errType, e.toString()));
+                mMyLog.d(TAG, des + " err    ------>> " + err);
+                EventBus.getDefault().post(new DataEvent(errType, err));
             }
 
             @Override
-            public void onResponse(Call call, Response response) {
+            public void onResponse(String data) {
                 try {
                     mView.cancelLoading();
-                    String data = response.body().string();
                     mMyLog.d(TAG, des + " data   ------>> " + data);
                     BaseBean bean = new Gson().fromJson(data, BaseBean.class);
                     if (bean.isSuccess()) {
@@ -127,13 +107,11 @@ public class LoginActivityRequest extends BaseModule {
                         EventBus.getDefault().post(new DataEvent(errType, bean.getMsg()));
                     }
                 } catch (Exception e) {
-                    mView.cancelLoading();
                     mMyLog.d(TAG, des + " err    ------>> " + e.toString());
                     EventBus.getDefault().post(new DataEvent(errType, e.toString()));
                 }
             }
         });
-
     }
 
     /**
@@ -156,26 +134,18 @@ public class LoginActivityRequest extends BaseModule {
         mMyLog.d(TAG, des + " params ------>> " + new Gson().toJson(params));
 
         mView.showLoading();
-        Call call = sendPostRequest(url, params);
-        if (call == null) {
-            mView.cancelLoading();
-            EventBus.getDefault().post(new DataEvent(errType, "网络请求错误，call为空"));
-            return;
-        }
-
-        call.enqueue(new Callback() {
+        sendMyPostRequest(url, params, new OnMyReuqestListener() {
             @Override
-            public void onFailure(Call call, IOException e) {
+            public void onFailure(String err) {
                 mView.cancelLoading();
-                mMyLog.d(TAG, des + " err    ------>> " + e.toString());
-                EventBus.getDefault().post(new DataEvent(errType, e.toString()));
+                mMyLog.d(TAG, des + " err    ------>> " + err);
+                EventBus.getDefault().post(new DataEvent(errType, err));
             }
 
             @Override
-            public void onResponse(Call call, Response response) {
+            public void onResponse(String data) {
                 try {
                     mView.cancelLoading();
-                    String data = response.body().string();
                     mMyLog.d(TAG, des + " data   ------>> " + data);
                     BaseBean bean = new Gson().fromJson(data, BaseBean.class);
                     if (bean.isSuccess()) {
@@ -184,13 +154,11 @@ public class LoginActivityRequest extends BaseModule {
                         EventBus.getDefault().post(new DataEvent(errType, bean.getMsg()));
                     }
                 } catch (Exception e) {
-                    mView.cancelLoading();
                     mMyLog.d(TAG, des + " err    ------>> " + e.toString());
                     EventBus.getDefault().post(new DataEvent(errType, e.toString()));
                 }
             }
         });
-
     }
 
 }

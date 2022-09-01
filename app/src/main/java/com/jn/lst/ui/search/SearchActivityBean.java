@@ -3,7 +3,9 @@ package com.jn.lst.ui.search;
 import java.util.List;
 
 /**
- * des:
+ * @des: 全局搜索 - javaBean
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class SearchActivityBean {
 

@@ -25,7 +25,9 @@ import com.jn.lst.base.UrlManager;
 
 
 /**
- * @Description: 主页
+ * @des: 主界面 - 数据适配器
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class MainActivityAdapter extends BaseQuickAdapter<MainActivityBean.DataBean, BaseViewHolder> {
     private Context mContext;

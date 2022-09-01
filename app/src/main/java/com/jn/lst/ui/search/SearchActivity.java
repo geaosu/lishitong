@@ -32,6 +32,11 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 
+/**
+ * @des: 全局搜索
+ * @Author:
+ * @time: 2022年08月20日
+ */
 public class SearchActivity extends BaseActivity {
 
     @BindView(R.id.ivBack)

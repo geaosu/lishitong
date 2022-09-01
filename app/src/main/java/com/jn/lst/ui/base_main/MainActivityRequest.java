@@ -16,7 +16,9 @@ import java.util.HashMap;
 import okhttp3.Call;
 
 /**
- * @Description: 主页
+ * @des: 主界面 - 网络请求
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class MainActivityRequest extends MyRequest {
     private final String TAG = "MainActivityRequest";

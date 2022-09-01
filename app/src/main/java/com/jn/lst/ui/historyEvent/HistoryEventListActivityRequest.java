@@ -13,7 +13,9 @@ import org.greenrobot.eventbus.EventBus;
 import java.util.HashMap;
 
 /**
- * @Description: 主页
+ * @des: 历史事件列表 - 网络请求
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class HistoryEventListActivityRequest extends MyRequest {
     private final String TAG = "HistoryEventListActivityRequest";

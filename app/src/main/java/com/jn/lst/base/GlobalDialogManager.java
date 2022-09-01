@@ -7,10 +7,9 @@ import androidx.fragment.app.FragmentManager;
 import com.loading.dialog.AndroidLoadingDialog;
 
 /**
- * Author: Jett
- * Date: 2020-04-17 15:17
- * Email: hydznsq@163.com
- * Des:
+ * @des: dialog
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class GlobalDialogManager {
 

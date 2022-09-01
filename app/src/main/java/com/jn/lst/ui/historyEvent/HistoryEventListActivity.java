@@ -32,7 +32,9 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
- * des:
+ * @des: 历史事件列表
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class HistoryEventListActivity extends BaseActivity {
 

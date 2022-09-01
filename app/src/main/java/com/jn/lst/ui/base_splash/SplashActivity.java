@@ -11,6 +11,11 @@ import com.jn.lst.base.token.TokenManager;
 import com.jn.lst.ui.base_login.LoginActivity;
 import com.jn.lst.ui.base_main.MainActivity;
 
+/**
+ * @des: 启动界面
+ * @Author:
+ * @time: 2022年08月20日
+ */
 public class SplashActivity extends BaseActivity {
 
     private CountDownTimer mTimer = new CountDownTimer(800, 800) {

@@ -32,7 +32,9 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
- * @Description: 主页
+ * @des: 主界面
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class MainActivity extends BaseActivity {
     @BindView(R.id.llSearch)

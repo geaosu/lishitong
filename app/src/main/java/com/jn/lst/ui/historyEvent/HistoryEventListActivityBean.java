@@ -3,7 +3,9 @@ package com.jn.lst.ui.historyEvent;
 import java.util.List;
 
 /**
- * des:
+ * @des: 历史事件列表 - javaBean
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class HistoryEventListActivityBean {
 

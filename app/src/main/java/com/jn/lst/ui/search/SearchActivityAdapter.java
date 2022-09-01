@@ -19,7 +19,9 @@ import com.jn.lst.base.UrlManager;
 
 
 /**
- * @Description: 搜索
+ * @des: 全局搜索 - 数据适配器
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class SearchActivityAdapter extends BaseQuickAdapter<SearchActivityBean.DataBean, BaseViewHolder> {
     private Context mContext;

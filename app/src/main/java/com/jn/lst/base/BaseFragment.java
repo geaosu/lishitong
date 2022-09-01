@@ -23,9 +23,10 @@ import org.greenrobot.eventbus.ThreadMode;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-
 /**
- * Fragment基类
+ * @des: Fragment基类
+ * @Author:
+ * @time: 2022年08月20日
  */
 public abstract class BaseFragment extends Fragment implements BaseView {
     protected MyLog mMyLog = new MyLog(this.getClass().getSimpleName());

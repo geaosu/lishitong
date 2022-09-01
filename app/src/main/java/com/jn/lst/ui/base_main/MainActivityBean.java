@@ -3,7 +3,9 @@ package com.jn.lst.ui.base_main;
 import java.util.List;
 
 /**
- * @Description: 主页
+ * @des: 主界面 - javaBean
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class MainActivityBean {
 

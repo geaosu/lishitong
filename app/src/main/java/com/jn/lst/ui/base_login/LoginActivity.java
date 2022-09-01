@@ -27,7 +27,9 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 /**
- * des: 登录
+ * @des: 登录
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class LoginActivity extends BaseActivity {
     @BindView(R.id.llSwitchLogin)
@@ -63,7 +65,7 @@ public class LoginActivity extends BaseActivity {
     @BindView(R.id.tvRegister)
     TextView tvRegister;
 
-    private LoginActivityRequest2 mRequest;
+    private LoginActivityRequest mRequest;
 
     public static void open(Context context) {
         Intent intent = new Intent(context, LoginActivity.class);
@@ -72,7 +74,7 @@ public class LoginActivity extends BaseActivity {
 
     @Override
     protected void init(Bundle savedInstanceState) {
-        mRequest = new LoginActivityRequest2(this);
+        mRequest = new LoginActivityRequest(this);
     }
 
     @Override

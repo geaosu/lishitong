@@ -1,5 +1,10 @@
 package com.jn.lst.base.bean;
 
+/**
+ * @des: 网络请求 - javaBean
+ * @Author:
+ * @time: 2022年08月20日
+ */
 public class BaseBean {
     private boolean success;
     private int code;

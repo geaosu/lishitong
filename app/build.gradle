@@ -125,9 +125,8 @@ dependencies {
     implementation 'com.hyman:flowlayout-lib:1.1.2'
     // BigImageViewPager
     implementation 'com.github.SherlockGougou:BigImageViewPager:v4_6.1.1'
-
     //SwitchButton
     implementation 'com.github.zcweng:switch-button:0.0.3'
-
+    // 富文本显示框架
     implementation 'com.zzhoujay.richtext:richtext:3.0.7'
 }

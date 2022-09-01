@@ -19,7 +19,9 @@ import com.jn.lst.base.UrlManager;
 
 
 /**
- * @Description: 主页
+ * @des: 历史事件列表 - 数据适配器
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class HistoryEventListActivityAdapter extends BaseQuickAdapter<HistoryEventListActivityBean.DataBean, BaseViewHolder> {
     private Context mContext;

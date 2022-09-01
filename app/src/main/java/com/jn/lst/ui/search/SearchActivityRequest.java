@@ -13,7 +13,9 @@ import org.greenrobot.eventbus.EventBus;
 import java.util.HashMap;
 
 /**
- * @Description: 搜索
+ * @des: 全局搜索 - 网络请求
+ * @Author:
+ * @time: 2022年08月20日
  */
 public class SearchActivityRequest extends MyRequest {
     private final String TAG = "SearchActivityRequest";
