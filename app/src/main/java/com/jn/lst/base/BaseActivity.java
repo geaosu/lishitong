@@ -50,10 +50,10 @@ public abstract class BaseActivity extends AppCompatActivity implements BaseView
         mActivity = this;
         mContext = getApplicationContext();
         mMyLog.i("------>> " + this.getClass().getSimpleName());
-        init(savedInstanceState);
-        setContentView(attachLayout());
-        ButterKnife.bind(this);
-        initView();
+        init(savedInstanceState);// 程序初始化
+        setContentView(attachLayout());// 加载布局
+        ButterKnife.bind(this);// 调用注解框架
+        initView();// 布局加载完成，初始化
     }
 
     /**

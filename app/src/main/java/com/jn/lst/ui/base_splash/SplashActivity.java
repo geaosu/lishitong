@@ -21,16 +21,19 @@ public class SplashActivity extends BaseActivity {
     private CountDownTimer mTimer = new CountDownTimer(800, 800) {
         @Override
         public void onTick(long millisUntilFinished) {
-
+            // 每一毫秒都回执行一次
         }
 
         @Override
         public void onFinish() {
+            // 获取上次登录的时候保存的token
             String token = TokenManager.getToken();
             // String token = SPUtils.getInstance().getString(Constants.TOKEN);
             if (TextUtils.isEmpty(token)) {
+                // 如果token是空的，说明没有登录状态，跳转到登录页面重新登录
                 LoginActivity.open(mActivity);
             } else {
+                // 有token，跳转主界面
                 MainActivity.open(mActivity);
             }
             finish();

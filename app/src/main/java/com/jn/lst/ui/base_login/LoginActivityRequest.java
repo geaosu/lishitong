@@ -29,9 +29,9 @@ public class LoginActivityRequest extends MyRequest {
      * 登录
      */
     public void login(String loginName, String password) {
-        DataEvent.Type succType = DataEvent.Type.LOGIN_SUCC;
-        DataEvent.Type errType = DataEvent.Type.LOGIN_ERR;
-        String url = UrlManager.RequestUrl.loginUrl;
+        DataEvent.Type succType = DataEvent.Type.LOGIN_SUCC;// 请求成功时的数据分发标识
+        DataEvent.Type errType = DataEvent.Type.LOGIN_ERR;// 请求失败时的数据分发标识
+        String url = UrlManager.RequestUrl.loginUrl;// 请求地址
         String des = "登录";
 
         HashMap<String, Object> params = new HashMap<>();
@@ -46,25 +46,28 @@ public class LoginActivityRequest extends MyRequest {
         sendMyPostRequest(url, params, new OnMyReuqestListener() {
             @Override
             public void onFailure(String err) {
-                mView.cancelLoading();
-                mMyLog.d(TAG, des + " err    ------>> " + err);
-                EventBus.getDefault().post(new DataEvent(errType, err));
+                // 请求失败
+                mView.cancelLoading();// 隐藏加载动画
+                mMyLog.d(TAG, des + " err    ------>> " + err);// 打印日志
+                EventBus.getDefault().post(new DataEvent(errType, err));// 通知activity更新UI
             }
 
             @Override
             public void onResponse(String data) {
                 try {
-                    mView.cancelLoading();
-                    mMyLog.d(TAG, des + " data   ------>> " + data);
+                    // 请求成功
+                    mView.cancelLoading();// 隐藏加载动画
+                    mMyLog.d(TAG, des + " data   ------>> " + data);// 打印日志
+                    // 将服务器返回的json数据转成javaBean
                     LoginActivityBean bean = new Gson().fromJson(data, LoginActivityBean.class);
                     if (bean.isSuccess()) {
-                        EventBus.getDefault().post(new DataEvent(succType, bean));
+                        EventBus.getDefault().post(new DataEvent(succType, bean));// 通知activity更新UI
                     } else {
-                        EventBus.getDefault().post(new DataEvent(errType, bean.getMsg()));
+                        EventBus.getDefault().post(new DataEvent(errType, bean.getMsg()));// 通知activity更新UI
                     }
                 } catch (Exception e) {
-                    mMyLog.d(TAG, des + " err    ------>> " + e.toString());
-                    EventBus.getDefault().post(new DataEvent(errType, e.toString()));
+                    mMyLog.d(TAG, des + " err    ------>> " + e.toString());// 打印日志
+                    EventBus.getDefault().post(new DataEvent(errType, e.toString()));// 通知activity更新UI
                 }
             }
         });

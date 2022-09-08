@@ -56,7 +56,7 @@ public class HistoryEventListActivity extends BaseActivity {
 
     public static void open(Context context, String id) {
         Intent intent = new Intent(context, HistoryEventListActivity.class);
-        intent.putExtra("id", id);
+        intent.putExtra("id", id);// 将文章的id传递给细化列表
         context.startActivity(intent);
     }
 
@@ -93,6 +93,7 @@ public class HistoryEventListActivity extends BaseActivity {
         mPullToRefreshLayout.setOnRefreshListener(new OnRefreshListener() {
             @Override
             public void onRefresh() {
+                // 下拉刷新的回调函数
                 mCanLoadingMore = true;
                 mPageNo = 1;
                 mRequest.getList2(mId, mSearchStr, mPageNo);
@@ -109,7 +110,7 @@ public class HistoryEventListActivity extends BaseActivity {
                 }
             }
         });
-        mPullToRefreshLayout.autoRefresh();
+        mPullToRefreshLayout.autoRefresh();// 让PullToRefreshLayout自动刷新
     }
 
     @OnClick({R.id.ivBack, R.id.llSearch})
@@ -134,38 +135,21 @@ public class HistoryEventListActivity extends BaseActivity {
             case HISTORY_EVENT_LIST_SUCC:
                 mPullToRefreshLayout.finishRefresh();
                 mPullToRefreshLayout.finishLoadMore();
-//                List<HistoryTimeListActivityBean> list = new ArrayList<>();
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                list.add(new HistoryTimeListActivityBean("元朝", "时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服时代俊峰乐山大佛连接速度发历史地看杰弗里斯客服"));
-//                mAdapter.setNewInstance(list);
 
                 HistoryEventListActivityBean bean = (HistoryEventListActivityBean) event.data;
                 List<HistoryEventListActivityBean.DataBean> data = bean.getData();
                 if (data != null && data.size() > 0) {
                     mPullToRefreshLayout.showView(ViewStatus.CONTENT_STATUS);
                     if (mPageNo == 1) {
-                        mAdapter.setNewInstance(data);
+                        mAdapter.setNewInstance(data);// 只显示当前的这些数据，把以前的数据清空
                     } else {
-                        mAdapter.addData(data);
+                        mAdapter.addData(data);// 在以前的基础上添加更多的数据
                     }
 
                     if (data.size() >= Constants.PAGE_SIZE_VALUE) {
-                        mCanLoadingMore = true;
+                        mCanLoadingMore = true;// 服务器上有数据，可以加载更多
                     } else {
-                        mCanLoadingMore = false;
+                        mCanLoadingMore = false;// 服务器上没有更多的数据了，无法加载更多
                     }
                 } else {
                     mPullToRefreshLayout.showView(ViewStatus.EMPTY_STATUS);

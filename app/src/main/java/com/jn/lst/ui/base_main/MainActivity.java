@@ -37,6 +37,7 @@ import butterknife.OnClick;
  * @time: 2022年08月20日
  */
 public class MainActivity extends BaseActivity {
+    // butterknife 注解框架的注解形式（用来替代findViewById方法的）
     @BindView(R.id.llSearch)
     LinearLayout llSearch;
 
@@ -68,17 +69,25 @@ public class MainActivity extends BaseActivity {
 
     @Override
     protected void initView() {
+        // RecyclerView必须设置LayoutManager，否则无法显示
         mRecyclerView.setLayoutManager(new LinearLayoutManager(mActivity));
+        // 设置数据适配器
         mRecyclerView.setAdapter(mAdapter = new MainActivityAdapter(mActivity));
+        // 列表的点击事件
         mAdapter.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(@NonNull BaseQuickAdapter<?, ?> adapter, @NonNull View view, int position) {
+                // 点击了那一条数据，就把那一条的数据拿出来（文章数据）
                 MainActivityBean.DataBean bean = (MainActivityBean.DataBean) adapter.getItem(position);
+                // 获取文章的id
                 String id = String.valueOf(bean.getId());
+                // 判断id是否正确
                 if (TextUtils.isEmpty(id)) {
+                    // id不正确，提示用户
                     ToastUtils.showShort("id错误");
                     return;
                 }
+                // id正确，跳转到细化列表
                 HistoryEventListActivity.open(mActivity, id);
             }
         });

@@ -68,12 +68,14 @@ public class LoginActivity extends BaseActivity {
     private LoginActivityRequest mRequest;
 
     public static void open(Context context) {
+        // 通过Intent启动当前activity
         Intent intent = new Intent(context, LoginActivity.class);
         context.startActivity(intent);
     }
 
     @Override
     protected void init(Bundle savedInstanceState) {
+        // 初始化网络请求
         mRequest = new LoginActivityRequest(this);
     }
 
@@ -84,12 +86,17 @@ public class LoginActivity extends BaseActivity {
 
     @Override
     protected void initView() {
+        // 登录文字的样式
         tvSwitchLogin.setTextColor(Color.parseColor("#5064EB"));
         tvSwitchLoginLine.setVisibility(View.VISIBLE);
-        llLoginBox.setVisibility(View.VISIBLE);
 
+        // 注册文字的样式
         tvSwitchRegister.setTextColor(Color.parseColor("#000000"));
         tvSwitchRegisterLine.setVisibility(View.INVISIBLE);
+
+        // 用户名和密码的输入框
+        llLoginBox.setVisibility(View.VISIBLE);
+        // 注册时的那些输入框
         llRegisterBox.setVisibility(View.INVISIBLE);
 
         String loginName = SPUtils.getInstance().getString(Constants.LOGIN_NAME);
@@ -110,20 +117,24 @@ public class LoginActivity extends BaseActivity {
             return;
         }
         switch (view.getId()) {
-            case R.id.llSwitchLogin:
+            case R.id.llSwitchLogin:// 点击登录
+                // 登录的那一部分显示出来
                 tvSwitchLogin.setTextColor(Color.parseColor("#5064EB"));
                 tvSwitchLoginLine.setVisibility(View.VISIBLE);
                 llLoginBox.setVisibility(View.VISIBLE);
 
+                // 注册的那一部分内容隐藏掉
                 tvSwitchRegister.setTextColor(Color.parseColor("#000000"));
                 tvSwitchRegisterLine.setVisibility(View.INVISIBLE);
                 llRegisterBox.setVisibility(View.INVISIBLE);
                 break;
-            case R.id.llSwitchRegister:
+            case R.id.llSwitchRegister:// 点击注册
+                // 注册的那一部分内容显示出来
                 tvSwitchRegister.setTextColor(Color.parseColor("#5064EB"));
                 tvSwitchRegisterLine.setVisibility(View.VISIBLE);
                 llRegisterBox.setVisibility(View.VISIBLE);
 
+                // 登录的那一部分隐藏掉
                 tvSwitchLogin.setTextColor(Color.parseColor("#000000"));
                 tvSwitchLoginLine.setVisibility(View.INVISIBLE);
                 llLoginBox.setVisibility(View.INVISIBLE);
@@ -165,10 +176,10 @@ public class LoginActivity extends BaseActivity {
             case REGISTER_ERR:
                 ToastUtils.showShort(event.data.toString());
                 break;
-            case LOGIN_SUCC:
+            case LOGIN_SUCC:// 请求成功
                 loginSucc(event);
                 break;
-            case LOGIN_ERR:
+            case LOGIN_ERR:// 请求失败
                 ToastUtils.showShort(event.data.toString());
                 break;
         }
@@ -177,12 +188,18 @@ public class LoginActivity extends BaseActivity {
     private void loginSucc(DataEvent event) {
         SPUtils.getInstance().put(Constants.LOGIN_NAME, etLoginName.getText().toString().trim());
         SPUtils.getInstance().put(Constants.LOGIN_PWD, etLoginPwd.getText().toString().trim());
+
         LoginActivityBean bean = (LoginActivityBean) event.data;
 
+        // 获取token
         String token = bean.getToken();
+        // 判断token是否为空
         if (!TextUtils.isEmpty(token)) {
+            // token不为空，保存起来
             TokenManager.saveToken(token);
+            // 跳转到主界面
             MainActivity.open(mActivity);
+            // 销毁掉当前界面
             finish();
         }
     }

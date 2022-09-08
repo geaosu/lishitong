@@ -76,7 +76,7 @@
                     android:layout_weight="1"
                     android:ellipsize="end"
                     android:maxLines="3"
-                    android:text="老实交代冯老师十来块都放假了看似简单冯老师剪短发老实交代冯老师十来块都放假了看似简单冯老师剪短发了老实交代冯老师十来块都放假了看似简单冯老师剪短发了了"
+                    android:hint="暂无描述内容"
                     android:textColor="#958F8F"
                     android:textSize="13sp" />
 
